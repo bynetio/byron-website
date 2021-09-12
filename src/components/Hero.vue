@@ -4,7 +4,7 @@
       <div class="row align-items-center">
         <div class="col col-sm-12 col-md-7 text-left">
           <h1>
-            Decentralized exchange on the Cardano Blockchain
+            Decentralized apps for the Cardano Blockchain
           </h1>
           <p>Our team works tightely with Cardano Developers to deliver the best experience of Plutus Platform.</p>
           <button class="btn btn-primary">Get Started</button> <button class="btn btn-outline-primary">Read More</button>
