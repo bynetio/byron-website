@@ -1,0 +1,5 @@
+<template>
+  <div class="developers">
+    <h1>Developers</h1>
+  </div>
+</template>
