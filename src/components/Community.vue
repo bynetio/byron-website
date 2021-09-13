@@ -45,6 +45,9 @@ export default {
 
       .card-body {
       margin: 24px 30px;
+      .card-subtitle {
+        line-height: 1.6;
+      }
       .icon {
         margin-bottom: 30px;
         }

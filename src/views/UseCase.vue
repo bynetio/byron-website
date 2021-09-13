@@ -1,5 +1,20 @@
 <template>
-  <div class="use-case">
-    <h1>Use Case</h1>
+  <div id="use-case">
+    <Maintenance/>
   </div>
 </template>
+
+<script>
+import Maintenance from "@/components/Maintenance.vue";
+
+export default {
+  name: 'About',
+  components: {
+    Maintenance,
+  }
+}
+</script>
+
+<style scoped lang="scss">
+
+</style>

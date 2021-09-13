@@ -5,7 +5,6 @@
     <Roadmap/>
     <Tokenomics/>
     <Community/>
-    <Footer/>
   </div>
 </template>
 
@@ -15,7 +14,6 @@ import Features from "@/components/Features.vue";
 import Roadmap from "@/components/Roadmap.vue";
 import Tokenomics from "@/components/Tokenomics.vue";
 import Community from "@/components/Community.vue";
-import Footer from "@/components/Footer.vue";
 
 export default {
   name: 'Home',
@@ -24,8 +22,7 @@ export default {
     Features,
     Roadmap,
     Tokenomics,
-    Community,
-    Footer
+    Community
   }
 }
 </script>
