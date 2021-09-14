@@ -6,7 +6,7 @@
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
 
       <div class="col ">
-        <div class="card" style="width: 18rem;">
+        <div class="card">
           <div class="card-body text-left">
             <img class="icon" alt="" src="../assets/icon-twitter.png">
             <h5 class="card-title mb-4">Twitter</h5>
@@ -17,7 +17,7 @@
       </div>
 
       <div class="col">
-        <div class="card" style="width: 18rem;">
+        <div class="card">
           <div class="card-body text-left">
             <img class="icon" alt="" src="../assets/icon-github.png">
             <h5 class="card-title mb-4">GitHub</h5>
@@ -29,7 +29,7 @@
 
 
       <div class="col">
-        <div class="card" style="width: 18rem;">
+        <div class="card">
           <div class="card-body text-left">
             <img class="icon" alt="" src="../assets/icon-discord.png">
             <h5 class="card-title mb-4">Discord</h5>
@@ -40,7 +40,7 @@
       </div>
 
       <div class="col">
-        <div class="card" style="width: 18rem;">
+        <div class="card">
           <div class="card-body text-left">
             <img class="icon" alt="" src="../assets/icon-reddit.png">
             <h5 class="card-title mb-4">Reddit</h5>
