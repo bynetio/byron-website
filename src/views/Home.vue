@@ -1,9 +1,9 @@
 <template>
   <div id="home">
     <Hero/>
-    <Features/>
-    <Roadmap/>
-    <Tokenomics/>
+    <!-- <Features/>
+    <Roadmap/> -->
+    <!-- <Tokenomics/> -->
     <Community/>
   </div>
 </template>
