@@ -8,8 +8,8 @@
           <div class="card-body text-left">
             <img class="icon" alt="" src="../assets/icon-twitter.png">
             <h5 class="card-title mb-4">Twitter</h5>
-            <h6 class="card-subtitle mb-5 text-muted">Stay up to date with <a class="follow" href="https://www.w3schools.com/" target="_blank">@ByronNetwork</a> updates on our Twitter </h6>
-            <a href="#" class="card-link" target="_blank">Card link <img alt="" src="../assets/icon.png"></a>
+            <h6 class="card-subtitle mb-5 text-muted">Stay up to date with <a class="follow" href="https://twitter.com/byron_cardano" target="_blank">@ByronNetwork</a> updates on our Twitter </h6>
+            <a href="https://twitter.com/byron_cardano" class="card-link" target="_blank">Byron Network on Twitter <img alt="" src="../assets/icon.png"></a>
           </div>
         </div>
       </div>
