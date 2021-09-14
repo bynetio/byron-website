@@ -6,7 +6,7 @@
           <h1>
             Decentralized apps for the Cardano Blockchain
           </h1>
-          <p>OWe are team of passionates, Haskell and Plutus fans, Cardano Community members, DApps builders</p>
+          <p>We are team of passionates, Haskell and Plutus fans, Cardano Community members, DApps builders</p>
           <button class="btn btn-outline-primary">Read More</button>
         </div>
         <div class="col col-sm-12 col-md-5">
