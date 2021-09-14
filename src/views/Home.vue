@@ -1,9 +1,7 @@
 <template>
   <div id="home">
     <Hero/>
-    <Features/>
-    <Roadmap/>
-    <Tokenomics/>
+    
     <Community/>
   </div>
 </template>
