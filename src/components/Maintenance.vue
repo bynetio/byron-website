@@ -3,7 +3,7 @@
     <div class="container">
       <div class="d-flex flex-row align-items-center">
         <div class="text-left">
-          <h6>Sorry, wthis page will be built soon.</h6>
+          <h6>Sorry, this page will be built soon.</h6>
           <p>Please, come back later.</p>
         </div>
       </div>
