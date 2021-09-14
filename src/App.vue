@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav" class="container d-flex align-items-center">
-      <router-link class="main-item home mr-auto p-2" to="/"><span class="home-logo"><img alt="" src="./assets/byron.png"></span>Byron Network</router-link>
+      <router-link class="main-item home mr-auto p-2" to="/"><span class="home-logo"><img alt="" src="./assets/logo_byron.png"></span></router-link>
       <router-link class="nav-item p-2" to="/solutions">Solutions</router-link>
       <router-link class="nav-item p-2" to="/developers">Developers</router-link>
       <router-link class="nav-item p-2" to="/use-case">Use Case</router-link>
