@@ -3,7 +3,7 @@
     <div class="container">
     <hr>
     <div class="row icons-row">
-      <a href="#" class="col-12 col-md-6 main-logo text-left" target="_blank"><img alt="ellipse" src="../assets/byron.png">Byron Network</a>
+      <a href="#" class="col-12 col-md-6 main-logo text-left" target="_blank"><img alt="ellipse" src="../assets/logo_byron.png"></a>
       <div class="icons-collection col-12 col-md-6 text-right">
         <a href="https://github.com/byron-network/" class="card-link" target="_blank"><img alt="ellipse" src="../assets/path-twitter.png"></a>
         <a href="https://twitter.com/byron_cardano" class="card-link" target="_blank"><img alt="ellipse" src="../assets/path-github.png"></a>
