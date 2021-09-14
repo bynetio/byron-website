@@ -6,8 +6,8 @@
           <h1>
             Decentralized apps for the Cardano Blockchain
           </h1>
-          <p>Our team works tightely with Cardano Developers to deliver the best experience of Plutus Platform.</p>
-          <button class="btn btn-primary">Get Started</button> <button class="btn btn-outline-primary">Read More</button>
+          <p>OWe are team of passionates, Haskell and Plutus fans, Cardano Community members, DApps builders</p>
+          <button class="btn btn-outline-primary">Read More</button>
         </div>
         <div class="col col-sm-12 col-md-5">
           <div class="img-wrapper">
