@@ -10,9 +10,6 @@
 
 <script>
 import Hero from "@/components/Hero.vue";
-import Features from "@/components/Features.vue";
-import Roadmap from "@/components/Roadmap.vue";
-import Tokenomics from "@/components/Tokenomics.vue";
 import Community from "@/components/Community.vue";
 
 export default {

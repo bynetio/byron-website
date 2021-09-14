@@ -5,13 +5,11 @@
     <div class="row icons-row">
       <a href="#" class="col-12 col-md-6 main-logo text-left" target="_blank"><img alt="ellipse" src="../assets/byron.png">Byron Network</a>
       <div class="icons-collection col-12 col-md-6 text-right">
-        <a href="#" class="card-link" target="_blank"><img alt="ellipse" src="../assets/path-twitter.png"></a>
-        <a href="#" class="card-link" target="_blank"><img alt="ellipse" src="../assets/path-facebook.png"></a>
-        <a href="#" class="card-link" target="_blank"><img alt="ellipse" src="../assets/path-github.png"></a>
-        <a href="#" class="card-link" target="_blank"><img alt="ellipse" src="../assets/path-linkedin.png"></a>
+        <a href="https://github.com/byron-network/" class="card-link" target="_blank"><img alt="ellipse" src="../assets/path-twitter.png"></a>
+        <a href="https://twitter.com/byron_cardano" class="card-link" target="_blank"><img alt="ellipse" src="../assets/path-github.png"></a>
       </div>
     </div>
-    <div class="row text-left">
+    <!-- <div class="row text-left">
       <ul class="col-6 col-md-6 col-lg-3"> 
         <li><a href="#" class="main-category" target="_blank">Platform</a></li>
         <li><a href="#" class="footer-link" target="_blank">Products</a></li>
@@ -37,7 +35,7 @@
         <li><a href="#" class="footer-link" target="_blank">Lorem Ipsum</a></li>
       </ul>
       <hr>
-    </div>
+    </div> -->
     </div>
   </section>
 </template>
