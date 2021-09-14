@@ -1,7 +1,6 @@
 <template>
   <div id="home">
     <Hero/>
-    
     <Community/>
   </div>
 </template>
