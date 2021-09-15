@@ -7,7 +7,7 @@
             Decentralized apps for the Cardano Blockchain
           </h1>
           <p>We are team of passionates, Haskell and Plutus fans, Cardano Community members, DApps builders</p>
-          <button class="btn btn-outline-primary">Read More</button>
+          <a href="https://github.com/byron-network/byron-whitepaper" target="_blank" class="btn btn-outline-primary">Read Whitepaper</a>
         </div>
         <div class="col col-sm-12 col-md-5">
           <div class="img-wrapper">
@@ -65,7 +65,7 @@ export default {
 
       }
 
-      button {
+      a.btn {
         margin-top: 67px;
         padding: 16px 32px;
         border-radius: 12px;
