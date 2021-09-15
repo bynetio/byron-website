@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <div id="nav" class="container d-flex align-items-center">
-      <router-link class="main-item home mr-auto p-2" to="/"><span class="home-logo"><img alt="" src="./assets/logo_byron.png"></span></router-link>
+    <div id="nav" class="container d-flex flex-wrap align-items-center">
+      <router-link class="nav-item main-item home mr-auto p-2" to="/"><span class="home-logo"><img alt="" src="./assets/logo_byron.png"></span></router-link>
       <router-link class="nav-item p-2" to="/solutions">Solutions</router-link>
       <router-link class="nav-item p-2" to="/developers">Developers</router-link>
       <router-link class="nav-item p-2" to="/use-case">Use Case</router-link>
       <router-link class="nav-item p-2" to="/about">About</router-link>
-      <router-link class="btn btn-outline-primary p-2" to="/contact">Contact Us</router-link>
+      <router-link class="nav-item btn btn-outline-primary p-2" to="/contact">Contact Us</router-link>
     </div>
     <router-view/>
     <Footer/>
@@ -53,6 +53,8 @@ export default {
     font-size: 15px;
     font-weight: 500;
     margin-left: 60px;
+    width: 80vw;
+    margin: auto;
 
     &:hover {
       background: linear-gradient(90deg, rgba(172,218,252,1) 35%, rgba(187,209,250,1) 100%);
@@ -87,5 +89,14 @@ export default {
       font-weight: 700;
     }
   }
+
+      @media (min-width: 768px) { 
+
+        .nav-item {
+          width: auto;
+        }
+    }
+
+
 }
 </style>

@@ -3,8 +3,10 @@
     <div class="container">
       <h1>Join our community</h1>
       <p>Follow us on social media</p>
-      <div class="row">
-        <div class="card sm-col-12 md-col-3" style="width: 18rem;">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+
+      <div class="col ">
+        <div class="card">
           <div class="card-body text-left">
             <img class="icon" alt="" src="../assets/icon-twitter.png">
             <h5 class="card-title mb-4">Twitter</h5>
@@ -12,6 +14,43 @@
             <a href="https://twitter.com/byron_cardano" class="card-link" target="_blank">Byron Network on Twitter <img alt="" src="../assets/icon.png"></a>
           </div>
         </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="card-body text-left">
+            <img class="icon" alt="" src="../assets/icon-github.png">
+            <h5 class="card-title mb-4">GitHub</h5>
+            <h6 class="card-subtitle mb-5 text-muted">Stay up to date with <a class="follow" href="https://github.com/byron-network" target="_blank">@ByronNetwork</a> updates on our GitHub </h6>
+            <a href="https://github.com/byron-network" class="card-link" target="_blank">Byron Network on GitHub <img alt="" src="../assets/icon.png"></a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col">
+        <div class="card">
+          <div class="card-body text-left">
+            <img class="icon" alt="" src="../assets/icon-discord.png">
+            <h5 class="card-title mb-4">Discord</h5>
+            <h6 class="card-subtitle mb-5 text-muted">Stay up to date with <a class="follow" href="https://discord.com/invite/8kWBQPXwAH" target="_blank">@ByronNetwork</a> updates on our Discord</h6>
+            <a href="https://discord.com/invite/8kWBQPXwAH" class="card-link" target="_blank">Byron Network on Discord <img alt="" src="../assets/icon.png"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="card-body text-left">
+            <img class="icon" alt="" src="../assets/icon-reddit.png">
+            <h5 class="card-title mb-4">Reddit</h5>
+            <h6 class="card-subtitle mb-5 text-muted">Stay up to date with <a class="follow" href="https://www.reddit.com/r/ByronNetwork/" target="_blank">@ByronNetwork</a> updates on our Reddit </h6>
+            <a href="https://www.reddit.com/r/ByronNetwork/" class="card-link" target="_blank">Byron Network on Reddit <img alt="" src="../assets/icon.png"></a>
+          </div>
+        </div>
+      </div>
+
+
       </div>
     </div>
   </section>
@@ -42,14 +81,18 @@ export default {
       border-radius: 10px;
       margin: 5px;
       z-index: 1;
+      width: auto !important;
+      box-shadow: 0px 5px 32px 0px #D4D8E0;
 
       .card-body {
       margin: 24px 30px;
+      padding: 0;
       .card-subtitle {
         line-height: 1.6;
       }
       .icon {
         margin-bottom: 30px;
+        max-height: 40px;
         }
       }
 
