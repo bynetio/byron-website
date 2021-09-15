@@ -15,30 +15,6 @@
           </div>
         </div>
       </div>
-        <div class="hero-dapps row row-cols-1 row-cols-sm-2 row-cols-md-4 mt-5 text-left">
-          <div class="col">
-            <div class="wrapper">
-              <div class=""><img class="icon mr-3" alt="" src="../assets/swap2.png">Byron Swap</div>
-              <p class="">Decentralized exchange app</p>
-            </div>
-          </div>
-           <div class="col">
-            <div class="wrapper">
-              <div class=""><img class="icon mr-3" alt="" src="../assets/wallet2.png">Byron Wallet</div>
-              <p>Mobile wallet for Cardano</p>
-            </div>
-          </div>
-           <div class="col">
-            <div class="wrapper">
-              <div class=""><img class="icon mr-3" alt="" src="../assets/cardanoshield1.png">Byron Launch</div>
-              <p>The dapp to create tokens</p>
-            </div>
-          </div>
-          <div class="col">
-            <div class=""><img class="icon mr-3" alt="" src="../assets/coin1.png">Byron NFTs</div>
-            <p>Minting, sending, receiving nfts</p>
-          </div>
-        </div>
     </div>
   </section>
 </template>
