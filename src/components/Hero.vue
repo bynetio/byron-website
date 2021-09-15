@@ -15,7 +15,7 @@
           </div>
         </div>
       </div>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 mt-5 text-left">
+        <div class="hero-dapp srow row-cols-1 row-cols-sm-2 row-cols-md-4 mt-5 text-left">
           <div class="col">
             <div class="wrapper">
               <div class=""><img class="icon mr-3" alt="" src="../assets/swap2.png">Byron Swap</div>
@@ -31,7 +31,7 @@
            <div class="col">
             <div class="wrapper">
               <div class=""><img class="icon mr-3" alt="" src="../assets/cardanoshield1.png">Byron Launch</div>
-              <p>The dapp to creating tokens</p>
+              <p>The dapp to create tokens</p>
             </div>
           </div>
           <div class="col">
@@ -56,6 +56,9 @@ export default {
 <style lang="scss" scoped>
 
   #hero {
+    .hero-dapps{
+      margin-top:  7rem!important;
+    }
     background-image: url("../assets/cardano-hero-bckg.png");
     background-repeat: no-repeat;
     background-position: 0 250px;
