@@ -15,7 +15,7 @@
           </div>
         </div>
       </div>
-        <div class="hero-dapp srow row-cols-1 row-cols-sm-2 row-cols-md-4 mt-5 text-left">
+        <div class="hero-dapps row row-cols-1 row-cols-sm-2 row-cols-md-4 mt-5 text-left">
           <div class="col">
             <div class="wrapper">
               <div class=""><img class="icon mr-3" alt="" src="../assets/swap2.png">Byron Swap</div>
