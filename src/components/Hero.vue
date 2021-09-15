@@ -11,25 +11,31 @@
         </div>
         <div class="col col-sm-12 col-md-5">
           <div class="img-wrapper">
-            <img class="hero-img img-fluid" alt="" src="../assets/Group.png">
+            <img class="hero-img img-fluid" alt="" src="../assets/Hero.png">
           </div>
         </div>
       </div>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 mt-5 text-left">
-          <div class="col wrapper">
-            <div class=""><img class="icon mr-3" alt="" src="../assets/swap2.png">Byron Swap</div>
-            <p class="">Decentralized exchange app</p>
+          <div class="col">
+            <div class="wrapper">
+              <div class=""><img class="icon mr-3" alt="" src="../assets/swap2.png">Byron Swap</div>
+              <p class="">Decentralized exchange app</p>
+            </div>
           </div>
-           <div class="col wrapper">
-            <div class=""><img class="icon mr-3" alt="" src="../assets/wallet2.png">Byron Wallet</div>
-            <p>Mobile wallet for Cardano</p>
+           <div class="col">
+            <div class="wrapper">
+              <div class=""><img class="icon mr-3" alt="" src="../assets/wallet2.png">Byron Wallet</div>
+              <p>Mobile wallet for Cardano</p>
+            </div>
           </div>
-           <div class="col wrapper">
-            <div class=""><img class="icon mr-3" alt="" src="../assets/cardanoshield1.png">Byron Launch</div>
-            <p>The dapp to creating tokens</p>
+           <div class="col">
+            <div class="wrapper">
+              <div class=""><img class="icon mr-3" alt="" src="../assets/cardanoshield1.png">Byron Launch</div>
+              <p>The dapp to creating tokens</p>
+            </div>
           </div>
-           <div class="col wrapper">
-            <div class=""><img class="icon mr-3 ml-3" alt="" src="../assets/coin1.png">Byron NFTs</div>
+          <div class="col">
+            <div class=""><img class="icon mr-3" alt="" src="../assets/coin1.png">Byron NFTs</div>
             <p>Minting, sending, receiving nfts</p>
           </div>
         </div>
@@ -88,15 +94,17 @@ export default {
         margin-right: 14px;
       }
 
-      .wrapper, col {
+      .wrapper {
         width: auto;
-        width: 50%;
+        width: 80%;
         padding: 0;
+        border-right: 1px solid #E2E3F4;
+      }
         p {
           font-size: 10px;
           text-transform: uppercase;
         }
-      }
+      
     }
   }
   

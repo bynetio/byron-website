@@ -3,11 +3,11 @@
     <h1>Product Roadmap</h1>
     <p>Get the Scoop</p>
     <div class="d-flex align-items-baseline justify-content-around">
-      <div class="align-self-end"><img alt="" class="white-bckg" src="../assets/cardano-mini.png"><div class="timestamp">Q2 2021</div></div>
-      <div class="align-self-end"><img alt="" src="../assets/path.png"></div>
-      <div class="align-self-end"><img alt="" class="white-bckg" src="../assets/cardano-mini.png"><div class="timestamp">Q3 2021</div></div>
-      <div class="align-self-center "><img alt="" src="../assets/arrow.png"></div>
-      <div class="align-self-end"><img alt="" class="white-bckg" src="../assets/cardano-mini.png"><div class="timestamp">Q4 2021</div></div>
+      <div class="align-self-end graph"><img alt="" class="white-bckg" src="../assets/cardano-mini.png"><div class="timestamp">Q2 2021</div></div>
+      <div class="align-self-end graph"><img alt="" src="../assets/path.png"></div>
+      <div class="align-self-end graph "><img alt="" class="white-bckg" src="../assets/cardano-mini.png"><div class="timestamp">Q3 2021</div></div>
+      <div class="align-self-center graph"><img alt="" src="../assets/arrow.png"></div>
+      <div class="align-self-end graph"><img alt="" class="white-bckg" src="../assets/cardano-mini.png"><div class="timestamp">Q4 2021</div></div>
     </div>
     <div class="achievements text-left"> 
     <div class="d-flex lign-items-baseline justify-content-between">
@@ -56,6 +56,10 @@ export default {
 
   .d-flex {
     padding-bottom: 64px;
+       
+        .graph:nth-child(2), .graph:nth-child(4)   {
+          display: none;
+      }
 
   .white-bckg {
     background-color: white;
@@ -86,6 +90,13 @@ export default {
       }
     }
   }
+
+    @media (min-width: 768px) { 
+
+         .graph:nth-child(2), .graph:nth-child(4)   {
+          display: unset   !important;
+      }
+    }
 }
 
 
