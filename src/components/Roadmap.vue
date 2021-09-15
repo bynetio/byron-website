@@ -5,7 +5,7 @@
       <div class="row">
         <div class="col-md-3">
           <div class="wrapper">
-            <p class=""><img class="icon mr-3" alt="" src="../assets/swap2.png">Byron Swap</p>
+            <p class=""><img class="icon mr-3" alt="" src="../assets/swap2.png">Byron DEX</p>
             <p class="small">Decentralized exchange app</p>
           </div>
           <ul class="timeline">
