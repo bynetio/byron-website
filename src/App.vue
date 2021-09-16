@@ -1,12 +1,12 @@
 <template>
   <div id="app">
     <div id="nav" class="container d-flex flex-wrap align-items-center">
-      <router-link class="nav-item main-item home mr-auto p-2" to="/"><span class="home-logo"><img alt="" src="./assets/logo_byron.png"></span></router-link>
-      <router-link class="nav-item p-2" to="/solutions">Solutions</router-link>
-      <router-link class="nav-item p-2" to="/developers">Developers</router-link>
-      <router-link class="nav-item p-2" to="/use-case">Use Case</router-link>
-      <router-link class="nav-item p-2" to="/about">About</router-link>
-      <router-link class="nav-item btn btn-outline-primary p-2" to="/contact">Contact Us</router-link>
+      <router-link class="nav-item main-item home float-left" to="/"><span class="home-logo"><img alt="" src="./assets/logo_byron.png"></span></router-link>
+      <router-link class="nav-item p-2" to="/solutions"></router-link>
+      <router-link class="nav-item p-2" to="/developers"></router-link>
+      <router-link class="nav-item p-2" to="/use-case"></router-link>
+      <router-link class="nav-item p-2" to="/about"></router-link>
+      <a class="nav-item btn btn-outline-primary p-2" target="_blank" href="https://discord.gg/Vp3w43Wt">Contact Us (Discord)</a>
     </div>
     <router-view/>
     <Footer/>
@@ -41,7 +41,6 @@ export default {
   .main-item {
     &:hover {
       text-decoration: none;
-      color: #6D6F8D;
     }
       .home-logo {
         margin-right: 10px;
