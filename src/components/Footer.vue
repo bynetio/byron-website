@@ -12,6 +12,9 @@
         <a href="https://t.me/ByronAnnouncements" class="card-link" target="_blank"><img alt="ellipse" src="../assets/path-telegram.png"></a>
       </div>
     </div>
+    <dic class="row text-right small">
+      Supported with ❤️<a href="https://binarapps.com" target="_blank"><p>by BinarApps</p></a>
+    </dic>
     <!-- <div class="row text-left">
       <ul class="col-6 col-md-6 col-lg-3"> 
         <li><a href="#" class="main-category" target="_blank">Platform</a></li>
