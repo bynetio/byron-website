@@ -13,7 +13,7 @@
       </div>
     </div>
     <dic class="row text-right small">
-      Supported with ❤️<a href="https://binarapps.com" target="_blank"><p>by BinarApps</p></a>
+      Supported with ❤️ by <a href="https://binarapps.com" target="_blank"><p>BinarApps</p></a>
     </dic>
     <!-- <div class="row text-left">
       <ul class="col-6 col-md-6 col-lg-3"> 
