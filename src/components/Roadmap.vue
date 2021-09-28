@@ -3,29 +3,16 @@
     <h1>Products Roadmap</h1>
     <div class="container mt-5 mb-5">
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-6">
+          <br />
           <div class="wrapper">
             <p class=""><img class="icon mr-3" alt="" src="../assets/swap2.png">Byron DEX</p>
-            <p class="small">Decentralized exchange app</p>
           </div>
           <ul class="timeline">
             <li class="done">
               <p>Create design</p>
-              <p class="small">11 Aug, 2021</p>
             </li>
-            <li class="done">
-              <p>Direct swaps</p>
-            </li>
-            <li class="done">
-              <p>Indirect swaps</p>
-            </li>
-            <li class="done">
-              <p>Slippage</p>
-            </li>
-            <li class="done">
-              <p>Liquidity pools</p>
-            </li>
-            <li>
+            <li class="inprogress">
               <p>Concurrency solution</p>
             </li>
             <li>
@@ -42,16 +29,16 @@
             </li>
           </ul>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-6">
+          <br />
           <div class="wrapper">
             <p class=""><img class="icon mr-3" alt="" src="../assets/wallet2.png">Byron Wallet</p>
-            <p class="small">Mobile wallet for Cardano</p>
           </div>
           <ul class="timeline">
-            <li>
+            <li class="done">
               <p>Create design</p>
             </li>
-            <li>
+            <li class="inprogress">
               <p>Implement design (native movile apps)</p>
             </li>
             <li>
@@ -59,55 +46,6 @@
             </li>
             <li>
               <p>Publish apps on stores</p>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-3">
-          <div class="wrapper">
-            <p class=""><img class="icon mr-3" alt="" src="../assets/cardanoshield1.png">Byron Launchpad</p>
-            <p class="small">The dapp to create tokens</p>
-          </div>
-          <ul class="timeline">
-            <li>
-              <p>Create design</p>
-            </li>
-            <li>
-              <p>Smart contracts</p>
-            </li>
-            <li>
-              <p>Dashboard frontend implementation</p>
-            </li>
-            <li>
-              <p>Deployment on testnet</p>
-            </li>
-            <li>
-              <p>Tests and audits</p>
-            </li>
-            <li>
-              <p>Deployment on mainnet</p>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-3">
-          <div class="wrapper">
-            <p class=""><img class="icon mr-3" alt="" src="../assets/coin1.png">Byron NFTs</p>
-            <p class="small">Minting, sending, receiving nfts</p>
-          </div>
-          <ul class="timeline">
-            <li>
-              <p>Create design</p>
-            </li>
-            <li>
-              <p>Smart contracts</p>
-            </li>
-            <li>
-              <p>Deployment on testnet</p>
-            </li>
-            <li>
-              <p>Tests and audits</p>
-            </li>
-            <li>
-              <p>Deployment on mainnet</p>
             </li>
           </ul>
         </div>
@@ -141,6 +79,7 @@ export default {
     list-style-type: none;
     position: relative;
     line-height: 1.2;
+    margin-left:  90px;
   }
   ul.timeline:before {
       content: ' ';
@@ -176,6 +115,9 @@ export default {
 
   ul.timeline > li.done:before{
     background: #007bff;
+  }
+  ul.timeline > li.inprogress:before{
+    background: pink;
   }
 
   .wrapper {
