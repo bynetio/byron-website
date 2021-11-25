@@ -3,7 +3,6 @@ import Roadmap from '@/components/Roadmap.vue';
   <section id="tokenomics">
     <div class="container">
       <h1>Tokenomics</h1>
-      <p>Chart</p>
       <div class="img-wrapper circle">
         <ul class="menu">
           <li>
