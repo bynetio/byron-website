@@ -80,7 +80,7 @@ export default {
       }
         p {
           color: #000;
-          font-size: 16px;
+          font-size: 1rem;
         }
       
     }

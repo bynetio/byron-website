@@ -36,6 +36,7 @@
           </div>
           <ul class="timeline">
             <li class="done">
+              <small>25.10.2021</small>
               <p>Create design</p>
             </li>
             <li class="inprogress">
