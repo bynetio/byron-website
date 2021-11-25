@@ -7,38 +7,38 @@ import Roadmap from '@/components/Roadmap.vue';
       <div class="img-wrapper circle">
         <ul class="menu">
           <li>
-            <img src="../assets/lightbulb.png" />
+            <img src="../assets/rocket.png" />
               <div class="center-right">
-                <div>Advisors</div>
-                <div>2%</div>
+                <div><big><b>Treasury</b></big></div>
+                <div><small>10%</small></div>
               </div>
           </li>
           <li>
-            <img src="../assets/investor.png" />
-            <div class="bottom-center">
-              <div>Investors</div>
-              <div>13%</div>
-            </div>
-          </li>
-          <li>
-            <img src="../assets/rocket.png" />
-            <div class="center-right">
-              <div>Future Hires</div>
-              <div>4%</div>
-            </div>
-          </li>
-          <li>
             <img src="../assets/atom.png" />
+            <div class="bottom-center">
+              <div><big><b>Marketing, Ecosystem, Partnerships</b></big></div>
+              <div><small>15%</small></div>
+            </div>
+          </li>
+          <li>
+            <img src="../assets/lightbulb.png" />
+            <div class="center-right">
+              <div><big><b>Private sell</b></big></div>
+              <div><small>6%</small></div>
+            </div>
+          </li>
+          <li>
+            <img src="../assets/investor.png" />
             <div class="center-left">
-              <div>Team</div>
-              <div>20%</div>
+              <div><big><b>Team & Advisors</b></big></div>
+              <div><small>8%</small></div>
             </div>
           </li>
           <li>
             <img src="../assets/public.png" />
             <div class="top-center">
-              <div>Public</div>
-              <div>60%</div>
+              <div><big><b>Public</b></big></div>
+              <div><small>61%</small></div>
             </div>
           </li>
         </ul>
