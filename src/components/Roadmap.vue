@@ -10,18 +10,18 @@
           </div>
           <ul class="timeline">
             <li class="done">
-              <p>Create design</p>
+              <p>Create design (👉<a href="https://www.figma.com/file/O1K3ASY5FUMLOtqeBh6b2L/Trading-page-Byron-official" target="_blank">preview on figma</a>)</p>
             </li>
-            <li class="inprogress">
+            <li class="done">
               <p>Concurrency solution</p>
             </li>
-            <li>
+            <li class="done">
               <p>Design implementation</p>
             </li>
-            <li>
+            <li class="inprogress">
               <p>Deployment on testnet</p>
             </li>
-            <li>
+            <li class="inprogress">
               <p>Test and audits</p>
             </li>
             <li>
@@ -36,13 +36,15 @@
           </div>
           <ul class="timeline">
             <li class="done">
-              <small>25.10.2021</small>
-              <p>Create design</p>
+              <p>Create design (👉<a href="https://www.figma.com/file/yBRBk0tZK8lN4ihnjtBpJV/Byron-Official" target="_blank">preview on figma</a>)</p>
+            </li>
+            <li class="done">
+              <p>Implement design</p>
             </li>
             <li class="inprogress">
-              <p>Implement design (native movile apps)</p>
+              <p>Backend</p>
             </li>
-            <li>
+            <li class="inprogress">
               <p>Tests and audits on testnet</p>
             </li>
             <li>
