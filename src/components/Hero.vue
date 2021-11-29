@@ -7,7 +7,6 @@
             Decentralized apps for the Cardano Blockchain
           </h1>
           <p>Byron Network aims to bring the cutting edge solution for traders, hodlers and blockchain lovers. HD Mobile Wallet and a decentralized exchange on Cardano Blockchain is only the first step in the development of the Byron ecosystem. Our goal is to deliver investment tools and a cryptocurrency gateway for multichain investing for any blockchain enthusiast. Great experience with profound UX, thoughtful components and ability to integrate advantageous API is our top priority.</p>
-          <a href="https://github.com/byron-network/byron-whitepaper" target="_blank" class="btn btn-outline-primary">Read Whitepaper</a>
         </div>
         <div class="col col-sm-12 col-md-5">
           <div class="img-wrapper">
