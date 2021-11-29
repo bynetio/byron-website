@@ -79,9 +79,6 @@ export default {
           .icons-collection {
             margin-top: 20px;
             margin-bottom: 20px;
-            img {
-              height: 30px;
-            }
           }
         }
 
