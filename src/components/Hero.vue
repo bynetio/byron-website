@@ -36,7 +36,7 @@ export default {
     }
     background-image: url("../assets/cardano-hero-bckg.png");
     background-repeat: no-repeat;
-    background-position: 0 250px;
+    background-position: 0 75px;
 
     h1 {
         font-size: 42px;
