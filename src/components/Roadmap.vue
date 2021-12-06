@@ -1,54 +1,108 @@
 <template>
   <section id="roadmap" class="container">
-    <h1>Products Roadmap</h1>
+    <h1>Roadmap</h1>
     <div class="container mt-5 mb-5">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-3">
           <br />
           <div class="wrapper">
-            <p class=""><img class="icon mr-3" alt="" src="../assets/swap2.png">Byron DEX</p>
+            <h3>Q3 2021</h3>
+          </div>
+          <ul class="timeline">
+            <li class="done"><p>Market research</p></li>
+            <li class="done"><p>Participation in <a href="https://iohk.io/en/blog/posts/2021/05/12/developers-add-muscle-to-plutus-smart-contracts-on-cardano-for-defi/" target="_blank">Plutus Partnership Program</a> as <a href="https://binarapps.com" target="_blank">BinarApps</a></p></li>
+            <li class="done"><p>Simulator setup (<a href="https://www.youtube.com/watch?v=iVWOp11PDzU" target="_blank">demo</a> during Cardano Summit)</p></li>
+            <li class="done">
+              <p>Create <a href="https://www.figma.com/file/tVpIB7vC3UzdzXoGDp44nC/Byron_website_official" target="_blank">web and swap design</a></p>
+            </li>
+            <li class="done"><p>Recruitment (3 haskell devs)</p></li>
+            <li class="done"><p>Social media launch</p></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <br />
+          <div class="wrapper">
+            <h3>Q4 2021</h3>
           </div>
           <ul class="timeline">
             <li class="done">
-              <p>Create design (👉<a href="https://www.figma.com/file/O1K3ASY5FUMLOtqeBh6b2L/Trading-page-Byron-official" target="_blank">preview on figma</a>)</p>
+              <p>Code optimization and testing</p>
             </li>
             <li class="done">
-              <p>Concurrency solution</p>
+              <p>Create design of <a href="https://www.figma.com/file/O1K3ASY5FUMLOtqeBh6b2L/Trading-page-Byron-official" target="_blank">DEX trading web</a> and <a href="https://www.figma.com/file/O1K3ASY5FUMLOtqeBh6b2L/Trading-page-Byron-official" target="_blank">HD mobile wallet</a></p>
+            </li>
+            
+            <li class="done">
+              <p>UX audit</p>
+            </li>
+             <li class="done">
+              <p>HD mobile wallet <a href="https://twitter.com/byron_cardano/status/1455627048840536067" target="_blank">UI implementation</a> (React Native)</p>
             </li>
             <li class="done">
-              <p>Design implementation</p>
+              <p><a href="https://byron.network/static/byron-network-lightpaper.pdf" target="_blank">Lightpaper</a> and <a href="https://byron.network/static/byron-network-presentation.pdf" target="_blank">presentation</a></p>
             </li>
             <li class="inprogress">
-              <p>Deployment on testnet</p>
+              <p>Whitepaper</p>
             </li>
             <li class="inprogress">
-              <p>Test and audits</p>
+              <small>14.12.2021</small>
+              <p>DEX closed tests</p>
             </li>
             <li>
-              <p>Deployment on mainnet</p>
+              <small>17.12.2021</small>
+              <p>DEX public testnet</p>
             </li>
           </ul>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-3">
           <br />
           <div class="wrapper">
-            <p class=""><img class="icon mr-3" alt="" src="../assets/wallet2.png">Byron Wallet</p>
+            <h3>Q1 2022</h3>
           </div>
           <ul class="timeline">
-            <li class="done">
-              <p>Create design (👉<a href="https://www.figma.com/file/yBRBk0tZK8lN4ihnjtBpJV/Byron-Official" target="_blank">preview on figma</a>)</p>
-            </li>
-            <li class="done">
-              <p>Implement design</p>
-            </li>
-            <li class="inprogress">
-              <p>Backend</p>
-            </li>
-            <li class="inprogress">
-              <p>Tests and audits on testnet</p>
+            <li>
+              <p>Security audits</p>
             </li>
             <li>
-              <p>Publish apps on stores</p>
+              <p>Byron token creation</p>
+            </li>
+            <li>
+              <p>Seed sale and private sale</p>
+            </li>
+            <li>
+              <p>IDO</p>
+            </li>
+            <li>
+              <p>Public sale</p>
+            </li>
+            <li>
+              <p>HD mobile wallet public release</p>
+            </li>
+            <li>
+              <p>Byron DEX mainnet release</p>
+            </li>
+            <li>
+              <p>Wallet - DEX integration</p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <br />
+          <div class="wrapper">
+            <h3>Q2 2022</h3>
+          </div>
+          <ul class="timeline">
+            <li>
+              <p>Advanced trading options works</p>
+            </li>
+            <li>
+              <p>Buy with FIAT in mobile wallet</p>
+            </li>
+            <li>
+              <p>Partnerships</p>
+            </li>
+            <li>
+              <p>Trading API initialization</p>
             </li>
           </ul>
         </div>
@@ -80,8 +134,7 @@ export default {
   ul.timeline {
     list-style-type: none;
     position: relative;
-    line-height: 1.2;
-    margin-left:  90px;
+    line-height: 1rem;
   }
   ul.timeline:before {
       content: ' ';
