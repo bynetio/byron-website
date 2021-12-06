@@ -5,9 +5,9 @@
      the public as well as the private sale, in addition to a seed to guarantee development process and further improvements</p>
     <div class="container">
       <div class="row align-items-center">
-        <div class="col col-md-3 text-left">
+        <div class="col col-0 col-md-3 text-left">
         </div>
-        <div class="col col-sm-12 col-md-6">
+        <div class="col col-12 col-sm-12 col-md-6">
           <p></p><p></p>
           <table class="table table-striped table-sm">
             <tbody>
@@ -33,7 +33,7 @@
               </tr>
             </tbody>
           </table>
-          <div class="col col-md-3 text-left">
+          <div class="col col-0 col-sm-0 col-md-3 text-left">
             
           </div>
         </div>

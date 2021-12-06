@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div id="nav" class="container d-flex flex-wrap align-items-center">
+    <nav id="nav" class="navbar container d-flex flex-wrap ">
       <router-link class="nav-item main-item home float-left" to="/"><span class="home-logo"><img alt="" src="./assets/logo_byron.png"></span></router-link>
       <router-link class="nav-item p-2" to="/solutions"></router-link>
       <router-link class="nav-item p-2" to="/developers"></router-link>
@@ -8,7 +8,7 @@
       <router-link class="nav-item p-2" to="/about"></router-link>
       <a class="btn btn-outline-primary p-2" target="_blank" href="/static/byron-network-lightpaper.pdf">Read lightpaper</a>
       <a class="btn btn-outline-primary" target="_blank" href="https://discord.gg/Vp3w43Wt">Contact Us (Discord)</a>
-    </div>
+    </nav>
     <router-view/>
     <Footer/>
   </div>

@@ -2,13 +2,13 @@
   <section id="hero">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col col-sm-12 col-md-7 text-left">
+        <div class="col col-12 col-sm-12 col-md-7 text-left">
           <h1>
             Decentralized apps for the Cardano Blockchain
           </h1>
           <p>Byron Network aims to bring the cutting edge solution for traders, hodlers and blockchain lovers. HD Mobile Wallet and a decentralized exchange on Cardano Blockchain is only the first step in the development of the Byron ecosystem. Our goal is to deliver investment tools and a cryptocurrency gateway for multichain investing for any blockchain enthusiast. Great experience with profound UX, thoughtful components and ability to integrate advantageous API is our top priority.</p>
         </div>
-        <div class="col col-sm-12 col-md-5">
+        <div class="col col-12 col-sm-12 col-md-5">
           <div class="img-wrapper">
             <img class="hero-img img-fluid" alt="" src="../assets/hero-desktop-mobile.png">
           </div>
