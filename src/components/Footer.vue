@@ -9,7 +9,7 @@
         <a href="https://discord.gg/Vp3w43Wt" class="card-link" target="_blank"><img alt="ellipse" src="../assets/path-discord.png"></a>
         <a href="https://twitter.com/byron_cardano" class="card-link" target="_blank"><img alt="ellipse" src="../assets/path-twitter.png"></a>
         <a href="https://www.reddit.com/r/ByronNetwork/" class="card-link" target="_blank"><img alt="ellipse" src="../assets/path-reddit.png"></a>
-        <a href="https://t.me/ByronAnnouncements" class="card-link" target="_blank"><img alt="ellipse" src="../assets/path-telegram.png"></a>
+        <a href="https://t.me/byron_network" class="card-link" target="_blank"><img alt="ellipse" src="../assets/path-telegram.png"></a>
       </div>
     </div>
     <dic class="row text-right small">
