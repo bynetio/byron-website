@@ -10,7 +10,7 @@
         </div>
         <div class="col col-12 col-sm-12 col-md-5">
           <div class="img-wrapper">
-            <img class="hero-img img-fluid" alt="" src="../assets/hero-desktop-mobile.png">
+            <img class="hero-img img-fluid" alt="" src="../assets/hero-03.png">
           </div>
         </div>
       </div>
@@ -46,6 +46,7 @@ export default {
 
     .hero-img {
       min-width: 80px;
+      max-width: 550px;
       max-height: 600px;
     }
 
