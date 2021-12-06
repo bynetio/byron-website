@@ -64,7 +64,6 @@ export default {
      h1 {
       padding-top: 100px;
       font-size: 46px;
-      font-weight: 900;
     }
     .card {
       border: none;

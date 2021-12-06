@@ -10,7 +10,7 @@
         </div>
         <div class="col col-sm-12 col-md-5">
           <div class="img-wrapper">
-            <img class="hero-img img-fluid" alt="" src="../assets/Hero.png">
+            <img class="hero-img img-fluid" alt="" src="../assets/hero-desktop-mobile.png">
           </div>
         </div>
       </div>
@@ -40,22 +40,21 @@ export default {
 
     h1 {
         font-size: 42px;
-        font-weight: bold;
         text-align: left;
-        margin-top: 150px;
+        margin-top: 50px;
       }
 
     .hero-img {
       min-width: 80px;
+      max-height: 600px;
     }
 
     @media (min-width: 1200px) { 
 
       h1 {
-        font-size: 64px;
-        font-weight: bold;
+        font-size: 58px;
         text-align: left;
-        margin-top: 150px;
+        margin-top: 80px;
       }
 
       p {

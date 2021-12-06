@@ -59,7 +59,6 @@ export default {
 
     h1 {
       font-size: 46px;
-      font-weight: 900;
     }
   }
   

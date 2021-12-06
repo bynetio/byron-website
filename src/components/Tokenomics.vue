@@ -63,7 +63,6 @@ export default {
 
   h1 {
     font-size: 46px;
-    font-weight: 900;
   }
   p {
     margin: 30px 0 50px 0;
