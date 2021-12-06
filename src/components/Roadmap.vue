@@ -96,7 +96,7 @@
               <p>Advanced trading options works</p>
             </li>
             <li>
-              <p>Buy with FIAT in mobile wallet</p>
+              <p>Buy with FIAT (mobile wallet)</p>
             </li>
             <li>
               <p>Partnerships</p>
