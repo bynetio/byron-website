@@ -29,7 +29,7 @@
               <p>Code optimization and testing</p>
             </li>
             <li class="done">
-              <p>Create design of <a href="https://www.figma.com/file/O1K3ASY5FUMLOtqeBh6b2L/Trading-page-Byron-official" target="_blank">DEX trading web</a> and <a href="https://www.figma.com/file/O1K3ASY5FUMLOtqeBh6b2L/Trading-page-Byron-official" target="_blank">HD mobile wallet</a></p>
+              <p>Create design of <a href="https://www.figma.com/file/O1K3ASY5FUMLOtqeBh6b2L/Trading-page-Byron-official" target="_blank">DEX trading web</a> and <a href="https://www.figma.com/file/yBRBk0tZK8lN4ihnjtBpJV/Byron_wallet_official" target="_blank">HD mobile wallet</a></p>
             </li>
             
             <li class="done">
