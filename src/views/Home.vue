@@ -2,7 +2,7 @@
   <div id="home">
     <Hero/>
     <Roadmap/>
-    <Tokenomics/>
+    <Financing/>
     <Community/>
   </div>
 </template>
@@ -10,7 +10,7 @@
 <script>
 import Hero from "@/components/Hero.vue";
 import Roadmap from "@/components/Roadmap.vue";
-import Tokenomics from "@/components/Tokenomics.vue"
+import Financing from "@/components/Financing.vue"
 import Community from "@/components/Community.vue";
 
 export default {
@@ -18,7 +18,7 @@ export default {
   components: {
     Hero,
     Roadmap,
-    Tokenomics,
+    Financing,
     Community
   }
 }
