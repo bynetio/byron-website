@@ -13,9 +13,9 @@
       </div>
     </div>
     <dic class="row text-right small">
-      Supported with ❤️ by <a href="https://binarapps.com" target="_blank"><p>BinarApps</p></a>
+      Supported with ❤️ <a href="https://binarapps.com" target="_blank">BinarApps</a>
     </dic>
-    <!-- <div class="row text-left">
+<!--     <div class="row text-left">
       <ul class="col-6 col-md-6 col-lg-3"> 
         <li><a href="#" class="main-category" target="_blank">Platform</a></li>
         <li><a href="#" class="footer-link" target="_blank">Products</a></li>
@@ -29,7 +29,7 @@
         <li><a href="#" class="footer-link" target="_blank">Lorem Ipsum</a></li>
       </ul>
       <ul class="col-6 col-md-6 col-lg-3"> 
-        <li><a href="#" class="main-category" target="_blank">About Fizen</a></li>
+        <li><a href="#" class="main-category" target="_blank">About Byron</a></li>
         <li><a href="#" class="footer-link" target="_blank">About us</a></li>
         <li><a href="#" class="footer-link" target="_blank">Career</a></li>
         <li><a href="#" class="footer-link" target="_blank">Lorem Ipsum</a></li>
@@ -61,7 +61,7 @@ export default {
       background-image: url("../assets/Vector4.png");
       background-repeat: no-repeat;
       background-position: top left;
-      padding-top: 190px;
+      padding-top: 30px;
       padding-bottom: 30px;
 
         .icons-row {

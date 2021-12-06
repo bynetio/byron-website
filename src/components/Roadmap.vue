@@ -71,7 +71,7 @@ export default {
 <style lang="scss" scoped>
 
 #roadmap {
-  padding-top: 40px;
+  padding-top: 70px;
 
   h1 {
     font-size: 46px;

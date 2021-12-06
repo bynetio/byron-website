@@ -5,24 +5,18 @@
       <p>Follow us on social media</p>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
 
-      <div class="col ">
+      <div class="col">
         <div class="card">
-          <div class="card-body text-left">
+          <div class="card-body text-center">
             <a href="https://twitter.com/byron_cardano" class="card-link" target="_blank"><img class="icon" alt="" src="../assets/icon-twitter.png"></a>
-            <a href="https://twitter.com/byron_cardano" class="card-link" target="_blank"><h5 class="card-title mb-4">Twitter</h5></a>
-            <h6 class="card-subtitle mb-5 text-muted">Stay up to date with <a class="follow" href="https://twitter.com/byron_cardano" target="_blank">@ByronNetwork</a> updates on our Twitter </h6>
-            <a href="https://twitter.com/byron_cardano" class="card-link" target="_blank">Visit our Twitter</a>
           </div>
         </div>
       </div>
 
       <div class="col">
         <div class="card">
-          <div class="card-body text-left">
+          <div class="card-body text-center">
             <a href="https://github.com/byron-network" class="card-link" target="_blank"><img class="icon" alt="" src="../assets/icon-github.png"></a>
-            <a href="https://github.com/byron-network" class="card-link" target="_blank"><h5 class="card-title mb-4">GitHub</h5></a>
-            <h6 class="card-subtitle mb-5 text-muted">Stay up to date with <a class="follow" href="https://github.com/byron-network" target="_blank">@ByronNetwork</a> updates on our GitHub </h6>
-            <a href="https://github.com/byron-network" class="card-link" target="_blank">Visit our GitHub</a>
           </div>
         </div>
       </div>
@@ -30,22 +24,18 @@
 
       <div class="col">
         <div class="card">
-          <div class="card-body text-left">
+          <div class="card-body text-center">
             <a href="https://discord.com/invite/8kWBQPXwAH" class="card-link" target="_blank"><img class="icon" alt="" src="../assets/icon-discord.png"></a>
-            <a href="https://discord.com/invite/8kWBQPXwAH" class="card-link" target="_blank"><h5 class="card-title mb-4">Discord</h5></a>
-            <h6 class="card-subtitle mb-5 text-muted">Stay up to date with <a class="follow" href="https://discord.com/invite/8kWBQPXwAH" target="_blank">@ByronNetwork</a> updates on our Discord</h6>
-            <a href="https://discord.com/invite/8kWBQPXwAH" class="card-link" target="_blank">Visit our Discord</a>
+            
           </div>
         </div>
       </div>
 
       <div class="col">
         <div class="card">
-          <div class="card-body text-left">
+          <div class="card-body text-center">
             <a href="https://www.reddit.com/r/ByronNetwork/" class="card-link" target="_blank"><img class="icon" alt="" src="../assets/icon-reddit.png"></a>
-            <a href="https://www.reddit.com/r/ByronNetwork/" class="card-link" target="_blank"><h5 class="card-title mb-4">Reddit</h5></a>
-            <h6 class="card-subtitle mb-5 text-muted">Stay up to date with <a class="follow" href="https://www.reddit.com/r/ByronNetwork/" target="_blank">@ByronNetwork</a> updates on our Reddit </h6>
-            <a href="https://www.reddit.com/r/ByronNetwork/" class="card-link" target="_blank">Visit our Reddit</a>
+            
           </div>
         </div>
       </div>
