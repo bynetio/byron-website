@@ -80,7 +80,6 @@ export default {
         line-height: 1.6;
       }
       .icon {
-        margin-bottom: 30px;
         max-height: 40px;
         }
       }
