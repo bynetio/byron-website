@@ -43,6 +43,7 @@ export default {
   .main-item {
     &:hover {
       text-decoration: none;
+      background: transparent
     }
       .home-logo {
         margin-right: 10px;
@@ -58,7 +59,6 @@ export default {
     margin: auto;
 
     &:hover {
-      background: linear-gradient(90deg, rgba(172,218,252,1) 35%, rgba(187,209,250,1) 100%);
       text-decoration: none;
       background-repeat: no-repeat;
       background-size: 100% 50%;
