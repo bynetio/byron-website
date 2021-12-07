@@ -3,7 +3,7 @@
     <div class="container">
       <h1>Join our community</h1>
       <p>Follow us on social media</p>
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+      <div class="row row-cols-1 row-cols-md-5">
 
       <div class="col">
         <div class="card">
@@ -35,6 +35,15 @@
         <div class="card">
           <div class="card-body text-center">
             <a href="https://www.reddit.com/r/ByronNetwork/" class="card-link" target="_blank"><img class="icon" alt="" src="../assets/icon-reddit.png"></a>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="card-body text-center">
+            <a href="https://medium.com/@byron_network" class="card-link" target="_blank"><img class="icon" alt="" src="../assets/icon-medium.png"></a>
             
           </div>
         </div>
