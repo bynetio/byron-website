@@ -1,41 +1,47 @@
 <template>
   <section id="financing" class="container">
-    <h1>Financing</h1><p></p>
-    <p>Byron Network is going to launch Byron Token via Launchpad so the community can expect IDO,
-     the public as well as the private sale, in addition to a seed to guarantee development process and further improvements</p>
+    <h1>Financing and tokenomics</h1><p></p>
     <div class="container">
       <div class="row align-items-center">
-        <div class="col col-0 col-md-3 text-left">
+        <div class="col col-12 col-sm-12 col-md-8 text-centered">
+          <img src="../assets/tokenomics.png" style="width: 100%; height: auto;"/>
         </div>
-        <div class="col col-12 col-sm-12 col-md-6">
+        <div class="col col-12 col-sm-12 col-md-4">
           <p></p><p></p>
           <table class="table table-striped table-sm">
             <tbody>
               <tr>
-                <th scope="row" class="text-right">61%</th>
-                <td >Public</td>
+                <th scope="row" class="text-right">42%</th>
+                <td> </td>
+                <td class="text-left">Liquidity (84 302 222,22)</td>
               </tr>
               <tr>
-                <th scope="row" class="text-right">6%</th>
-                <td>Private</td>
+                <th scope="row" class="text-right">15,2%</th>
+                <td> </td>
+                <td class="text-left">Staking (30 420 000,00)</td>
               </tr>
               <tr>
                 <th scope="row" class="text-right">10%</th>
-                <td>Treasury</td>
+                <td> </td>
+                <td class="text-left">Treasury</td>
               </tr>
               <tr>
-                <th scope="row" class="text-right">8%</th>
-                <td>Team & Advisors</td>
+                <th scope="row" class="text-right">1,39%</th>
+                <td> </td>
+                <td class="text-left">Public sale in wallet (2 777 777,78)</td>
               </tr>
               <tr>
-                <th scope="row" class="text-right">15%</th>
-                <td>Marketing, Ecosystem, Partnerships</td>
+                <th scope="row" class="text-right">1,25%</th>
+                <td> </td>
+                <td class="text-left">IDO v1 (2 500 000,00)</td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-right">1,00%</th>
+                <td> </td>
+                <td class="text-left">IDO v2 (2 000 000,00)</td>
               </tr>
             </tbody>
           </table>
-          <div class="col col-0 col-sm-0 col-md-3 text-left">
-            
-          </div>
         </div>
       </div>
     </div>
