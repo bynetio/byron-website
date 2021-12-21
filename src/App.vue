@@ -6,7 +6,8 @@
       <router-link class="nav-item p-2" to="/developers"></router-link>
       <router-link class="nav-item p-2" to="/use-case"></router-link>
       <router-link class="nav-item p-2" to="/about"></router-link>
-      <a class="btn btn-outline-primary p-2" target="_blank" href="/static/byron-network-lightpaper.pdf">Read lightpaper</a>
+      <a class="btn btn-outline-primary p-2" target="_blank" href="/static/byron-network-lightpaper.pdf">Lightpaper</a>
+      <a class="btn btn-outline-primary p-2" target="_blank" href="/static/byron-network-whitepapaer.pdf">Whitepapaer</a>
       <a class="btn btn-outline-primary" target="_blank" href="https://discord.gg/Vp3w43Wt">Contact Us (Discord)</a>
     </nav>
     <router-view/>
