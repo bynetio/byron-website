@@ -3,7 +3,7 @@
     <h1>Roadmap</h1>
     <div class="container mt-5 mb-5">
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-6">
           <br />
           <div class="wrapper">
             <h3>Q3 2021</h3>
@@ -19,7 +19,7 @@
             <li class="done"><p>Social media launch</p></li>
           </ul>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-6">
           <br />
           <div class="wrapper">
             <h3>Q4 2021</h3>
@@ -41,20 +41,19 @@
             <li class="done">
               <p><a href="https://byron.network/static/byron-network-lightpaper.pdf" target="_blank">Lightpaper</a> and <a href="https://byron.network/static/byron-network-presentation.pdf" target="_blank">presentation</a></p>
             </li>
-            <li class="inprogress">
-              <p>Whitepaper</p>
+            <li class="done">
+              <p><a href="https://byron.network/static/byron-network-whitepaper.pdf" target="_blank">Whitepaper</a></p>
+            </li>
+            <li class="done">
+              <p>Mobile wallet demo</p>
             </li>
             <li class="inprogress">
-              <small>14.12.2021</small>
-              <p>DEX closed tests</p>
+              <p>Mobile wallet on testnet</p>
             </li>
-            <li>
-              <small>17.12.2021</small>
-              <p>DEX public testnet</p>
-            </li>
+            
           </ul>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-6">
           <br />
           <div class="wrapper">
             <h3>Q1 2022</h3>
@@ -62,6 +61,12 @@
           <ul class="timeline">
             <li>
               <p>Security audits</p>
+            </li>
+            <li>
+              <p>DEX integration with Nami Wallet</p>
+            </li>
+            <li>
+              <p>DEX on testnet</p>
             </li>
             <li>
               <p>Byron token creation</p>
@@ -86,23 +91,32 @@
             </li>
           </ul>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-6">
           <br />
           <div class="wrapper">
             <h3>Q2 2022</h3>
           </div>
           <ul class="timeline">
             <li>
-              <p>Advanced trading options works</p>
+              <p>Partnerships</p>
+            </li>
+            <li>
+              <p>Stop limit and stop loss on DEX</p>
             </li>
             <li>
               <p>Buy with FIAT (mobile wallet)</p>
             </li>
             <li>
-              <p>Partnerships</p>
+              <p>Trading API initialization</p>
             </li>
             <li>
-              <p>Trading API initialization</p>
+              <p>Performers' bots materials</p>
+            </li>
+            <li>
+              <p>Advanced security measure on Byron Wallet</p>
+            </li>
+            <li>
+              <p>Advanced security measure on Byron Wallet</p>
             </li>
           </ul>
         </div>
