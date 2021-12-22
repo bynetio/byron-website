@@ -1,6 +1,6 @@
 <template>
   <section id="financing" class="container">
-    <h1>Financing and tokenomics</h1><p></p>
+    <h1>Financing and tokenomics</h1>
     <div class="container">
       <div class="row align-items-center">
         <div class="col col-12 col-sm-12 col-md-8 text-centered">
@@ -65,6 +65,7 @@ export default {
 
     h1 {
       font-size: 46px;
+      margin-bottom: 50px;
     }
   }
   

@@ -8,7 +8,7 @@
       <router-link class="nav-item p-2" to="/about"></router-link>
       <a class="btn btn-outline-primary p-2" target="_blank" href="/static/byron-network-lightpaper.pdf">Lightpaper</a>
       <a class="btn btn-outline-primary p-2" target="_blank" href="/static/byron-network-whitepaper.pdf">Whitepaper</a>
-      <a class="btn btn-outline-primary" target="_blank" href="https://discord.gg/Vp3w43Wt">Contact Us (Discord)</a>
+      <a class="btn btn-outline-primary" target="_blank" href="https://discord.gg/8kWBQPXwAH">Contact Us (Discord)</a>
     </nav>
     <router-view/>
     <Footer/>
