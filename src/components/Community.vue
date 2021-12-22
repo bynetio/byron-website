@@ -3,12 +3,21 @@
     <div class="container">
       <h1>Join our community</h1>
       <p>Follow us on social media</p>
-      <div class="row row-cols-1 row-cols-md-5">
+      <div class="row row-cols-1 row-cols-md-6">
 
       <div class="col">
         <div class="card">
           <div class="card-body text-center">
             <a href="https://twitter.com/byron_cardano" class="card-link" target="_blank"><img class="icon" alt="" src="../assets/icon-twitter.png"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="card-body text-center">
+            <a href="https://t.me/byron_network_news" class="card-link" target="_blank"><img class="icon" alt="" src="../assets/icon-telegram.png"></a>
+            
           </div>
         </div>
       </div>
@@ -48,6 +57,7 @@
           </div>
         </div>
       </div>
+
 
 
       </div>
