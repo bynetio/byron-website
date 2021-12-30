@@ -33,36 +33,32 @@
           <div class="part-item">
             <div class="part-heading">
               <img class="part-icon" src="../assets/swap2.png" />
-              <h4>Trading options</h4>
+              <h4>ByronDex</h4>
             </div>
-            <h5>based on the pro traders experience</h5>
           </div>
         </div>
         <div class="col-sm-6 col-xl-3">
           <div class="part-item">
             <div class="part-heading">
               <img class="part-icon" src="../assets/wallet2.png" />
-              <h4>Economic incentives</h4>
+              <h4>ByronWallet</h4>
             </div>
-            <h5>rewards as a Performer or a Liquidity Provider</h5>
           </div>
         </div>
         <div class="col-sm-6 col-xl-3">
           <div class="part-item">
             <div class="part-heading">
               <img class="part-icon" src="../assets/cardanoshield1.png" />
-              <h4>Order Book Pattern</h4>
+              <h4>Byron Launchpad</h4>
             </div>
-            <h5>resistant to price manipulation</h5>
           </div>
         </div>
         <div class="col-sm-6 col-xl-3">
           <div class="part-item">
             <div class="part-heading">
               <img class="part-icon" src="../assets/coin1.png" />
-              <h4>Multi-chain</h4>
+              <h4>Byron AppStore</h4>
             </div>
-            <h5>fully operative ecosystem on various blockchains</h5>
           </div>
         </div>
       </div>
@@ -72,9 +68,9 @@
             <div class="feature-icon">
               <img src="../assets/tradevolume.png" />
             </div>
-            <h4>$342B</h4>
+            <h4>Trading options</h4>
 
-            <h5>Trade Volume</h5>
+            <h5>based on the pro traders experience</h5>
           </div>
         </div>
         <div class="col-sm-6 col-xl-3">
@@ -82,9 +78,9 @@
             <div class="feature-icon">
               <img src="../assets/union.png" />
             </div>
-            <h4>+2M</h4>
+            <h4>Economic incentives</h4>
 
-            <h5>Active users</h5>
+            <h5>rewards as a Performer or a Liquidity Provider</h5>
           </div>
         </div>
         <div class="col-sm-6 col-xl-3">
@@ -92,9 +88,9 @@
             <div class="feature-icon">
               <img src="../assets/money.png" />
             </div>
-            <h4>53,324,233</h4>
+            <h4>Order Book Pattern</h4>
 
-            <h5>All time trades</h5>
+            <h5>resistant to price manipulation</h5>
           </div>
         </div>
         <div class="col-sm-6 col-xl-3">
@@ -102,8 +98,8 @@
             <div class="feature-icon">
               <img src="../assets/line.png" />
             </div>
-            <h4>+200</h4>
-            <h5>Financial instruments</h5>
+            <h4>Multi-chain</h4>
+            <h5>fully operative ecosystem on various blockchains</h5>
           </div>
         </div>
       </div>
@@ -207,7 +203,7 @@ export default {
 
   .features {
     margin-top: 90px;
-    row-gap: 1rem;
+    row-gap: 1.8rem;
 
     .feature-icon {
       height: 52px;
@@ -219,6 +215,7 @@ export default {
       font-size: 30px;
       color: #000637;
       margin-bottom: 20px;
+      height: 74px;
     }
 
     h5 {
@@ -259,7 +256,7 @@ export default {
       & > * {
         &:not(:first-child)::before {
           content: '';
-          height: 55px;
+          height: 35px;
           width: 1px;
           background: #e2e3f4;
           left: 0%;
@@ -275,7 +272,7 @@ export default {
       & > * {
         &:not(:nth-child(odd))::before {
           content: '';
-          height: 55px;
+          height: 35px;
           width: 1px;
           background: #e2e3f4;
           left: 0%;
