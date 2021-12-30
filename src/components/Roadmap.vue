@@ -3,7 +3,7 @@
     <h1>Roadmap</h1>
     <div class="container mt-5 mb-5">
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-6 col-xl-3">
           <br />
           <div class="wrapper">
             <h3>Q3 2021</h3>
@@ -19,7 +19,7 @@
             <li class="done"><p>Social media launch</p></li>
           </ul>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-6 col-xl-3">
           <br />
           <div class="wrapper">
             <h3>Q4 2021</h3>
@@ -53,7 +53,7 @@
             
           </ul>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-6 col-xl-3">
           <br />
           <div class="wrapper">
             <h3>Q1 2022</h3>
@@ -91,7 +91,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-6 col-xl-3">
           <br />
           <div class="wrapper">
             <h3>Q2 2022</h3>
@@ -139,7 +139,7 @@ export default {
 <style lang="scss" scoped>
 
 #roadmap {
-  padding-top: 70px;
+  padding-top: 40px;
 
   h1 {
     font-size: 46px;
