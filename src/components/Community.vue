@@ -3,119 +3,115 @@
     <div class="container">
       <h1>Join our community</h1>
       <p>Follow us on social media</p>
-      <div class="row row-cols-1 row-cols-md-6">
-
-      <div class="col">
-        <div class="card">
-          <div class="card-body text-center">
-            <a href="https://twitter.com/byron_cardano" class="card-link" target="_blank"><img class="icon" alt="" src="../assets/icon-twitter.png"></a>
+      <div class="row row-cols-1 row-cols-md-6 row-gap">
+        <div class="col-md-4 col-xl-2">
+          <div
+            class="card"
+            href="https://twitter.com/byron_cardano"
+            target="_blank"
+          >
+            <img class="icon" alt="" src="../assets/icon-twitter.png" />
           </div>
         </div>
-      </div>
 
-      <div class="col">
-        <div class="card">
-          <div class="card-body text-center">
-            <a href="https://t.me/byron_network_news" class="card-link" target="_blank"><img class="icon" alt="" src="../assets/icon-telegram.png"></a>
-            
-          </div>
+        <div class=" col-md-4 col-xl-2">
+          <a
+            class="card"
+            href="https://t.me/byron_network_news"
+            target="_blank"
+          >
+            <img class="icon" alt="" src="../assets/icon-telegram.png" />
+          </a>
         </div>
-      </div>
 
-      <div class="col">
-        <div class="card">
-          <div class="card-body text-center">
-            <a href="https://github.com/byron-network" class="card-link" target="_blank"><img class="icon" alt="" src="../assets/icon-github.png"></a>
-          </div>
+        <div class=" col-md-4 col-xl-2">
+          <a
+            class="card"
+            href="https://github.com/byron-network"
+            target="_blank"
+          >
+            <img class="icon" alt="" src="../assets/icon-github.png" />
+          </a>
         </div>
-      </div>
 
-
-      <div class="col">
-        <div class="card">
-          <div class="card-body text-center">
-            <a href="https://discord.com/invite/8kWBQPXwAH" class="card-link" target="_blank"><img class="icon" alt="" src="../assets/icon-discord.png"></a>
-            
-          </div>
+        <div class=" col-md-4 col-xl-2">
+          <a
+            class="card"
+            href="https://discord.com/invite/8kWBQPXwAH"
+            target="_blank"
+          >
+            <img class="icon" alt="" src="../assets/icon-discord.png" />
+          </a>
         </div>
-      </div>
 
-      <div class="col">
-        <div class="card">
-          <div class="card-body text-center">
-            <a href="https://www.reddit.com/r/ByronNetwork/" class="card-link" target="_blank"><img class="icon" alt="" src="../assets/icon-reddit.png"></a>
-            
-          </div>
+        <div class="col-md-4 col-xl-2">
+          <a
+            class="card"
+            href="https://www.reddit.com/r/ByronNetwork/"
+            target="_blank"
+          >
+            <img class="icon" alt="" src="../assets/icon-reddit.png" />
+          </a>
         </div>
-      </div>
 
-      <div class="col">
-        <div class="card">
-          <div class="card-body text-center">
-            <a href="https://medium.com/@byron_network" class="card-link" target="_blank"><img class="icon" alt="" src="../assets/icon-medium.png"></a>
-            
-          </div>
+        <div class="col-md-4 col-xl-2">
+          <a
+            class="card"
+            href="https://medium.com/@byron_network"
+            target="_blank"
+          >
+            <img class="icon" alt="" src="../assets/icon-medium.png" />
+          </a>
         </div>
-      </div>
-
-
-
       </div>
     </div>
   </section>
 </template>
 <script>
-// @ is an alias to /src
-
 export default {
   name: 'Community',
-  components: {
-  }
-}
+};
 </script>
 
 <style lang="scss" scoped>
 #community {
-    background-image: url("../assets/cardano3.png");
-    background-repeat: no-repeat;
-    background-position: top right;
+  background-image: url('../assets/cardano3.png');
+  background-repeat: no-repeat;
+  background-position: top right;
 
-     h1 {
-      padding-top: 100px;
-      font-size: 46px;
-    }
-    .card {
-      border: none;
-      border-radius: 10px;
-      margin: 5px;
-      z-index: 1;
-      width: auto !important;
-      box-shadow: 0px 5px 32px 0px #D4D8E0;
-
-      .card-body {
-      margin: 24px 30px;
-      padding: 0;
-      .card-subtitle {
-        line-height: 1.6;
-      }
-      .icon {
-        max-height: 40px;
-        }
-      }
-
-
-      .follow {
-        color: #4BDEEC;
-        font-weight: bold;
-      }
-
-
-      .card-link {
-        color: #FF6B93;
-        font-size: 15px;
-        font-weight: bold;
-      }
-    }
+  .row-gap {
+    row-gap: 1rem;
   }
 
+  h1 {
+    padding-top: 100px;
+    font-size: 46px;
+  }
+
+  .card {
+    border: none;
+    border-radius: 10px;
+    min-width: 150px;
+    height: 90px;
+    z-index: 1;
+    box-shadow: 0px 5px 32px 0px #d4d8e0;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      cursor: pointer;
+      opacity: 0.8;
+    }
+
+    .icon {
+      width: 42px;
+      height: 42px;
+    }
+
+    .follow {
+      color: #4bdeec;
+      font-weight: bold;
+    }
+  }
+}
 </style>
