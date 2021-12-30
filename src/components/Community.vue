@@ -75,10 +75,6 @@ export default {
 
 <style lang="scss" scoped>
 #community {
-  background-image: url('../assets/cardano3.png');
-  background-repeat: no-repeat;
-  background-position: top right;
-
   .row-gap {
     row-gap: 1rem;
   }
