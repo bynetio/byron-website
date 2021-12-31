@@ -5,13 +5,13 @@
       <p>Follow us on social media</p>
       <div class="row row-cols-1 row-cols-md-6 row-gap">
         <div class="col-md-4 col-xl-2">
-          <div
+          <a
             class="card"
             href="https://twitter.com/byron_cardano"
             target="_blank"
           >
             <img class="icon" alt="" src="../assets/icon-twitter.png" />
-          </div>
+          </a>
         </div>
 
         <div class=" col-md-4 col-xl-2">
