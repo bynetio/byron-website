@@ -20,8 +20,26 @@
           </div>
         </div>
         <div class="col col-12 col-sm-12 col-md-5">
-          <div class="img-wrapper bg-img">
-            <img class="hero-img img-fluid" alt="" src="../assets/hero-desktop-mobile.png" />
+            <img class="hero-img img-fluid" alt="" src="../assets/phone-with-bg.png" />
+        </div>
+        <div class="contents">
+          <div class="content-block">
+            <div class="content-number">/01</div>
+            <div class="spacer-0"/>
+            <h2 class="content-title">Manage</h2>
+            <div class="content-desc">Lorem ipsum dolor set amet</div>
+          </div>
+          <div class="content-block">
+            <div class="content-number">/02</div>
+            <div class="spacer-0"/>
+            <h2 class="content-title">Track</h2>
+            <div class="content-desc">Lorem ipsum dolor set amet</div>
+          </div>
+          <div class="content-block">
+            <div class="content-number">/03</div>
+            <div class="spacer-0"/>
+            <h2 class="content-title">Trade</h2>
+            <div class="content-desc">Lorem ipsum dolor set amet</div>
           </div>
         </div>
       </div>
@@ -41,9 +59,7 @@ export default {
 
 <style lang="scss" scoped>
 
-  #hero-mobile {
-
-    
+  #hero-mobile {  
     .hero-dapps{
       margin-top:  7rem!important;
     }
@@ -61,14 +77,6 @@ export default {
       width: 180px;
       height: 50px;
       border: none;
-    }
-
-    .bg-img {
-      background-image: url("../assets/bg-under-phone.png");
-      background-repeat: no-repeat;
-      background-size: 500px 500px;
-      background-position: -50px 0;
-
     }
 
     .hero-img {
@@ -106,13 +114,43 @@ export default {
         justify-content: space-between;
         align-items: center;
 
-        // max-width: 350px;
-
         padding: 0 5px;
 
         .tick-text {
           font-size: 12px;
           padding-left: 13px;
+        }
+      }
+    }
+    .contents {
+      display: flex;
+      justify-content: space-between;
+
+      width: 100%;
+      padding: 0 20px;
+      
+      .content-block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .content-number {
+          font-weight: bold;
+          font-size: 15px;
+
+          color: #225AFF;
+        }
+
+        .content-title {
+          font-weight: 800;
+          color: #000637;
+        }
+
+        .content-desc {
+          font-weight: normal;
+          font-size: 14px;
+
+          color: #6D6F8D;
         }
       }
     }
