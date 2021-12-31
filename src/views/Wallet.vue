@@ -1,6 +1,6 @@
 <template>
   <div id="wallet">
-    <Hero/>
+    <HeroMobile/>
     <Roadmap/>
     <Financing/>
     <Community/>
@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import Hero from "@/components/Hero.vue";
+import HeroMobile from "@/components/HeroMobile.vue";
 import Roadmap from "@/components/Roadmap.vue";
 import Financing from "@/components/Financing.vue"
 import Community from "@/components/Community.vue";
@@ -16,7 +16,7 @@ import Community from "@/components/Community.vue";
 export default {
   name: 'Wallet',
   components: {
-    Hero,
+    HeroMobile,
     Roadmap,
     Financing,
     Community
