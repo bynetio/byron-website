@@ -41,7 +41,7 @@ export default {
 
   .offset-background::before {
     content: '';
-    background-image: url('../assets/hero-desktop-mobile.png');
+    background-image: url('../assets/iphone_wallet.png');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: contain;

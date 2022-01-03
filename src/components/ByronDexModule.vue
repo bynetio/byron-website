@@ -43,7 +43,7 @@ export default {
 
   .offset-background::before {
     content: '';
-    background-image: url('../assets/komputer_dex.png');
+    background-image: url('../assets/mac_dex.png');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: contain;

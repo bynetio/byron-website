@@ -62,47 +62,6 @@
           </div>
         </div>
       </div>
-      <div class="row features">
-        <div class="col-sm-6 col-xl-3">
-          <div class="feature-item">
-            <div class="feature-icon">
-              <img src="../assets/tradevolume.png" />
-            </div>
-            <h4>Trading options</h4>
-
-            <h5>based on the pro traders experience</h5>
-          </div>
-        </div>
-        <div class="col-sm-6 col-xl-3">
-          <div class="feature-item">
-            <div class="feature-icon">
-              <img src="../assets/union.png" />
-            </div>
-            <h4>Economic incentives</h4>
-
-            <h5>rewards as a Performer or a Liquidity Provider</h5>
-          </div>
-        </div>
-        <div class="col-sm-6 col-xl-3">
-          <div class="feature-item">
-            <div class="feature-icon">
-              <img src="../assets/money.png" />
-            </div>
-            <h4>Order Book Pattern</h4>
-
-            <h5>resistant to price manipulation</h5>
-          </div>
-        </div>
-        <div class="col-sm-6 col-xl-3">
-          <div class="feature-item">
-            <div class="feature-icon">
-              <img src="../assets/line.png" />
-            </div>
-            <h4>Multi-chain</h4>
-            <h5>fully operative ecosystem on various blockchains</h5>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 </template>
@@ -198,30 +157,6 @@ export default {
         float: left;
         margin: 0;
       }
-    }
-  }
-
-  .features {
-    margin-top: 90px;
-    row-gap: 1.8rem;
-
-    .feature-icon {
-      height: 52px;
-      margin-bottom: 30px;
-    }
-
-    h4 {
-      font-weight: 800;
-      font-size: 30px;
-      color: #000637;
-      margin-bottom: 20px;
-      height: 74px;
-    }
-
-    h5 {
-      font-weight: normal;
-      font-size: 14px;
-      color: #6d6f8d;
     }
   }
 
