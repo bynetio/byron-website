@@ -37,11 +37,11 @@ export default {
 
 <style lang="scss" scoped>
 #byron-dex-module {
-  padding-bottom: 80px;
+  padding: 0 15px 80px 15px;
 
   .offset-background::before {
     content: '';
-    background-image: url('../assets/hero-desktop-mobile.png');
+    background-image: url('../assets/iphone_wallet.png');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: contain;
@@ -55,6 +55,7 @@ export default {
     font-size: 42px;
     text-align: left;
     margin-top: 10px;
+    word-break: break-word;
   }
 
   p {

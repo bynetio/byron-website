@@ -15,7 +15,7 @@ export default {
 
 <style lang="scss">
 #nav {
-  padding: 30px 0 0;
+  padding: 30px 15px 0;
 
   .main-item {
     &:hover {
@@ -31,7 +31,7 @@ export default {
     color: #6d6f8d;
     font-size: 15px;
     font-weight: 500;
-    width: 80vw;
+    width: 100vw;
 
     &:hover {
       text-decoration: none;
