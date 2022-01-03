@@ -2,15 +2,15 @@
   <section id="hero-mobile">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col col-12 col-sm-12 col-md-7 text-left">
-          <h1 class="no-margin-bottom">
+        <div class="col col-12 col-sm-12 col-md-7 text-md-left text-xs-center">
+          <h1 class="no-margin-bottom title">
             Take control of your crypto with Byron wallet
           </h1>
         </div>
         <div class="col col-12 col-sm-12 col-md-5">
           <img class="hero-img img-fluid" alt="" src="../assets/phone-with-bg.png" />
         </div>
-        <div class="col col-12 col-sm-12 col-md-7 text-left">
+        <div class="col col-12 col-sm-12 col-md-7 text-md-left text-xs-center">
           <div class="spacer-2"/>
           <p class="text-muted no-margin">Official Byron wallet app</p>
           <div class="spacer-0"/>
@@ -25,7 +25,7 @@
           </div>
         </div>
         <div class="contents">
-          <div class="content-block">
+          <div class="content-block leftmost">
             <div class="content-number">/01</div>
             <div class="spacer-0"/>
             <h2 class="content-title">Manage</h2>
@@ -62,12 +62,15 @@ export default {
 <style lang="scss" scoped>
 
   #hero-mobile {  
+    padding-bottom: 100px;
+
+
     .hero-dapps{
       margin-top:  7rem!important;
     }
-    background-image: url("../assets/cardano-hero-bckg.png");
+    background-image: url("../assets/cardano-hero-bckg.png"), url("../assets/dots.png"), url("../assets/dots.png");
     background-repeat: no-repeat;
-    background-position: 0 75px;
+    background-position: 0 75px, 0 875px, 100% 800px;
 
     h1 {
         font-size: 42px;
@@ -129,6 +132,7 @@ export default {
         }
       }
     }
+
     .contents {
       display: flex;
       justify-content: space-between;
@@ -202,8 +206,96 @@ export default {
           aspec-ratio: 550 / 600;
           width: 400px;
       }
+
+      h1 {
+        font-size: 36px;
+      }
     }
 
+    @media (max-width: 576px) {
+      .button {
+        aspect-ration: 180 / 50;
+        width: 130px;
+      }
+      .hero-img {
+        aspec-ratio: 550 / 600;
+        width: 300px;
+      }
+
+      .title {
+        padding: 0 20px;
+      }
+
+      .tick-container {
+        justify-content: center;
+        max-width: 100%;
+
+      .tick {
+
+        .tick-text {
+          font-size: 10px;
+        }
+
+        .tick-img {
+          aspect-ratio: 1 / 1;
+          width: 18px;
+        }
+      }
+    }
+
+    .contents {
+      display: flex;
+      justify-content: center;
+
+      width: 100%;
+      padding: 50px 20px;
+      
+      .content-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding: 5px;
+
+        .content-title {
+          font-size: 26px;
+        }
+
+        .content-number {
+          font-size: 13px;
+        }
+
+        .content-desc {
+          font-size: 12px;
+        }
+      }
+    }
+
+      h1 {
+        font-size: 32px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+
+
+    @media (max-width: 300px) {
+      .button {
+        aspect-ration: 180 / 50;
+        width: 120px;
+      }
+
+      .hero-img {
+        aspec-ratio: 550 / 600;
+        width: 200px;
+      }
+
+      h1 {
+        font-size: 26px;
+      }
+    }
   }
   
 </style>
