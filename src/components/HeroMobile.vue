@@ -3,9 +3,14 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col col-12 col-sm-12 col-md-7 text-left">
-          <h1>
+          <h1 class="no-margin-bottom">
             Take control of your crypto with Byron wallet
           </h1>
+        </div>
+        <div class="col col-12 col-sm-12 col-md-5">
+          <img class="hero-img img-fluid" alt="" src="../assets/phone-with-bg.png" />
+        </div>
+        <div class="col col-12 col-sm-12 col-md-7 text-left">
           <div class="spacer-2"/>
           <p class="text-muted no-margin">Official Byron wallet app</p>
           <div class="spacer-0"/>
@@ -18,9 +23,6 @@
             <div class="tick"><img class="tick-img img-fluid" alt="" src="../assets/icon_tick.png"/><div class="tick-text">No hidden fees</div></div>
             <div class="tick"><img class="tick-img img-fluid" alt="" src="../assets/icon_tick.png"/><div class="tick-text">100% security-Leverage multi-sig security</div></div>
           </div>
-        </div>
-        <div class="col col-12 col-sm-12 col-md-5">
-            <img class="hero-img img-fluid" alt="" src="../assets/phone-with-bg.png" />
         </div>
         <div class="contents">
           <div class="content-block">
@@ -80,6 +82,7 @@ export default {
     }
 
     .hero-img {
+      overflow: hidden;
       min-width: 100px;
       max-width: 550px;
       max-height: 600px;
@@ -99,6 +102,10 @@ export default {
 
     .no-margin { 
       margin: 0;
+    }
+
+    .no-margin { 
+      margin-bottom: 0;
     }
 
     .tick-container {
@@ -127,7 +134,7 @@ export default {
       justify-content: space-between;
 
       width: 100%;
-      padding: 0 20px;
+      padding: 50px 20px;
       
       .content-block {
         display: flex;
@@ -189,10 +196,14 @@ export default {
         }
       
     }
+
+    @media (max-width: 768px) { 
+      .hero-img {
+          aspec-ratio: 550 / 600;
+          width: 400px;
+      }
+    }
+
   }
   
-
-
-
-
 </style>
