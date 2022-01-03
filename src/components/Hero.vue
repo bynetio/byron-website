@@ -9,17 +9,17 @@
           <p>
             Building an ecosystem that combines top-notch blockchain-based
             products. Delivering as a team backed up with blockchain experience
-            to guarantee best user-experience.
+            to guarantee best usability.
           </p>
           <div class="buttons d-flex">
             <a
-              class="btn btn-outline-primary p-2"
+              class="btn btn-outline-primary"
               target="_blank"
               href="/static/byron-network-lightpaper.pdf"
               >Lightpaper</a
             >
             <a
-              class="btn btn-outline-primary p-2"
+              class="btn btn-outline-primary"
               target="_blank"
               href="/static/byron-network-whitepaper.pdf"
               >Whitepaper</a
@@ -78,6 +78,7 @@ export default {
   background-image: url('../assets/cardano-hero-bckg.png');
   background-repeat: no-repeat;
   background-position: 0 75px;
+  padding: 0 15px;
 
   .offset-background::before {
     content: '';
@@ -94,7 +95,8 @@ export default {
   h1 {
     font-size: 42px;
     text-align: left;
-    margin-top: 10px;
+    margin-top: 60px;
+    word-break: break-word;
   }
 
   p {
@@ -105,14 +107,12 @@ export default {
   }
 
   .buttons {
+    flex-wrap: wrap;
+
     .btn {
       padding: 15px 40px !important;
       border-radius: 12px;
       font-weight: 700;
-
-      &:nth-child(2) {
-        margin-left: 12px;
-      }
 
       &:hover {
         color: white;
@@ -203,6 +203,12 @@ export default {
   }
 
   @media (min-width: 768px) {
+    .buttons {
+      & > *:nth-child(2) {
+        margin-left: 12px;
+      }
+    }
+
     .parts {
       & > * {
         &:not(:nth-child(odd))::before {

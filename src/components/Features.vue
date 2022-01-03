@@ -51,6 +51,8 @@ export default {
 
 <style lang="scss" scoped>
 #features {
+  padding: 0 15px;
+
   .row {
     margin-top: 90px;
     row-gap: 1.8rem;

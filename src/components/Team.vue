@@ -51,8 +51,11 @@ export default {
 
 <style lang="scss" scoped>
 #team {
+  padding: 0 15px;
+
   h1 {
     margin: 60px 0;
+    word-break: break-word;
   }
 
   h3 {

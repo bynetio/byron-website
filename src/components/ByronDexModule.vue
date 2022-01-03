@@ -36,8 +36,8 @@ export default {
 
 <style lang="scss" scoped>
 #byron-dex-module {
-  margin-top: 60px;
-  padding-bottom: 80px;
+  margin-top: 90px;
+  padding: 0 15px 80px 15px;
   background-image: url('../assets/cardano-hero-bckg.png');
   background-repeat: no-repeat;
 
@@ -48,7 +48,7 @@ export default {
     background-position: top center;
     background-size: contain;
     width: 100%;
-    height: 410px;
+    height: 280px;
     display: block;
     position: absolute;
   }
@@ -56,7 +56,8 @@ export default {
   h1 {
     font-size: 42px;
     text-align: left;
-    margin-top: 50px;
+    margin-top: 10px;
+    word-break: break-word;
   }
 
   p {
@@ -100,7 +101,6 @@ export default {
   @media (min-width: 1200px) {
     h1 {
       font-size: 58px;
-      margin-top: 20px;
     }
   }
 }

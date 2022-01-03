@@ -15,11 +15,12 @@ export default {
 
 <style lang="scss" scoped>
 #financing {
-  padding-top: 40px;
+  padding: 40px 15px 0 15px;
 
   h1 {
     font-size: 46px;
     margin-bottom: 50px;
+    word-break: break-word;
   }
 }
 </style>

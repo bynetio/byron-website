@@ -37,7 +37,7 @@ export default {
 
 <style lang="scss" scoped>
 #byron-dex-module {
-  padding-bottom: 80px;
+  padding: 0 15px 80px 15px;
 
   .offset-background::before {
     content: '';
@@ -55,6 +55,7 @@ export default {
     font-size: 42px;
     text-align: left;
     margin-top: 10px;
+    word-break: break-word;
   }
 
   p {

@@ -75,6 +75,8 @@ export default {
 
 <style lang="scss" scoped>
 #community {
+  padding: 0 15px;
+
   .row-gap {
     row-gap: 1rem;
   }
@@ -82,6 +84,7 @@ export default {
   h1 {
     padding-top: 100px;
     font-size: 46px;
+    word-break: break-word;
   }
 
   .card {
