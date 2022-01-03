@@ -2,13 +2,13 @@
   <section id="get-byron">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col col-12 col-sm-12 col-md-7 text-md-left text-xs-center">
+        <div class="col col-12 col-sm-12 col-md-5 text-md-left text-xs-center">
           <h2 class="no-margin-bottom title">
             Convenient way to receive money
           </h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies feugiat non volutpat, curabitur imperdiet imperdiet habitant. Ante etiam elit ac nibh molestie enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies feugiat non volutpat, curabitur imperdiet imperdiet habitant. Ante etiam elit ac nibh molestie enim.</p>
         </div>
-        <div class="col col-12 col-sm-12 col-md-5">
+        <div class="col col-12 col-sm-12 col-md-7">
           <img class="img-fluid" alt="" src="../assets/mockup-get-byron-full.png" />
         </div>
       </div>
