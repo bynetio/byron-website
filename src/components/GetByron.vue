@@ -12,6 +12,9 @@
           <img class="img-fluid" alt="" src="../assets/mockup-get-byron-full.png" />
         </div>
       </div>
+      <div class="row align-items-center blue">
+        Get the Byron Wallet app
+      </div>
     </div>
   </section>
 </template>
@@ -37,7 +40,6 @@ export default {
         text-align: left;
         margin-top: 50px;
 
-        line-height: 60px;
 
         color: #000637;
     }
@@ -48,6 +50,10 @@ export default {
         line-height: 34px;
 
         color: #6D6F8D;
+    }
+
+    .blue {
+        background: linear-gradient(133.6deg, #225AFF -17.28%, #06247C 104.73%);
     }
 
     
@@ -61,7 +67,6 @@ export default {
       p {
         margin-top: 22px;
         text-align: left;
-
       }
     }
 
@@ -73,7 +78,7 @@ export default {
 
     @media (max-width: 576px) {
       .title {
-        padding: 0 20px;
+        text-align: center;
       }
     
       h2 {
@@ -82,13 +87,18 @@ export default {
 
       p {
         font-size: 14px;
+        line-height: 28px;
       }
     }
 
 
     @media (max-width: 300px) {
-      h1 {
+      h2 {
         font-size: 26px;
+      }
+      p {
+        font-size: 12px;
+        line-height: auto;
       }
     }
   }
