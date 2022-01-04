@@ -56,6 +56,7 @@ export default {
         font-weight: 400;
         line-height: 34px;
 
+     
         color: #6D6F8D;
     }
 
@@ -93,6 +94,8 @@ export default {
       padding: 40px 20px;
     }
 
+
+
     @media (min-width: 1200px) { 
 
       h2 {
@@ -106,6 +109,12 @@ export default {
       }
     }
 
+    @media (max-width: 990px) {
+      .arrow { 
+        display: none;
+      }
+    }
+
     @media (max-width: 768px) { 
       h2 {
         font-size: 36px;
@@ -113,11 +122,18 @@ export default {
     }
 
     @media (max-width: 576px) {
-      .title {
-        text-align: center;
+
+      .button {
+        aspect-ration: 180 / 50;
+        width: 130px;
       }
-    
+
+      .arrow-container {
+        justify-content: center;
+      }
+
       h2 {
+        text-align: center;
         font-size: 32px;
       }
 
@@ -135,6 +151,11 @@ export default {
       p {
         font-size: 12px;
         line-height: auto;
+      }
+
+      .button {
+        aspect-ration: 180 / 50;
+        width: 120px;
       }
     }
   }

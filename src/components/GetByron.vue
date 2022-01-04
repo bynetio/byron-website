@@ -38,7 +38,6 @@ export default {
         text-align: left;
         margin-top: 50px;
 
-
         color: #000637;
     }
 
@@ -88,12 +87,9 @@ export default {
     }
 
     @media (max-width: 576px) {
-      .title {
-        text-align: center;
-      }
-    
       h2 {
         font-size: 32px;
+        text-align: center;
       }
 
       p {
