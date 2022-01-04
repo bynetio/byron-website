@@ -84,13 +84,6 @@ export default {
       border: none;
     }
 
-    .hero-img {
-      overflow: hidden;
-      min-width: 100px;
-      max-width: 550px;
-      max-height: 600px;
-    }
-
     .spacer-0 {
       height: 30px
     }
