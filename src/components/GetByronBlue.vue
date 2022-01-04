@@ -1,15 +1,21 @@
 <template>
-  <section id="get-byron">
+  <section id="get-byron-blue">
     <div class="container">
       <div class="row align-items-center">
         <div class="col col-12 col-sm-12 col-md-5 text-md-left text-xs-center">
-          <h2 class="no-margin-bottom title">
-            Convenient way to receive money
-          </h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies feugiat non volutpat, curabitur imperdiet imperdiet habitant. Ante etiam elit ac nibh molestie enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies feugiat non volutpat, curabitur imperdiet imperdiet habitant. Ante etiam elit ac nibh molestie enim.</p>
+            <h2 class="white">Get the Byron Wallet app</h2>
         </div>
-        <div class="col col-12 col-sm-12 col-md-7">
-          <img class="img-fluid" alt="" src="../assets/mockup-get-byron-full.png" />
+        <div class="col col-12 col-sm-12 col-md-5 text-md-left text-xs-center">
+            <img class="hero-img img-fluid" alt="" src="../assets/spiral-arrow.png" />
+        </div>
+        <div class="col col-12 col-sm-12 col-md-2 text-md-left text-xs-center">
+            <img class="hero-img img-fluid" alt="" src="../assets/phone-with-bg.png" />
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div>
+            <button class="button"><img class="img-fluid" alt="" src="../assets/appstore.png"/></button>
+            <button class="button"><img class="img-fluid" alt="" src="../assets/googleplay.png"/></button>
         </div>
       </div>
     </div>
@@ -20,7 +26,7 @@
 // @ is an alias to /src
 
 export default {
-  name: 'GetByron',
+  name: 'GetByronBlue',
   components: {
   }
 }
@@ -29,8 +35,10 @@ export default {
 
 <style lang="scss" scoped>
 
-  #get-byron {  
+  #get-byron-blue {  
 
+    background: linear-gradient(133.6deg, #225AFF -17.28%, #06247C 104.73%);
+    
     h2 {
         font-size: 46px;
         font-weight: 800;
@@ -66,7 +74,6 @@ export default {
       border: none;
       background: transparent;
     }
-
     
     @media (min-width: 1200px) { 
 

@@ -82,6 +82,7 @@ export default {
       width: 180px;
       height: 50px;
       border: none;
+      background: transparent;
     }
 
     .hero-img {
