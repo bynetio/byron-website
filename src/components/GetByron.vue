@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col col-12 col-sm-12 col-md-5 text-md-left text-xs-center">
-          <h2 class="no-margin-bottom title">
+          <h2>
             Convenient way to receive money
           </h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies feugiat non volutpat, curabitur imperdiet imperdiet habitant. Ante etiam elit ac nibh molestie enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies feugiat non volutpat, curabitur imperdiet imperdiet habitant. Ante etiam elit ac nibh molestie enim.</p>
@@ -48,24 +48,6 @@ export default {
 
         color: #6D6F8D;
     }
-
-    .blue {
-        width: 100%;
-        background: linear-gradient(133.6deg, #225AFF -17.28%, #06247C 104.73%);
-    }
-
-    .white {
-        max-width: 450px;
-        color: white;
-    }
-
-    .button {
-      width: 180px;
-      height: 50px;
-      border: none;
-      background: transparent;
-    }
-
     
     @media (min-width: 1200px) { 
 

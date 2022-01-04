@@ -47,7 +47,6 @@ export default {
         text-align: left;
         margin-top: 50px;
 
-
         color: #000637;
     }
 
@@ -56,7 +55,6 @@ export default {
         font-weight: 400;
         line-height: 34px;
 
-     
         color: #6D6F8D;
     }
 
@@ -83,7 +81,6 @@ export default {
     .arrow {
       width: 140px;
       height: 100px;
-      // padding-bottom: 130px;
     }
 
     .phone {
@@ -93,8 +90,6 @@ export default {
     .button-container {
       padding: 40px 20px;
     }
-
-
 
     @media (min-width: 1200px) { 
 
@@ -116,7 +111,13 @@ export default {
     }
 
     @media (max-width: 768px) { 
+
+      .arrow-container {
+        justify-content: center;
+      }
+
       h2 {
+        text-align: center;
         font-size: 36px;
       }
     }
@@ -128,12 +129,7 @@ export default {
         width: 130px;
       }
 
-      .arrow-container {
-        justify-content: center;
-      }
-
-      h2 {
-        text-align: center;
+      h2 { 
         font-size: 32px;
       }
 
