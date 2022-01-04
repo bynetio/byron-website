@@ -1,21 +1,17 @@
 <template>
   <section id="get-byron-blue">
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col col-12 col-sm-12 col-md-5 text-md-left text-xs-center">
+      <div class="row align-items-end">
+        <div class="col col-12 col-sm-12 col-md-7 text-md-left text-xs-center button-container">
+        <div class="arrow-container">
             <h2 class="white">Get the Byron Wallet app</h2>
+            <img class="arrow img-fluid" alt="" src="../assets/spiral-arrow.png" />
         </div>
-        <div class="col col-12 col-sm-12 col-md-5 text-md-left text-xs-center">
-            <img class="hero-img img-fluid" alt="" src="../assets/spiral-arrow.png" />
-        </div>
-        <div class="col col-12 col-sm-12 col-md-2 text-md-left text-xs-center">
-            <img class="hero-img img-fluid" alt="" src="../assets/phone-with-bg.png" />
-        </div>
-      </div>
-      <div class="row align-items-center">
-        <div>
             <button class="button"><img class="img-fluid" alt="" src="../assets/appstore.png"/></button>
             <button class="button"><img class="img-fluid" alt="" src="../assets/googleplay.png"/></button>
+        </div>
+        <div class="col col-12 col-sm-12 col-md-3 text-md-left text-xs-center ">
+            <img class="phone img-fluid" alt="" src="../assets/phone.png" />
         </div>
       </div>
     </div>
@@ -38,7 +34,12 @@ export default {
   #get-byron-blue {  
 
     background: linear-gradient(133.6deg, #225AFF -17.28%, #06247C 104.73%);
-    
+
+    .arrow-container {
+      display: flex;
+      flex-direction: row;
+    }
+
     h2 {
         font-size: 46px;
         font-weight: 800;
@@ -64,8 +65,11 @@ export default {
     }
 
     .white {
-        max-width: 450px;
+        max-width: 400px;
         color: white;
+
+        padding-bottom: 20px;
+        margin: 0;
     }
 
     .button {
@@ -75,6 +79,20 @@ export default {
       background: transparent;
     }
     
+    .arrow {
+      width: 140px;
+      height: 100px;
+      // padding-bottom: 130px;
+    }
+
+    .phone {
+      height: 225px;
+    }
+
+    .button-container {
+      padding: 40px 20px;
+    }
+
     @media (min-width: 1200px) { 
 
       h2 {
