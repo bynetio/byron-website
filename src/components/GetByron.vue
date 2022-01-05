@@ -4,9 +4,9 @@
       <div class="row align-items-center">
         <div class="col col-12 col-sm-12 col-md-5 text-md-left text-xs-center">
           <h2>
-            Convenient way to receive money
+            First Mobile Wallet on Cardano
           </h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies feugiat non volutpat, curabitur imperdiet imperdiet habitant. Ante etiam elit ac nibh molestie enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies feugiat non volutpat, curabitur imperdiet imperdiet habitant. Ante etiam elit ac nibh molestie enim.</p>
+          <p>With our traders-for-traders approach we want Byron Wallet to be the best application for crypto portfolio management. Integration with ByronDex will guarantee trading opportunities directly from our Wallet. Its clear and intuitive design impacts Wallet's ease-of-use necessary for successful blockchain-based product.</p>
         </div>
         <div class="col col-12 col-sm-12 col-md-7">
           <img class="img-fluid" alt="" src="../assets/mockup-get-byron-full.png" />
@@ -48,7 +48,7 @@ export default {
 
         color: #6D6F8D;
     }
-    
+
     @media (min-width: 1200px) { 
 
       h2 {
@@ -65,6 +65,7 @@ export default {
     @media (max-width: 768px) { 
       h2 {
         font-size: 36px;
+        text-align: center;
       }
     }
 
