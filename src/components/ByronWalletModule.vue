@@ -19,11 +19,7 @@
               href="https://discord.gg/8kWBQPXwAH"
               >Join us on Discord</a
             >
-            <button
-              class="btn btn-primary p-2"
-              target="_blank"
-              @click="$router.push('wallet')"
-            >
+            <button class="btn btn-primary p-2" @click="$router.push('wallet')">
               More about
             </button>
           </div>
