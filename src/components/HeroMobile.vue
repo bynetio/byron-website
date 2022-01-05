@@ -4,7 +4,7 @@
       <div class="row align-items-center">
         <div class="col col-12 col-sm-12 col-md-7 text-md-left text-xs-center">
           <h1 class="no-margin-bottom title">
-            Take control of your crypto with Byron wallet
+            Take control of your crypto with Byron Wallet
           </h1>
         </div>
         <div class="col col-12 col-sm-12 col-md-5">
@@ -12,7 +12,7 @@
         </div>
         <div class="col col-12 col-sm-12 col-md-7 text-md-left text-xs-center">
           <div class="spacer-2"/>
-          <p class="text-muted no-margin">Official Byron wallet app</p>
+          <p class="text-muted no-margin">Official Byron Wallet app</p>
           <div class="spacer-0"/>
           <div>
             <button class="button"><img class="img-fluid" alt="" src="../assets/appstore.png"/></button>

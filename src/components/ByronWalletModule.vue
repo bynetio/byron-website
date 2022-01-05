@@ -12,12 +12,18 @@
             receive tokens on our mobile app. Trade with control over your
             portfolio with a user-friendly design and best-quality security.
           </p>
-          <div class="buttons d-flex">
+          <div class="buttons d-flex flex-column flex-sm-row">
             <a
               class="btn btn-primary p-2"
               target="_blank"
               href="https://discord.gg/8kWBQPXwAH"
               >Join us on Discord</a
+            >
+            <button
+              class="btn btn-primary p-2"
+              target="_blank"
+              @click="$router.push('wallet')"
+              >More about Byron Wallet</button
             >
           </div>
         </div>
@@ -97,6 +103,17 @@ export default {
 
     .reverse {
       flex-direction: reverse;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .buttons {
+      .btn {
+        &:nth-child(2) {
+          margin-left: 0px;
+          margin-top: 10px;
+        }
+      }
     }
   }
 
