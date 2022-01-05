@@ -3,17 +3,20 @@
     <TopBar />
     <router-view />
     <Footer />
+    <modals-container></modals-container>
   </div>
 </template>
 
 <script>
 import TopBar from '@/components/TopBar.vue';
 import Footer from '@/components/Footer.vue';
+import { ModalsContainer } from 'vue-final-modal';
 
 export default {
   components: {
     TopBar,
-    Footer
+    Footer,
+    ModalsContainer,
   },
 };
 </script>
