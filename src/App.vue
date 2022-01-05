@@ -3,24 +3,27 @@
     <TopBar />
     <router-view />
     <Footer />
+    <modals-container></modals-container>
   </div>
 </template>
 
 <script>
 import TopBar from '@/components/TopBar.vue';
 import Footer from '@/components/Footer.vue';
+import { ModalsContainer } from 'vue-final-modal';
 
 export default {
   components: {
     TopBar,
-    Footer
+    Footer,
+    ModalsContainer,
   },
 };
 </script>
 
 <style lang="scss">
 #app {
-  font-family: Mulish, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

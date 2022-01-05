@@ -7,8 +7,8 @@
             <h2 class="white">Get the Byron Wallet app</h2>
             <img class="arrow img-fluid" alt="" src="../assets/spiral-arrow.png" />
         </div>
-            <button class="button"><img class="img-fluid" alt="" src="../assets/appstore.png"/></button>
-            <button class="button"><img class="img-fluid" alt="" src="../assets/googleplay.png"/></button>
+            <button @click="openBetaTestingModal" class="button"><img class="img-fluid" alt="" src="../assets/appstore.png"/></button>
+            <button @click="openBetaTestingModal" class="button"><img class="img-fluid" alt="" src="../assets/googleplay.png"/></button>
         </div>
         <div class="col col-12 col-sm-12 col-md-3 text-md-left text-xs-center ">
             <img class="phone img-fluid" alt="" src="../assets/phone.png" />
@@ -19,12 +19,19 @@
 </template>
 
 <script>
-// @ is an alias to /src
+import { $vfm } from 'vue-final-modal';
+import BetaTestingModal from "@/components/BetaTestingModal.vue";
+
 
 export default {
   name: 'GetByronBlue',
-  components: {
-  }
+  methods: {
+    openBetaTestingModal() {
+      $vfm.show({
+        component: BetaTestingModal,
+      });
+    },
+  },
 }
 </script>
 
@@ -125,7 +132,6 @@ export default {
     @media (max-width: 576px) {
 
       .button {
-        aspect-ration: 180 / 50;
         width: 130px;
       }
 
@@ -150,7 +156,6 @@ export default {
       }
 
       .button {
-        aspect-ration: 180 / 50;
         width: 120px;
       }
     }

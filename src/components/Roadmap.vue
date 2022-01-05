@@ -10,10 +10,36 @@
           </div>
           <ul class="timeline">
             <li class="done"><p>Market research</p></li>
-            <li class="done"><p>Participation in <a href="https://iohk.io/en/blog/posts/2021/05/12/developers-add-muscle-to-plutus-smart-contracts-on-cardano-for-defi/" target="_blank">Plutus Partnership Program</a> as <a href="https://binarapps.com" target="_blank">BinarApps</a></p></li>
-            <li class="done"><p>Simulator setup (<a href="https://www.youtube.com/watch?v=iVWOp11PDzU" target="_blank">demo</a> during Cardano Summit)</p></li>
             <li class="done">
-              <p>Create <a href="https://www.figma.com/file/tVpIB7vC3UzdzXoGDp44nC/Byron_website_official" target="_blank">web and swap design</a></p>
+              <p>
+                Participation in
+                <a
+                  href="https://iohk.io/en/blog/posts/2021/05/12/developers-add-muscle-to-plutus-smart-contracts-on-cardano-for-defi/"
+                  target="_blank"
+                  >Plutus Partnership Program</a
+                >
+                as <a href="https://binarapps.com" target="_blank">BinarApps</a>
+              </p>
+            </li>
+            <li class="done">
+              <p>
+                Simulator setup (<a
+                  href="https://www.youtube.com/watch?v=iVWOp11PDzU"
+                  target="_blank"
+                  >demo</a
+                >
+                during Cardano Summit)
+              </p>
+            </li>
+            <li class="done">
+              <p>
+                Create
+                <a
+                  href="https://www.figma.com/file/tVpIB7vC3UzdzXoGDp44nC/Byron_website_official"
+                  target="_blank"
+                  >web and swap design</a
+                >
+              </p>
             </li>
             <li class="done"><p>Recruitment (3 haskell devs)</p></li>
             <li class="done"><p>Social media launch</p></li>
@@ -29,20 +55,59 @@
               <p>Code optimization and testing</p>
             </li>
             <li class="done">
-              <p>Create design of <a href="https://www.figma.com/file/O1K3ASY5FUMLOtqeBh6b2L/Trading-page-Byron-official" target="_blank">DEX trading web</a> and <a href="https://www.figma.com/file/yBRBk0tZK8lN4ihnjtBpJV/Byron_wallet_official" target="_blank">HD mobile wallet</a></p>
+              <p>
+                Create design of
+                <a
+                  href="https://www.figma.com/file/O1K3ASY5FUMLOtqeBh6b2L/Trading-page-Byron-official"
+                  target="_blank"
+                  >DEX trading web</a
+                >
+                and
+                <a
+                  href="https://www.figma.com/file/yBRBk0tZK8lN4ihnjtBpJV/Byron_wallet_official"
+                  target="_blank"
+                  >HD mobile wallet</a
+                >
+              </p>
             </li>
-            
+
             <li class="done">
               <p>UX audit</p>
             </li>
-             <li class="done">
-              <p>HD mobile wallet <a href="https://twitter.com/byron_cardano/status/1455627048840536067" target="_blank">UI implementation</a> (React Native)</p>
+            <li class="done">
+              <p>
+                HD mobile wallet
+                <a
+                  href="https://twitter.com/byron_cardano/status/1455627048840536067"
+                  target="_blank"
+                  >UI implementation</a
+                >
+                (React Native)
+              </p>
             </li>
             <li class="done">
-              <p><a href="https://byron.network/static/byron-network-lightpaper.pdf" target="_blank">Lightpaper</a> and <a href="https://byron.network/static/byron-network-presentation.pdf" target="_blank">presentation</a></p>
+              <p>
+                <a
+                  href="https://byron.network/static/byron-network-lightpaper.pdf"
+                  target="_blank"
+                  >Lightpaper</a
+                >
+                and
+                <a
+                  href="https://byron.network/static/byron-network-presentation.pdf"
+                  target="_blank"
+                  >presentation</a
+                >
+              </p>
             </li>
             <li class="done">
-              <p><a href="https://byron.network/static/byron-network-whitepaper.pdf" target="_blank">Whitepaper</a></p>
+              <p>
+                <a
+                  href="https://byron.network/static/byron-network-whitepaper.pdf"
+                  target="_blank"
+                  >Whitepaper</a
+                >
+              </p>
             </li>
             <li class="done">
               <p>Mobile wallet demo</p>
@@ -50,7 +115,6 @@
             <li class="inprogress">
               <p>Mobile wallet on testnet</p>
             </li>
-            
           </ul>
         </div>
         <div class="col-md-6 col-xl-3">
@@ -125,24 +189,19 @@
   </section>
 </template>
 
-
 <script>
-// @ is an alias to /src
-
 export default {
   name: 'Roadmap',
-  components: {
-  }
-}
+};
 </script>
 
 <style lang="scss" scoped>
-
 #roadmap {
-  padding-top: 40px;
+  padding: 40px 15px 0 15px;
 
   h1 {
     font-size: 46px;
+    word-break: break-word;
   }
 
   ul.timeline {
@@ -151,61 +210,61 @@ export default {
     line-height: 1rem;
   }
   ul.timeline:before {
-      content: ' ';
-      background: #d4d9df;
-      display: inline-block;
-      position: absolute;
-      left: 29px;
-      width: 2px;
-      height: 100%;
-      z-index: 400;
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
   }
   ul.timeline > li {
-      margin: 20px 0;
-      padding-left: 20px;
-      text-align: left;
-      p.small {
-        margin-top: -15px;
-        color: gray;
-      }
+    margin: 20px 0;
+    padding-left: 20px;
+    text-align: left;
+    word-break: break-word;
+
+    p.small {
+      margin-top: -15px;
+      color: gray;
+    }
   }
   ul.timeline > li:before {
-      content: ' ';
-      background: white;
-      display: inline-block;
-      position: absolute;
-      border-radius: 50%;
-      border: 3px solid #007bff;
-      left: 20px;
-      width: 20px;
-      height: 20px;
-      z-index: 400;
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
   }
 
-  ul.timeline > li.done:before{
+  ul.timeline > li.done:before {
     background: #007bff;
   }
-  ul.timeline > li.inprogress:before{
+  ul.timeline > li.inprogress:before {
     background: pink;
   }
 
   .wrapper {
-      width: auto;
-      width: 80%;
-      padding: 0;
-      margin-bottom: 30px;
-      .small{
-        margin-top: -15px;
-      }
+    width: auto;
+    width: 80%;
+    padding: 0;
+    margin-bottom: 30px;
+    .small {
+      margin-top: -15px;
     }
+  }
 
-    @media (min-width: 768px) { 
-
-         .graph:nth-child(2), .graph:nth-child(4)   {
-          display: unset   !important;
-      }
+  @media (min-width: 768px) {
+    .graph:nth-child(2),
+    .graph:nth-child(4) {
+      display: unset !important;
     }
+  }
 }
-
-
 </style>
