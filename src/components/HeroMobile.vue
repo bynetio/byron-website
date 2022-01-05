@@ -4,7 +4,7 @@
       <div class="row align-items-center">
         <div class="col col-12 col-sm-12 col-md-7 text-md-left text-xs-center">
           <h1 class="no-margin-bottom title">
-            Take control of your crypto with Byron wallet
+            Take control of your crypto with Byron Wallet
           </h1>
         </div>
         <div class="col col-12 col-sm-12 col-md-5">
@@ -16,7 +16,7 @@
         </div>
         <div class="col col-12 col-sm-12 col-md-7 text-md-left text-xs-center">
           <div class="spacer-2" />
-          <p class="text-muted no-margin">Official Byron wallet app</p>
+          <p class="text-muted no-margin">Official Byron Wallet app</p>
           <div class="spacer-0" />
           <div>
             <button @click="openBetaTestingModal" class="button">
@@ -75,7 +75,7 @@
 
 <script>
 import { $vfm } from 'vue-final-modal';
-import BetaTestingModal from "@/components/BetaTestingModal.vue";
+import BetaTestingModal from '@/components/BetaTestingModal.vue';
 
 export default {
   name: 'HeroMobile',
@@ -225,7 +225,6 @@ export default {
 
   @media (max-width: 768px) {
     .hero-img {
-      aspec-ratio: 550 / 600;
       width: 400px;
     }
 
@@ -261,11 +260,9 @@ export default {
     padding-bottom: 0px;
 
     .button {
-      aspect-ration: 180 / 50;
       width: 130px;
     }
     .hero-img {
-      aspec-ratio: 550 / 600;
       width: 300px;
     }
 
@@ -353,12 +350,10 @@ export default {
 
   @media (max-width: 300px) {
     .button {
-      aspect-ration: 180 / 50;
       width: 120px;
     }
 
     .hero-img {
-      aspec-ratio: 550 / 600;
       width: 200px;
     }
 
