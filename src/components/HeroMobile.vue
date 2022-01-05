@@ -27,21 +27,21 @@
         <div class="contents">
           <div class="content-block leftmost">
             <div class="content-number">/01</div>
-            <div class="spacer-0"/>
+            <div class="content-spacer"/>
             <h2 class="content-title">Manage</h2>
-            <div class="content-desc">Lorem ipsum dolor set amet</div>
+            <div class="content-desc">your crypto assets</div>
           </div>
           <div class="content-block">
             <div class="content-number">/02</div>
-            <div class="spacer-0"/>
+            <div class="content-spacer"/>
             <h2 class="content-title">Track</h2>
-            <div class="content-desc">Lorem ipsum dolor set amet</div>
+            <div class="content-desc">your crypto investments</div>
           </div>
           <div class="content-block">
             <div class="content-number">/03</div>
-            <div class="spacer-0"/>
+            <div class="content-spacer"/>
             <h2 class="content-title">Trade</h2>
-            <div class="content-desc">Lorem ipsum dolor set amet</div>
+            <div class="content-desc">with advanced options</div>
           </div>
         </div>
       </div>
@@ -82,6 +82,7 @@ export default {
       width: 180px;
       height: 50px;
       border: none;
+      background: transparent;
     }
 
     .spacer-0 {
@@ -194,6 +195,10 @@ export default {
       
     }
 
+    @media (max-width: 1200px) {
+        padding-bottom: 50px;
+    }
+
     @media (max-width: 768px) { 
       .hero-img {
           aspec-ratio: 550 / 600;
@@ -202,10 +207,38 @@ export default {
 
       h1 {
         font-size: 36px;
+        text-align: center;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      .contents {
+
+      .content-block {
+        padding: 5px;
+
+        .content-title {
+          font-size: 28px;
+        }
+
+        .content-number {
+          font-size: 14px;
+        }
+
+        .content-desc {
+          font-size: 13px;
+        }
       }
     }
 
+
+    }
+
     @media (max-width: 576px) {
+      padding-bottom: 0px;
+
       .button {
         aspect-ration: 180 / 50;
         width: 130px;
@@ -223,7 +256,7 @@ export default {
         justify-content: center;
         max-width: 100%;
 
-      .tick {
+        .tick {
 
         .tick-text {
           font-size: 10px;
@@ -250,6 +283,10 @@ export default {
 
         padding: 5px;
 
+        .content-spacer {
+          height: 15px;
+        }
+
         .content-title {
           font-size: 26px;
         }
@@ -262,6 +299,9 @@ export default {
           font-size: 12px;
         }
       }
+      .content-spacer {
+        height: 30px;
+      }
     }
 
       h1 {
@@ -270,6 +310,26 @@ export default {
 
       p {
         font-size: 14px;
+      }
+    }
+
+    @media (max-width: 400px) {
+      
+        .contents {
+
+        .content-block {
+          .content-title {
+            font-size: 24px;
+          }
+
+          .content-number {
+            font-size: 12px;
+          }
+
+          .content-desc {
+            font-size: 11px;
+          }
+        }
       }
     }
 
@@ -285,10 +345,32 @@ export default {
         width: 200px;
       }
 
+      .tick-container {
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+
+        .tick {
+          padding: 10px 0;
+        }
+    }
+
+      .contents {
+        flex-direction: column;
+        .content-block {
+          justify-content: center;
+          align-items: center;
+
+          padding: 20px 0;
+        }
+      }
+
       h1 {
         font-size: 26px;
       }
     }
+
+    
   }
   
 </style>
