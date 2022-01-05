@@ -23,8 +23,9 @@
               class="btn btn-primary p-2"
               target="_blank"
               @click="$router.push('wallet')"
-              >More about Byron Wallet</button
             >
+              More about
+            </button>
           </div>
         </div>
         <div
