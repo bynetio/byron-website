@@ -20,7 +20,7 @@
               >Join us on Discord</a
             >
             <button class="btn btn-primary p-2" @click="$router.push('wallet')">
-              More about
+              Read more
             </button>
           </div>
         </div>
