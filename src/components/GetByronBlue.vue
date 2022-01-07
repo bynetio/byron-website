@@ -11,7 +11,7 @@
             <button @click="openBetaTestingModal" class="button"><img class="img-fluid" alt="" src="../assets/googleplay.png"/></button>
         </div>
         <div class="col col-12 col-sm-12 col-md-3 text-md-left text-xs-center ">
-            <img class="phone img-fluid" alt="" src="../assets/phone.png" />
+            <img class="phone img-fluid" alt="" src="../assets/iphone_wallet.png" />
         </div>
       </div>
     </div>
