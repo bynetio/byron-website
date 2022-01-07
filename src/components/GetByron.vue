@@ -4,7 +4,7 @@
       <div class="row align-items-center">
         <div class="col col-12 col-sm-12 col-md-5 text-md-left text-xs-center">
           <h2>
-            First Mobile Wallet on Cardano
+            Best Mobile Wallet on Cardano
           </h2>
           <p>With our traders-for-traders approach we want Byron Wallet to be the best application for crypto portfolio management. Integration with ByronDex will guarantee trading opportunities directly from our Wallet. Its clear and intuitive design impacts Wallet's ease-of-use necessary for successful blockchain-based product.</p>
         </div>
