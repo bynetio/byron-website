@@ -35,7 +35,7 @@
               <div class="texts">
                 <h4>Necessary functionality</h4>
                 <h5>
-                  Use Byron Wallet with built in functions that ensure best
+                  Use Byron Wallet with built-in functions that ensure best
                   user-experience.
                 </h5>
               </div>
