@@ -177,10 +177,10 @@ export default {
         background-image: url('../assets/market.png');
         background-repeat: no-repeat;
         background-position: top center;
-        width: calc(100% - 100px);
+        width: 50%;
         background-size: contain;
         position: absolute;
-        left: 100px;
+        right: 100px;
         z-index: 4;
       }
 
@@ -220,6 +220,7 @@ export default {
       h1 {
         margin: 69px 0;
         font-size: 2rem;
+        word-break: break-word;
       }
 
       .item {
@@ -238,6 +239,8 @@ export default {
     }
 
     .blue .phone {
+      padding: 2rem;
+
       img {
         display: block;
         width: 100%;
@@ -255,6 +258,7 @@ export default {
     .blue .phone::after {
       height: 506px;
       top: 200px;
+      right: 40px;
     }
 
     .blue .vectors::after {
@@ -288,7 +292,6 @@ export default {
     }
 
     .blue .phone::after {
-      background-size: auto;
       height: 756px;
     }
 
