@@ -12,26 +12,17 @@
 </template>
 
 <script>
-import Hero from '@/components/Hero.vue';
-import Features from '@/components/Features.vue';
-import Roadmap from '@/components/Roadmap.vue';
-import Financing from '@/components/Financing.vue';
-import Community from '@/components/Community.vue';
-import ByronDexModule from '@/components/ByronDexModule.vue';
-import ByronWalletModule from '@/components/ByronWalletModule.vue';
-import Team from '@/components/Team.vue';
-
 export default {
   name: 'Home',
   components: {
-    Hero,
-    Features,
-    ByronDexModule,
-    ByronWalletModule,
-    Roadmap,
-    Financing,
-    Team,
-    Community,
+    Hero: () => import('../components/Hero.vue'),
+    Features: () => import('../components/Features.vue'),
+    ByronDexModule: () => import('../components/ByronDexModule.vue'),
+    ByronWalletModule: () => import('../components/ByronWalletModule.vue'),
+    Roadmap: () => import('../components/Roadmap.vue'),
+    Financing: () => import('../components/Financing.vue'),
+    Team: () => import('../components/Team.vue'),
+    Community: import('../components/Community.vue'),
   },
 };
 </script>

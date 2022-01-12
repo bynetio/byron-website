@@ -1,6 +1,5 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Home from '../views/Home.vue';
 
 Vue.use(VueRouter);
 
@@ -8,25 +7,30 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home,
+    component: () => import(/* webpackChunkName: "home" */ '../views/Home.vue'),
+  },
+  {
+    path: '/wallet',
+    name: 'Wallet',
+    component: () => import(/* webpackChunkName: "wallet" */ '../views/Wallet.vue'),
   },
   {
     path: '/solutions',
     name: 'Solutions',
     component: () =>
-      import(/* webpackChunkName: "about" */ '../views/Solutions.vue'),
+      import(/* webpackChunkName: "solutions" */ '../views/Solutions.vue'),
   },
   {
     path: '/developers',
     name: 'Developers',
     component: () =>
-      import(/* webpackChunkName: "about" */ '../views/Developers.vue'),
+      import(/* webpackChunkName: "developers" */ '../views/Developers.vue'),
   },
   {
     path: '/use-case',
     name: 'UseCase',
     component: () =>
-      import(/* webpackChunkName: "about" */ '../views/UseCase.vue'),
+      import(/* webpackChunkName: "usecase" */ '../views/UseCase.vue'),
   },
   {
     path: '/about',
@@ -38,13 +42,7 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     component: () =>
-      import(/* webpackChunkName: "about" */ '../views/Contact.vue'),
-  },
-  {
-    path: '/wallet',
-    name: 'Wallet',
-    component: () =>
-      import(/* webpackChunkName: "about" */ '../views/Wallet.vue'),
+      import(/* webpackChunkName: "contact" */ '../views/Contact.vue'),
   },
 ];
 
