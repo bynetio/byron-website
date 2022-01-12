@@ -1,5 +1,10 @@
 <template>
-  <section id="hero-mobile">
+  <section
+    id="hero-mobile"
+    data-aos="fade"
+    data-aos-duration="800"
+    data-aos-delay="300"
+  >
     <div class="container">
       <div class="row align-items-center">
         <div class="col col-12 col-sm-12 col-md-7 text-md-left text-xs-center">

@@ -1,5 +1,10 @@
 <template>
-  <div id="features">
+  <div
+    id="features"
+    data-aos="fade"
+    data-aos-duration="800"
+    data-aos-delay="300"
+  >
     <div class="container">
       <div class="row">
         <div class="col-sm-6 col-xl-3">

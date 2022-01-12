@@ -1,5 +1,11 @@
 <template>
-  <section id="roadmap" class="container">
+  <section
+    id="roadmap"
+    class="container"
+    data-aos="fade"
+    data-aos-duration="800"
+    data-aos-delay="300"
+  >
     <h1>Roadmap</h1>
     <div class="container mt-5 mb-5">
       <div class="row">

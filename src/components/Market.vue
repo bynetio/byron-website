@@ -1,5 +1,10 @@
 <template>
-  <section id="market">
+  <section
+    id="market"
+    data-aos="fade"
+    data-aos-duration="800"
+    data-aos-delay="300"
+  >
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-5 gray">
