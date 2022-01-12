@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <TopBar />
-    <router-view />
+    <main><router-view /></main>
     <Footer />
     <modals-container></modals-container>
   </div>
@@ -29,5 +29,12 @@ export default {
   text-align: center;
   color: #2c3e50;
   background-color: #f6f8fc;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+
+  main {
+    flex-grow: 1;
+  }
 }
 </style>
