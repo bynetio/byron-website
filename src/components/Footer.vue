@@ -1,5 +1,5 @@
 <template>
-  <section id="footer">
+  <footer data-aos="fade" data-aos-duration="800" data-aos-delay="300">
     <div class="container">
       <hr />
       <div class="row icons-row">
@@ -68,7 +68,7 @@
       <hr>
     </div> -->
     </div>
-  </section>
+  </footer>
 </template>
 
 <script>
@@ -79,7 +79,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#footer {
+footer {
   background-image: url('../assets/Vector4.png');
   background-repeat: no-repeat;
   background-position: top left;

@@ -1,5 +1,11 @@
 <template>
-  <section id="financing" class="container">
+  <section
+    id="financing"
+    class="container"
+    data-aos="fade"
+    data-aos-duration="800"
+    data-aos-delay="300"
+  >
     <h1>Tokenomics</h1>
     <div class="container">
       <img src="../assets/chart.png" style="width: 100%; height: auto;" />
