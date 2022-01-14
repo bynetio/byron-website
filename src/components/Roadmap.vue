@@ -475,6 +475,10 @@ export default {
   }
 
   @media (max-width: 992px) {
+    [data-aos='fade-up'] {
+      transform: none;
+    }
+
     .timeline {
       padding: 32px 0 32px 44px;
 
@@ -603,6 +607,9 @@ export default {
         display: none;
       }
     }
+  }
+
+  @media screen and (max-width: 992px) {
   }
 }
 </style>
