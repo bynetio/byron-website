@@ -98,40 +98,48 @@ export default {
 
 <style lang="scss" scoped>
 #countdown {
-  li {
-    position: relative;
-    display: inline-block;
-    font-size: 1rem;
-    list-style-type: none;
-    padding: 1rem;
-    text-transform: uppercase;
+  ul {
+    li {
+      position: relative;
+      display: inline-block;
+      font-size: 1rem;
+      list-style-type: none;
+      padding: 1rem;
+      text-transform: uppercase;
 
-    .circle {
-      background-color: #edf2fe;
-      border-radius: 50%;
-      width: 100px;
-      height: 100px;
-      display: flex;
-      align-content: center;
-      justify-content: center;
-      flex-direction: column;
+      .circle {
+        background-color: #edf2fe;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      &:not(:first-child):after {
+        position: absolute;
+        content: ':';
+        font-size: 1.5rem;
+        font-weight: bold;
+        top: 50%;
+        left: 0;
+        transform: translate(-50%, -50%);
+      }
     }
 
-    &:not(:first-child):after {
-      position: absolute;
-      content: ':';
+    li span {
+      display: block;
       font-size: 1.5rem;
       font-weight: bold;
-      top: 50%;
-      left: 0;
-      transform: translate(-50%, -50%);
     }
   }
 
-  li span {
-    display: block;
-    font-size: 1.5rem;
-    font-weight: bold;
+  @media (max-width: 768px) {
+    li::after {
+      display: none;
+    }
   }
 }
 </style>
