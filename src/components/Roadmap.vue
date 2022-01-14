@@ -4,12 +4,6 @@
       Roadmap
     </h1>
     <div class="container">
-      <Countdown
-        endDate="2022-03-31"
-        data-aos="fade-up"
-        data-aos-duration="800"
-        data-aos-delay="500"
-      />
       <div class="timeline">
         <div
           class="timeline-row done"
@@ -247,9 +241,6 @@
 <script>
 export default {
   name: 'Roadmap',
-  components: {
-    Countdown: () => import('./Countdown.vue'),
-  },
 };
 </script>
 
