@@ -99,6 +99,8 @@ export default {
 <style lang="scss" scoped>
 #countdown {
   ul {
+    padding: 0;
+
     li {
       position: relative;
       display: inline-block;
