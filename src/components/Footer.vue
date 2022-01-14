@@ -36,10 +36,10 @@
           /></a>
         </div>
       </div>
-      <dic class="row text-right small">
+      <div class="row text-right small">
         Supported with ❤️
         <a href="https://binarapps.com" target="_blank">BinarApps</a>
-      </dic>
+      </div>
       <!--     <div class="row text-left">
       <ul class="col-6 col-md-6 col-lg-3"> 
         <li><a href="#" class="main-category" target="_blank">Platform</a></li>
