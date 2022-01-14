@@ -172,7 +172,6 @@
               <li>
                 <i class="bi bi-circle"></i>
                 <p>IDO</p>
-                <span class="in-progress">in progress</span>
               </li>
               <li>
                 <i class="bi bi-circle"></i>
