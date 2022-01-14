@@ -25,6 +25,12 @@
               href="https://discord.gg/8kWBQPXwAH"
               >Join us on Discord</a
             >
+            <a
+              class="btn btn-primary p-2"
+              target="_blank"
+              href="https://test.byron.network/"
+              >View Front-end Mockup</a
+            >
           </div>
         </div>
         <div class="col-sm-12 col-md-5 offset-background order-md-1" />
