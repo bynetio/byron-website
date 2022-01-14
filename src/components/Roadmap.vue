@@ -193,11 +193,31 @@
             <ul class="list-group">
               <li>
                 <i class="bi bi-circle"></i>
-                <p>Partnerships</p>
+                <p>Integration of ByronWallet with ByronDex</p>
               </li>
               <li>
                 <i class="bi bi-circle"></i>
-                <p>Stop limit and stop loss on DEX</p>
+                <p>Integration of Nami Wallet with ByronDex</p>
+              </li>
+              <li>
+                <i class="bi bi-circle"></i>
+                <p>Security audits</p>
+              </li>
+              <li>
+                <i class="bi bi-circle"></i>
+                <p>ByronDex on the testnet</p>
+              </li>
+              <li>
+                <i class="bi bi-circle"></i>
+                <p>Code optimization</p>
+              </li>
+              <li>
+                <i class="bi bi-circle"></i>
+                <p>ByronDex on the mainnet</p>
+              </li>
+              <li>
+                <i class="bi bi-circle"></i>
+                <p>Stop limit and stop loss on the DEX</p>
               </li>
               <li>
                 <i class="bi bi-circle"></i>
@@ -210,14 +230,6 @@
               <li>
                 <i class="bi bi-circle"></i>
                 <p>Performers' bots materials</p>
-              </li>
-              <li>
-                <i class="bi bi-circle"></i>
-                <p>Advanced security measure on Byron Wallet</p>
-              </li>
-              <li>
-                <i class="bi bi-circle"></i>
-                <p>Advanced security measure on Byron Wallet</p>
               </li>
             </ul>
           </div>
@@ -576,7 +588,8 @@ export default {
         .timeline-content {
           min-height: 425px;
 
-          &::before, &::after {
+          &::before,
+          &::after {
             display: none;
           }
         }
