@@ -227,10 +227,6 @@
                 <i class="bi bi-circle"></i>
                 <p>Trading API initialization</p>
               </li>
-              <li>
-                <i class="bi bi-circle"></i>
-                <p>Performers' bots materials</p>
-              </li>
             </ul>
           </div>
         </div>
