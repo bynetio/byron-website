@@ -22,7 +22,7 @@ export default {
     Roadmap: () => import('../components/Roadmap.vue'),
     Financing: () => import('../components/Financing.vue'),
     Team: () => import('../components/Team.vue'),
-    Community: import('../components/Community.vue'),
+    Community: () => import('../components/Community.vue'),
   },
 };
 </script>
