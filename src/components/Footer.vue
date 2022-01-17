@@ -1,5 +1,5 @@
 <template>
-  <footer data-aos="fade" data-aos-duration="800" data-aos-delay="300">
+  <footer>
     <div class="container">
       <hr />
       <div class="row icons-row">

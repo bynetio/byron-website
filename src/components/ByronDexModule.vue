@@ -1,9 +1,6 @@
 <template>
   <section
     id="byron-dex-module"
-    data-aos="fade"
-    data-aos-duration="800"
-    data-aos-delay="300"
   >
     <div class="container">
       <div class="row">

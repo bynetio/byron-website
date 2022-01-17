@@ -1,9 +1,6 @@
 <template>
   <section
     id="get-byron-blue"
-    data-aos="fade"
-    data-aos-duration="800"
-    data-aos-delay="300"
   >
     <div class="container">
       <div class="row align-items-end">

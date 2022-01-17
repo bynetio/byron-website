@@ -1,9 +1,7 @@
 <template>
   <section
     id="community"
-    data-aos="fade"
-    data-aos-duration="800"
-    data-aos-delay="300"
+
   >
     <div class="container">
       <h1>Join our community</h1>

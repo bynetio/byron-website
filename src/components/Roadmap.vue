@@ -1,15 +1,13 @@
 <template>
   <section id="roadmap">
-    <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+    <h1>
       Roadmap
     </h1>
     <div class="container">
       <div class="timeline">
         <div
           class="timeline-row done"
-          data-aos="fade-up"
-          data-aos-duration="800"
-          data-aos-delay="600"
+          
         >
           <div class="timeline-time">Q3 2021</div>
           <div class="timeline-content">
@@ -66,9 +64,6 @@
         </div>
         <div
           class="timeline-row done"
-          data-aos="fade-up"
-          data-aos-duration="800"
-          data-aos-delay="300"
         >
           <div class="timeline-time">Q4 2021</div>
           <div class="timeline-content">
@@ -141,9 +136,6 @@
 
         <div
           class="timeline-row done current"
-          data-aos="fade-up"
-          data-aos-duration="800"
-          data-aos-delay="300"
         >
           <div class="timeline-time">Q1 2022</div>
           <div class="timeline-content">
@@ -184,9 +176,6 @@
         </div>
         <div
           class="timeline-row"
-          data-aos="fade-up"
-          data-aos-duration="800"
-          data-aos-delay="300"
         >
           <div class="timeline-time">Q2 2022</div>
           <div class="timeline-content">
@@ -232,9 +221,6 @@
         </div>
         <div
           class="timeline-row"
-          data-aos="fade-up"
-          data-aos-duration="800"
-          data-aos-delay="300"
         >
           <div class="timeline-time">Q3 2022</div>
           <div class="timeline-content">
@@ -471,10 +457,6 @@ export default {
   }
 
   @media (max-width: 992px) {
-    [data-aos='fade-up'] {
-      transform: none;
-    }
-
     .timeline {
       padding: 32px 0 32px 44px;
 
@@ -605,7 +587,5 @@ export default {
     }
   }
 
-  @media screen and (max-width: 992px) {
-  }
 }
 </style>

@@ -2,9 +2,7 @@
   <section
     id="financing"
     class="container"
-    data-aos="fade"
-    data-aos-duration="800"
-    data-aos-delay="300"
+
   >
     <h1>Tokenomics</h1>
     <div class="container">
