@@ -4,7 +4,7 @@
       <hr />
       <div class="row icons-row">
         <a href="#" class="col-12 col-md-6 main-logo text-left" target="_blank"
-          ><img alt="ellipse" src="../assets/logo_byron.png"
+          ><img alt="ellipse" src="../assets/logo_byron.svg"
         /></a>
         <div class="icons-collection col-12 col-md-6 text-right">
           <a
@@ -37,7 +37,7 @@
         </div>
       </div>
       <div class="row text-right small">
-        Supported with ❤️ by &nbsp;   
+        Supported with ❤️    
         <a href="https://binarapps.com" target="_blank">  BinarApps</a>
       </div>
       <div class="row text-right small">
