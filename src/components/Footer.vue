@@ -37,8 +37,11 @@
         </div>
       </div>
       <div class="row text-right small">
-        Supported with ❤️
-        <a href="https://binarapps.com" target="_blank">BinarApps</a>
+        Supported with ❤️ by &nbsp;   
+        <a href="https://binarapps.com" target="_blank">  BinarApps</a>
+      </div>
+      <div class="row text-right small">
+        Byron Network OÜ
       </div>
       <!--     <div class="row text-left">
       <ul class="col-6 col-md-6 col-lg-3"> 
