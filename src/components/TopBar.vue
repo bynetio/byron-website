@@ -2,7 +2,7 @@
   <nav id="nav" class="navbar container d-flex flex-wrap ">
     <router-link class="nav-item main-item home float-left" to="/"
       ><span class="home-logo"
-        ><img alt="" height="80px" src="../assets/logo_byron.svg"/></span
+        ><img alt="" height="60px" src="../assets/logo_byron.svg"/></span
     ></router-link>
   </nav>
 </template>
