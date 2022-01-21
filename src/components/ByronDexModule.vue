@@ -6,7 +6,7 @@
       <div class="row">
         <div class="col-sm-12 col-md-7 order-1">
           <h1>
-            DEX
+            ByronDex
           </h1>
           <p>
             ByronDex is a decentralized exchange on Cardano that uses Order Book
@@ -15,7 +15,7 @@
             of experienced developers and crypto traders we are going to deliver
             functionality that the community expects.
           </p>
-          <div class="buttons d-flex">
+          <div class="buttons d-flex flex-column flex-sm-row">
             <a
               class="btn btn-primary p-2"
               target="_blank"
@@ -26,7 +26,7 @@
               class="btn btn-primary p-2"
               target="_blank"
               href="https://test.byron.network/"
-              >View Front-end Mockup</a
+              >ByronDex Preview</a
             >
           </div>
         </div>
@@ -109,6 +109,22 @@ export default {
   @media (min-width: 1200px) {
     h1 {
       font-size: 58px;
+    }
+  }
+  @media (max-width: 576px) {
+    .buttons {
+      .btn {
+        &:nth-child(2) {
+          margin-left: 0px;
+          margin-top: 10px;
+        }
+      }
+    }
+}
+@media (min-width: 1200px) {
+    h1 {
+      font-size: 58px;
+      margin-top: 50px;
     }
   }
 }
