@@ -108,6 +108,7 @@ export default {
       padding: 15px 40px !important;
       border-radius: 12px;
       font-weight: 700;
+      margin: 12px;
 
       &:hover {
         color: white;
