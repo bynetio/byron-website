@@ -18,15 +18,15 @@
         </div>
         <div class="col col-12 col-sm-12 col-md-7 text-md-left text-xs-center">
           <div class="spacer-2" />
-          <p class="text-muted no-margin">Official Byron Wallet app</p>
+          <p class="text-muted no-margin">Take part in Beta testing right now!</p>
           <div class="spacer-0" />
           <div>
-            <button @click="openBetaTestingModal" class="button">
-              <img class="img-fluid" alt="" src="../assets/appstore.png" />
-            </button>
-            <button @click="openBetaTestingModal" class="button">
-              <img class="img-fluid" alt="" src="../assets/googleplay.png" />
-            </button>
+            <a href="https://testflight.apple.com/join/smHXpRHO" class="btn btn-primary">
+               iOS
+            </a>
+            <a href="https://appdistribution.firebase.dev/i/867250787993d250" class="btn btn-primary">
+              Android
+            </a>
           </div>
           <div class="spacer-1" />
           <div class="tick-container">
@@ -45,7 +45,7 @@
                 src="../assets/icon_tick.png"
               />
               <div class="tick-text">
-                100% security-Leverage multi-sig security
+                Multi-level security
               </div>
             </div>
           </div>
@@ -381,6 +381,16 @@ export default {
 
     h1 {
       font-size: 26px;
+    }
+  }
+  .btn {
+    padding: 15px 40px !important;
+    border-radius: 12px;
+    color: #ffffff;
+    line-height:5px;
+
+    &:hover {
+      color: white;
     }
   }
 }

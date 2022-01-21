@@ -18,7 +18,7 @@
               class="btn btn-outline-primary"
               target="_blank"
               href="/static/byron-network-lightpaper.pdf"
-              >Lightpaper</a
+              >Litepaper</a
             >
             <a
               class="btn btn-outline-primary"
@@ -31,7 +31,7 @@
         <div class="col-sm-12 col-md-5 offset-background" />
       </div>
       <div class="row parts">
-        <div class="col-sm-6 col-xl-3">
+        <div class="col-sm-4 ">
           <div class="part-item">
             <div class="part-heading">
               <img class="part-icon" src="../assets/swap2.png" />
@@ -39,27 +39,19 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-xl-3">
+        <div class="col-sm-4 ">
           <div class="part-item">
             <div class="part-heading">
               <img class="part-icon" src="../assets/wallet2.png" />
-              <h4>ByronWallet</h4>
+              <h4>Byron Wallet</h4>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-xl-3">
-          <div class="part-item">
-            <div class="part-heading">
-              <img class="part-icon" src="../assets/cardanoshield1.png" />
-              <h4>Byron Launchpad</h4>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-xl-3">
+        <div class="col-sm-4 ">
           <div class="part-item">
             <div class="part-heading">
               <img class="part-icon" src="../assets/coin1.png" />
-              <h4>Byron AppStore</h4>
+              <h4>Byron Launchpad Toolset</h4>
             </div>
           </div>
         </div>
@@ -84,7 +76,7 @@ export default {
 
   .offset-background::before {
     content: '';
-    background-image: url('../assets/Hero.png');
+    background-image: url('../assets/IOHK.png');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: contain;
@@ -99,6 +91,7 @@ export default {
     text-align: left;
     margin-top: 60px;
     word-break: break-word;
+    font-weight:600;
   }
 
   p {
