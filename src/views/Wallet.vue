@@ -14,7 +14,7 @@ export default {
     HeroMobile: () => import('../components/HeroMobile.vue'),
     Market: () => import('../components/Market.vue'),
     GetByron: () => import('../components/GetByron.vue'),
-    GetByronBlue: () => import('../components/GetByronBlue.vue'),
+    //GetByronBlue: () => import('../components/GetByronBlue.vue'),
   },
 };
 </script>
