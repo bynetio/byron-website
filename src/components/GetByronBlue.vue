@@ -8,19 +8,21 @@
           class="col col-12 col-sm-12 col-md-7 text-md-left text-xs-center button-container"
         >
           <div class="arrow-container">
-            <h2 class="white">Get the Byron Wallet app</h2>
+            <h2 class="white">Test the Byron Wallet app</h2>
             <img
               class="arrow img-fluid"
               alt=""
               src="../assets/spiral-arrow.png"
             />
           </div>
-          <button @click="openBetaTestingModal" class="button">
-            <img class="img-fluid" alt="" src="../assets/appstore.png" />
-          </button>
-          <button @click="openBetaTestingModal" class="button">
-            <img class="img-fluid" alt="" src="../assets/googleplay.png" />
-          </button>
+          <div class="spacer-0 buttons d-flex">
+          <a href="https://testflight.apple.com/join/smHXpRHO" class="btn btn-primary">
+               iOS
+            </a>
+            <a href="https://appdistribution.firebase.dev/i/867250787993d250" class="btn btn-primary">
+              Android
+            </a>
+          </div>
         </div>
         <div class="col col-12 col-sm-12 col-md-3 text-md-left text-xs-center ">
           <img
@@ -77,6 +79,13 @@ export default {
     color: #6d6f8d;
   }
 
+  a.btn {
+      margin-top: 67px;
+      padding: 16px 32px;
+      border-radius: 12px;
+      margin-right: 14px;
+    }
+
   .blue {
     width: 100%;
     background: linear-gradient(133.6deg, #225aff -17.28%, #06247c 104.73%);
@@ -95,6 +104,7 @@ export default {
     height: 50px;
     border: none;
     background: transparent;
+    margin: 12px;
   }
 
   .arrow {

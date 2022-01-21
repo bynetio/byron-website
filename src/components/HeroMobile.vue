@@ -19,12 +19,12 @@
         <div class="col col-12 col-sm-12 col-md-7 text-md-left text-xs-center">
           <div class="spacer-2" />
           <p class="text-muted no-margin">Take part in Beta testing right now!</p>
-          <div class="spacer-0" />
+          <div class="spacer-0 buttons d-flex" />
           <div>
-            <a href="https://testflight.apple.com/join/smHXpRHO" class="btn btn-primary">
+            <a href="https://testflight.apple.com/join/smHXpRHO" class="btn btn-outline-primary">
                iOS
             </a>
-            <a href="https://appdistribution.firebase.dev/i/867250787993d250" class="btn btn-primary">
+            <a href="https://appdistribution.firebase.dev/i/867250787993d250" class="btn btn-outline-primary">
               Android
             </a>
           </div>
@@ -106,7 +106,8 @@ export default {
   h1 {
     font-size: 42px;
     text-align: left;
-    margin-top: 50px;
+    margin-top: 60px;
+    font-weight: 600;
   }
 
   .button {
@@ -172,7 +173,6 @@ export default {
       .content-number {
         font-weight: bold;
         font-size: 15px;
-
         color: #225aff;
       }
 
@@ -386,8 +386,9 @@ export default {
   .btn {
     padding: 15px 40px !important;
     border-radius: 12px;
-    color: #ffffff;
+    color: #225aff;
     line-height:5px;
+    margin:12px;
 
     &:hover {
       color: white;
