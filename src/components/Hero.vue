@@ -76,7 +76,7 @@ export default {
 
   .offset-background::before {
     content: '';
-    background-image: url('../assets/IOHK.png');
+    background-image: url('../assets/Hero.png');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: contain;
