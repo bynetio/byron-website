@@ -8,20 +8,20 @@
         <a
           class="col-md-3 mb-4 team-item"
           target="_blank"
-          href="https://www.linkedin.com/in/maciejkrasowski/"
-        >
-          <div class="avatar"><img src="../assets/team_1.jpg" /></div>
-          <h3>Maciej Krasowski</h3>
-          <h4>Chief Executive Officer</h4>
-        </a>
-        <a
-          class="col-md-3 mb-4 team-item"
-          target="_blank"
           href="https://www.linkedin.com/in/brusiniak/"
         >
           <div class="avatar"><img src="../assets/team_3.jpg" /></div>
           <h3>Bartłomiej Rusiniak</h3>
-          <h4>Chief Technical Officer</h4>
+          <h4>Co-founder/Chief Technical Officer</h4>
+        </a>
+        <a
+          class="col-md-3 mb-4 team-item"
+          target="_blank"
+          href="https://www.linkedin.com/in/maciejkrasowski/"
+        >
+          <div class="avatar"><img src="../assets/team_1.jpg" /></div>
+          <h3>Maciej Krasowski</h3>
+          <h4>Co-founder</h4>
         </a>
         <a
           class="col-md-3 mb-4 team-item"
