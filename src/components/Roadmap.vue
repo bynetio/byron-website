@@ -141,19 +141,17 @@
           <div class="timeline-content">
             <ul class="list-group">
               <li>
-                <i class="bi bi-circle"></i>
+                <i class="bi bi-check-circle-fill"></i>
                 <p>Mobile wallet beta testing (iOS and Android)</p>
-                <span class="in-progress">in progress</span>
               </li>
               <li>
                 <i class="bi bi-circle"></i>
-                <p>BYNET token launch</p>
+                <p>HD mobile wallet public release</p>
                 <span class="in-progress">in progress</span>
               </li>
               <li>
                 <i class="bi bi-circle"></i>
                 <p>Seed and private sale</p>
-                <span class="in-progress">in progress</span>
               </li>
               <li>
                 <i class="bi bi-circle"></i>
@@ -166,10 +164,6 @@
               <li>
                 <i class="bi bi-circle"></i>
                 <p>Advanced security measure on Bynet Wallet</p>
-              </li>
-              <li>
-                <i class="bi bi-circle"></i>
-                <p>HD mobile wallet public release</p>
               </li>
             </ul>
           </div>
