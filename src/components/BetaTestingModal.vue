@@ -30,7 +30,7 @@
     <div class="modal__content">
       <p>
         We are currently taking admissions from users willing to participate in
-        Beta Testing of Byron Wallet.
+        Beta Testing of Bynet Wallet.
       </p>
       <p>If you want to take part as well.</p>
       <div class="buttons d-flex justify-content-center">
