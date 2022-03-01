@@ -6,7 +6,7 @@
   >
     <h1>Tokenomics</h1>
     <div class="container">
-      <img src="../assets/chart.png" style="width: 100%; height: auto;" />
+      <img src="../assets/Tokenomics.svg" style="width: 100%; height: auto;" />
     </div>
   </section>
 </template>
