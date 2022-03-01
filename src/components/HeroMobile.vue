@@ -6,7 +6,7 @@
       <div class="row align-items-center">
         <div class="col col-12 col-sm-12 col-md-7 text-md-left text-xs-center">
           <h1 class="no-margin-bottom title">
-            Take control of your crypto with Byron Wallet
+            Take control of your crypto with Bynet Wallet
           </h1>
         </div>
         <div class="col col-12 col-sm-12 col-md-5">

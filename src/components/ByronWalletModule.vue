@@ -7,10 +7,10 @@
       <div class="row">
         <div class="col-sm-12 col-md-7 order-1">
           <h1>
-            Wallet
+            Bynet Wallet
           </h1>
           <p>
-            Byron Wallet is an HD native wallet for Cardano that allows users to
+            Bynet Wallet is an HD native wallet for Cardano that allows users to
             securely store, manage and swap their crypto assets. Send and
             receive tokens on our mobile app. Trade with control over your
             portfolio with a user-friendly design and best-quality security.

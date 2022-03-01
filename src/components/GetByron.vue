@@ -9,7 +9,7 @@
             Best Mobile Wallet on Cardano
           </h2>
           <p>
-            With our traders-for-traders approach we want Byron Wallet to be the
+            With our traders-for-traders approach we want Bynet Wallet to be the
             best application for crypto portfolio management. Integration with
             ByronDex will guarantee trading opportunities directly from our
             Wallet. Its clear and intuitive design impacts Wallet's ease-of-use

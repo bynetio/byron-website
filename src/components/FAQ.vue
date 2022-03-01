@@ -26,7 +26,7 @@
           >
             <div class="accordion-body">
               Byron Network is an ecosystem that combines blockchain-based
-              products such as ByronDex and Byron Wallet, as well as future
+              products such as BynetDEX and Bynet Wallet, as well as future
               products such as Byron Launchpad and Byron AppStore. Our team aims
               to guarantee a seamless user-experience with products that the
               community needs. Participants will be able to not only trade, but

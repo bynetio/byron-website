@@ -6,10 +6,10 @@
       <div class="row">
         <div class="col-sm-12 col-md-7 order-1">
           <h1>
-            ByronDex
+            BynetDEX
           </h1>
           <p>
-            ByronDex is a decentralized exchange on Cardano that uses Order Book
+            BynetDEX is a decentralized exchange on Cardano that uses Order Book
             Pattern. It includes professional trading options, such as limit,
             stop loss, stop market and many other types of orders. With a team
             of experienced developers and crypto traders we are going to deliver
@@ -26,7 +26,7 @@
               class="btn btn-primary p-2"
               target="_blank"
               href="https://test.byron.network/"
-              >ByronDex Preview</a
+              >BynetDEX Preview</a
             >
           </div>
         </div>

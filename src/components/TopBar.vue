@@ -9,13 +9,13 @@
               class="btn btn-primary form-control mr-sm-2"
               target="_blank"
               @click="$router.push('wallet')"
-              >Byron Wallet</a
+              >Bynet Wallet</a
             >
             <a
               class="btn btn-primary form-control my-2 my-sm-0"
               target="_blank"
               href="https://test.byron.network/"
-              >ByronDex preview</a
+              >BynetDEX preview</a
             >
     </form>
   </nav>

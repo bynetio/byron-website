@@ -35,7 +35,7 @@
           <div class="part-item">
             <div class="part-heading">
               <img class="part-icon" src="../assets/swap2.png" />
-              <h4>ByronDex</h4>
+              <h4>BynetDEX</h4>
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@
           <div class="part-item">
             <div class="part-heading">
               <img class="part-icon" src="../assets/wallet2.png" />
-              <h4>Byron Wallet</h4>
+              <h4>Bynet Wallet</h4>
             </div>
           </div>
         </div>

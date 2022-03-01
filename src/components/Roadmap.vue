@@ -128,7 +128,7 @@
               </li>
               <li>
                 <i class="bi bi-check-circle-fill"></i>
-                <p>ByronDex MVP delivery - demo for IOHK</p>
+                <p>BynetDEX MVP delivery - demo for IOHK</p>
               </li>
             </ul>
           </div>
@@ -147,7 +147,7 @@
               </li>
               <li>
                 <i class="bi bi-circle"></i>
-                <p>Byron token launch</p>
+                <p>BYNET token launch</p>
                 <span class="in-progress">in progress</span>
               </li>
               <li>
@@ -165,7 +165,7 @@
               </li>
               <li>
                 <i class="bi bi-circle"></i>
-                <p>Advanced security measure on Byron Wallet</p>
+                <p>Advanced security measure on Bynet Wallet</p>
               </li>
               <li>
                 <i class="bi bi-circle"></i>
@@ -182,11 +182,11 @@
             <ul class="list-group">
               <li>
                 <i class="bi bi-circle"></i>
-                <p>Integration of ByronWallet with ByronDex</p>
+                <p>Integration of Bynet Wallet with BynetDEX</p>
               </li>
               <li>
                 <i class="bi bi-circle"></i>
-                <p>Integration of Nami Wallet with ByronDex</p>
+                <p>Integration of Nami Wallet with BynetDEX</p>
               </li>
               <li>
                 <i class="bi bi-circle"></i>
@@ -194,7 +194,7 @@
               </li>
               <li>
                 <i class="bi bi-circle"></i>
-                <p>ByronDex on the testnet</p>
+                <p>BynetDEX on the testnet</p>
               </li>
               <li>
                 <i class="bi bi-circle"></i>
@@ -202,7 +202,7 @@
               </li>
               <li>
                 <i class="bi bi-circle"></i>
-                <p>ByronDex on the mainnet</p>
+                <p>BynetDEX on the mainnet</p>
               </li>
               <li>
                 <i class="bi bi-circle"></i>

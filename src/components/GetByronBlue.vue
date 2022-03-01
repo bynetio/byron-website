@@ -8,7 +8,7 @@
           class="col col-12 col-sm-12 col-md-7 text-md-left text-xs-center button-container"
         >
           <div class="arrow-container">
-            <h2 class="white">Test the Byron Wallet app</h2>
+            <h2 class="white">Test the Bynet Wallet app</h2>
             <img
               class="arrow img-fluid"
               alt=""
