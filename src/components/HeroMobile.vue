@@ -18,13 +18,13 @@
         </div>
         <div class="col col-12 col-sm-12 col-md-7 text-md-left text-xs-center">
           <div class="spacer-2" />
-          <p class="text-muted no-margin">Take part in Beta testing right now!</p>
+          <h2>Bynet Wallet is live on mainnet!</h2>
           <div class="spacer-0 buttons d-flex" />
           <div>
-            <a href="https://testflight.apple.com/join/smHXpRHO" class="btn btn-outline-primary">
+            <a href="https://apps.apple.com/app/id1610555591" class="btn btn-outline-primary">
                iOS
             </a>
-            <a href="https://appdistribution.firebase.dev/i/867250787993d250" class="btn btn-outline-primary">
+            <a href="https://play.google.com/store/apps/details?id=network.byron.wallet&gl=PL" class="btn btn-outline-primary">
               Android
             </a>
           </div>

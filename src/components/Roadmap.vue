@@ -145,13 +145,13 @@
                 <p>Mobile wallet beta testing (iOS and Android)</p>
               </li>
               <li>
-                <i class="bi bi-circle"></i>
+                <i class="bi bi-check-circle-fill"></i>
                 <p>HD mobile wallet public release</p>
-                <span class="in-progress">in progress</span>
+                <!--<span class="in-progress">in progress</span>//-->
               </li>
               <li>
                 <i class="bi bi-circle"></i>
-                <p>Seed and private sale</p>
+                <p>Additional features on Bynet Wallet</p>
               </li>
               <li>
                 <i class="bi bi-circle"></i>
@@ -160,10 +160,6 @@
               <li>
                 <i class="bi bi-circle"></i>
                 <p>Public sale</p>
-              </li>
-              <li>
-                <i class="bi bi-circle"></i>
-                <p>Advanced security measure on Bynet Wallet</p>
               </li>
             </ul>
           </div>

@@ -37,8 +37,8 @@
             <div class="feature-icon">
               <img src="../assets/line.png" />
             </div>
-            <h4>Multi-chain</h4>
-            <h5>fully operative ecosystem on various blockchains</h5>
+            <h4>Set of DApps</h4>
+            <h5>ecosystem of Cardano-focused DApps</h5>
           </div>
         </div>
       </div>
