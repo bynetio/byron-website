@@ -110,7 +110,7 @@
                     >Whitepaper</a
                   >,
                   <a
-                    href="https://byron.network/static/byron-network-lightpaper.pdf"
+                    href="https://byron.network/static/Litepaper.pdf"
                     target="_blank"
                     >Lightpaper</a
                   >

@@ -17,7 +17,7 @@
             <a
               class="btn btn-outline-primary"
               target="_blank"
-              href="/static/byron-network-lightpaper.pdf"
+              href="/static/Litepaper.pdf"
               >Litepaper</a
             >
             <a
