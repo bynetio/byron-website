@@ -11,12 +11,6 @@
               @click="$router.push('wallet')"
               >Bynet Wallet</a
             >
-            <a
-              class="btn btn-primary form-control my-2 my-sm-0"
-              target="_blank"
-              href="https://test.byron.network/"
-              >BynetDEX preview</a
-            >
     </form>
   </nav>
 </template>
