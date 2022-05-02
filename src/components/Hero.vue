@@ -14,12 +14,7 @@
             to guarantee best usability.
           </p>
           <div class="buttons d-flex">
-            <a
-              class="btn btn-outline-primary"
-              target="_blank"
-              href="/static/Litepaper.pdf"
-              >Litepaper</a
-            >
+            
             <a
               class="btn btn-outline-primary"
               target="_blank"
