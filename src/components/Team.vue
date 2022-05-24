@@ -29,7 +29,7 @@
           href="https://www.linkedin.com/in/sandra-marta-kami%C5%84ska/"
         >
           <div class="avatar"><img src="../assets/team_4.jpg" /></div>
-          <h3>Sandra Kamińska</h3>
+          <h3>Sandra Grabowiec</h3>
           <h4>Chief Operating Officer</h4>
         </a>
         <a
