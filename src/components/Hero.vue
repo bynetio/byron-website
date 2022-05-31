@@ -17,8 +17,8 @@
             
             <a
               class="btn btn-outline-primary"
-              target="_blank"
-              href="/static/byron-network-whitepaper.pdf"
+              
+              href="https://docsend.com/view/5zj8emupedjs4gtt"
               >Whitepaper</a
             >
           </div>
