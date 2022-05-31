@@ -9,55 +9,42 @@
           class="timeline-row done"
           
         >
-          <div class="timeline-time">Q3 2021</div>
+          <div class="timeline-time">Q1 2022</div>
           <div class="timeline-content">
             <ul class="list-group">
               <li>
                 <i class="bi bi-check-circle-fill"></i>
                 <p>
-                  Participation in
-                  <a
-                    href="https://iohk.io/en/blog/posts/2021/05/12/developers-add-muscle-to-plutus-smart-contracts-on-cardano-for-defi/"
-                    target="_blank"
-                    >Plutus Partnership Program</a
-                  >
-                  as
-                  <a href="https://binarapps.com" target="_blank">BinarApps</a>
+                  Bynet Wallet mainnet launch
                 </p>
               </li>
               <li>
                 <i class="bi bi-check-circle-fill"></i>
-                <p>Recruitment of Haskell Developers</p>
+                <p>Protocol architecture design</p>
               </li>
               <li>
                 <i class="bi bi-check-circle-fill"></i>
-                <p>Market research</p>
+                <p>Whitepaper v2 release</p>
               </li>
               <li>
                 <i class="bi bi-check-circle-fill"></i>
                 <p>
-                  Simulator setup (<a
-                    href="https://www.youtube.com/watch?v=iVWOp11PDzU"
-                    target="_blank"
-                    >demo</a
-                  >
-                  during Cardano Summit)
+                  Market research
                 </p>
               </li>
               <li>
                 <i class="bi bi-check-circle-fill"></i>
                 <p>
-                  Create
-                  <a
-                    href="https://www.figma.com/file/tVpIB7vC3UzdzXoGDp44nC/Byron_website_official"
-                    target="_blank"
-                    >web and swap design</a
-                  >
+                  DEX infrastructure design
                 </p>
               </li>
               <li>
                 <i class="bi bi-check-circle-fill"></i>
-                <p>Social media launch</p>
+                <p>DEX marketing strategy</p>
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill"></i>
+                <p>Bynet Protocol concept substantive consultation with Cardano’s creators</p>
               </li>
             </ul>
           </div>
@@ -65,70 +52,34 @@
         <div
           class="timeline-row done"
         >
-          <div class="timeline-time">Q4 2021</div>
+          <div class="timeline-time">Q2 2022</div>
           <div class="timeline-content">
             <ul class="list-group">
               <li>
-                <i class="bi bi-check-circle-fill"></i>
+                <i class="bi bi-circle"></i>
                 <p>
-                  Create design of
-                  <a
-                    href="https://www.figma.com/file/O1K3ASY5FUMLOtqeBh6b2L/Trading-page-Byron-official"
-                    target="_blank"
-                    >DEX trading web</a
-                  >
-                  and
-                  <a
-                    href="https://www.figma.com/file/yBRBk0tZK8lN4ihnjtBpJV/Byron_wallet_official"
-                    target="_blank"
-                    >HD mobile wallet</a
-                  >
+                  BynetDEX MVP 
                 </p>
               </li>
               <li>
-                <i class="bi bi-check-circle-fill"></i>
-                <p>UX audit</p>
+                <i class="bi bi-circle"></i>
+                <p>Demo and testing DEX model on a focus group</p>
               </li>
               <li>
-                <i class="bi bi-check-circle-fill"></i>
+                <i class="bi bi-circle"></i>
                 <p>
-                  HD mobile wallet
-                  <a
-                    href="https://twitter.com/byron_cardano/status/1455627048840536067"
-                    target="_blank"
-                    >UI implementation</a
-                  >
-                  (React Native)
+                  BynetDEX testnet launch
                 </p>
               </li>
               <li>
-                <i class="bi bi-check-circle-fill"></i>
+                <i class="bi bi-circle"></i>
                 <p>
-                  <a
-                    href="https://byron.network/static/byron-network-whitepaper.pdf"
-                    target="_blank"
-                    >Whitepaper</a
-                  >,
-                  <a
-                    href="https://byron.network/static/Litepaper.pdf"
-                    target="_blank"
-                    >Lightpaper</a
-                  >
-                  and
-                  <a
-                    href="https://byron.network/static/byron-network-presentation.pdf"
-                    target="_blank"
-                    >presentation</a
-                  >
+                  BynetDEX mainnet launch
                 </p>
               </li>
               <li>
-                <i class="bi bi-check-circle-fill"></i>
-                <p>Code optimization and testing</p>
-              </li>
-              <li>
-                <i class="bi bi-check-circle-fill"></i>
-                <p>BynetDEX MVP delivery - demo for IOHK</p>
+                <i class="bi bi-circle"></i>
+                <p>Bynet Protocol analysis and design</p>
               </li>
             </ul>
           </div>
@@ -137,29 +88,37 @@
         <div
           class="timeline-row done current"
         >
-          <div class="timeline-time">Q1 2022</div>
+          <div class="timeline-time">Q3 2022</div>
           <div class="timeline-content">
             <ul class="list-group">
               <li>
-                <i class="bi bi-check-circle-fill"></i>
-                <p>Mobile wallet beta testing (iOS and Android)</p>
+                <i class="bi bi-circle"></i>
+                <p>Demo and testing Bynet Protocol by community members</p>
               </li>
               <li>
-                <i class="bi bi-check-circle-fill"></i>
-                <p>HD mobile wallet public release</p>
+                <i class="bi bi-circle"></i>
+                <p>Functional features improvement</p>
                 <!--<span class="in-progress">in progress</span>//-->
               </li>
               <li>
                 <i class="bi bi-circle"></i>
-                <p>Additional features on Bynet Wallet</p>
+                <p>Closed Matching Engine implementation</p>
               </li>
               <li>
                 <i class="bi bi-circle"></i>
-                <p>IDO</p>
+                <p>Bynet Protocol First Users onboard</p>
               </li>
               <li>
                 <i class="bi bi-circle"></i>
-                <p>Public sale</p>
+                <p>Access to mobile app infrastructure</p>
+              </li>
+              <li>
+                <i class="bi bi-circle"></i>
+                <p>GUI design + GUI implementation</p>
+              </li>
+              <li>
+                <i class="bi bi-circle"></i>
+                <p>Scaling solutions</p>
               </li>
             </ul>
           </div>
@@ -167,44 +126,24 @@
         <div
           class="timeline-row"
         >
-          <div class="timeline-time">Q2 2022</div>
+          <div class="timeline-time">Q4 2022</div>
           <div class="timeline-content">
             <ul class="list-group">
               <li>
                 <i class="bi bi-circle"></i>
-                <p>Integration of Bynet Wallet with BynetDEX</p>
+                <p>Bynet Protocol launch to the public </p>
               </li>
               <li>
                 <i class="bi bi-circle"></i>
-                <p>Integration of Nami Wallet with BynetDEX</p>
+                <p>High-level documentation - tutorial of buildings of top of the Bynet Protocol</p>
               </li>
               <li>
                 <i class="bi bi-circle"></i>
-                <p>Security audits</p>
+                <p>Analytics Tools for Protocol Participants</p>
               </li>
               <li>
                 <i class="bi bi-circle"></i>
-                <p>BynetDEX on the testnet</p>
-              </li>
-              <li>
-                <i class="bi bi-circle"></i>
-                <p>Code optimization</p>
-              </li>
-              <li>
-                <i class="bi bi-circle"></i>
-                <p>BynetDEX on the mainnet</p>
-              </li>
-              <li>
-                <i class="bi bi-circle"></i>
-                <p>Stop limit and stop loss on the DEX</p>
-              </li>
-              <li>
-                <i class="bi bi-circle"></i>
-                <p>Buy with FIAT (mobile wallet)</p>
-              </li>
-              <li>
-                <i class="bi bi-circle"></i>
-                <p>Trading API initialization</p>
+                <p>Opening infrastructure for integrations</p>
               </li>
             </ul>
           </div>
@@ -212,9 +151,9 @@
         <div
           class="timeline-row"
         >
-          <div class="timeline-time">Q3 2022</div>
+          <div class="timeline-time">Q1 2023</div>
           <div class="timeline-content">
-            <h4>Soon to be announced...</h4>
+            <h4>To be announced...</h4>
           </div>
         </div>
       </div>
