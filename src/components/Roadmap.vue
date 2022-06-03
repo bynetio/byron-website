@@ -56,9 +56,9 @@
           <div class="timeline-content">
             <ul class="list-group">
               <li>
-                <i class="bi bi-circle"></i>
+                <i class="bi bi-check-circle-fill"></i>
                 <p>
-                  BynetDEX MVP 
+                   Bynet Protocol analysis and design
                 </p>
               </li>
               <li>
@@ -79,7 +79,7 @@
               </li>
               <li>
                 <i class="bi bi-circle"></i>
-                <p>Bynet Protocol analysis and design</p>
+                <p>BynetDEX MVP</p>
               </li>
             </ul>
           </div>

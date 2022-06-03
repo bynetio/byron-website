@@ -12,7 +12,7 @@
         >
           <div class="avatar"><img src="../assets/team_3.jpg" /></div>
           <h3>Bartłomiej Rusiniak</h3>
-          <h4>Co-founder/Chief Technical Officer</h4>
+          <h4>Co-founder/CTO/CPO</h4>
         </a>
         <a
           class="col-md-3 mb-4 team-item"
@@ -26,20 +26,20 @@
         <a
           class="col-md-3 mb-4 team-item"
           target="_blank"
-          href="https://www.linkedin.com/in/sandra-marta-kami%C5%84ska/"
+          href="https://www.linkedin.com/in/sandra-marta-grabowiec/"
         >
           <div class="avatar"><img src="../assets/team_4.jpg" /></div>
           <h3>Sandra Grabowiec</h3>
-          <h4>Chief Operating Officer</h4>
+          <h4>COO</h4>
         </a>
         <a
           class="col-md-3 mb-4 team-item"
           target="_blank"
-          href="https://www.linkedin.com/in/hkrawczyk/"
+          href="https://www.linkedin.com/in/lucybo/"
         >
           <div class="avatar"><img src="../assets/team_2.jpg" /></div>
-          <h3>Hubert Krawczyk</h3>
-          <h4>Advisor</h4>
+          <h3>Lucyna Borkowska</h3>
+          <h4>Project Manager</h4>
         </a>
       </div>
     </div>
