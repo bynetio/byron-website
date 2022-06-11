@@ -28,7 +28,7 @@
           target="_blank"
           href="https://www.linkedin.com/in/sandra-marta-grabowiec/"
         >
-          <div class="avatar"><img src="../assets/team_4.jpg" /></div>
+          <div class="avatar"><img src="../assets/team_4.png" /></div>
           <h3>Sandra Grabowiec</h3>
           <h4>COO</h4>
         </a>
