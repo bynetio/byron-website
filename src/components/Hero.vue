@@ -29,6 +29,14 @@
         <div class="col-sm-4 ">
           <div class="part-item">
             <div class="part-heading">
+              <img class="part-icon" src="../assets/coin1.png" />
+              <h4>Bynet Protocol</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 ">
+          <div class="part-item">
+            <div class="part-heading">
               <img class="part-icon" src="../assets/swap2.png" />
               <h4>BynetDEX</h4>
             </div>
@@ -39,14 +47,6 @@
             <div class="part-heading">
               <img class="part-icon" src="../assets/wallet2.png" />
               <h4>Bynet Wallet</h4>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4 ">
-          <div class="part-item">
-            <div class="part-heading">
-              <img class="part-icon" src="../assets/coin1.png" />
-              <h4>Byron Launchpad Toolset</h4>
             </div>
           </div>
         </div>
