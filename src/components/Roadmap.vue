@@ -20,11 +20,7 @@
               </li>
               <li>
                 <i class="bi bi-check-circle-fill"></i>
-                <p>Protocol architecture design</p>
-              </li>
-              <li>
-                <i class="bi bi-check-circle-fill"></i>
-                <p>Whitepaper v2 release</p>
+                <p>Whitepaper release</p>
               </li>
               <li>
                 <i class="bi bi-check-circle-fill"></i>
@@ -44,13 +40,13 @@
               </li>
               <li>
                 <i class="bi bi-check-circle-fill"></i>
-                <p>Bynet Protocol concept substantive consultation with Cardano’s creators</p>
+                <p>Bynet Protocol concept consultation with Cardano’s creators</p>
               </li>
             </ul>
           </div>
         </div>
         <div
-          class="timeline-row done"
+          class="timeline-row done current"
         >
           <div class="timeline-time">Q2 2022</div>
           <div class="timeline-content">
@@ -58,7 +54,14 @@
               <li>
                 <i class="bi bi-check-circle-fill"></i>
                 <p>
-                   Bynet Protocol analysis and design
+                   <a href="https://bynet.io/">Bynet Protocol website launch</a>
+                </p>
+              </li>
+              <li>
+                <i class="bi bi-circle"></i>
+                <p>
+                   BynetDEX MVP
+                   <span class="in-progress">in progress</span>
                 </p>
               </li>
               <li>
@@ -74,39 +77,35 @@
               <li>
                 <i class="bi bi-circle"></i>
                 <p>
-                  BynetDEX mainnet launch
+                  Prime Liquidity analysis and architecture
                 </p>
-              </li>
-              <li>
-                <i class="bi bi-circle"></i>
-                <p>BynetDEX MVP</p>
               </li>
             </ul>
           </div>
         </div>
 
         <div
-          class="timeline-row done current"
+          class="timeline-row"
         >
           <div class="timeline-time">Q3 2022</div>
           <div class="timeline-content">
             <ul class="list-group">
               <li>
                 <i class="bi bi-circle"></i>
-                <p>Demo and testing Bynet Protocol by community members</p>
+                <p>BynetDEX mainnet launch</p>
               </li>
               <li>
                 <i class="bi bi-circle"></i>
-                <p>Functional features improvement</p>
+                <p>Advanced trading on BynetDEX</p>
                 <!--<span class="in-progress">in progress</span>//-->
               </li>
               <li>
                 <i class="bi bi-circle"></i>
-                <p>Closed Matching Engine implementation</p>
+                <p>Matching Engineanalysis and architecture</p>
               </li>
               <li>
                 <i class="bi bi-circle"></i>
-                <p>Bynet Protocol First Users onboard</p>
+                <p>Functional features improvement</p>
               </li>
               <li>
                 <i class="bi bi-circle"></i>
@@ -118,7 +117,7 @@
               </li>
               <li>
                 <i class="bi bi-circle"></i>
-                <p>Scaling solutions</p>
+                <p>Bynet protocol development</p>
               </li>
             </ul>
           </div>
@@ -135,11 +134,11 @@
               </li>
               <li>
                 <i class="bi bi-circle"></i>
-                <p>High-level documentation - tutorial of buildings of top of the Bynet Protocol</p>
+                <p>High-level documentation - tutorial on buildings DApps utilizing Bynet Protocol</p>
               </li>
               <li>
                 <i class="bi bi-circle"></i>
-                <p>Analytics Tools for Protocol Participants</p>
+                <p>Analytics Tool for Protocol's Participants</p>
               </li>
               <li>
                 <i class="bi bi-circle"></i>
