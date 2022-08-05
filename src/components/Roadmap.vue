@@ -36,17 +36,13 @@
               </li>
               <li>
                 <i class="bi bi-check-circle-fill"></i>
-                <p>DEX marketing strategy</p>
-              </li>
-              <li>
-                <i class="bi bi-check-circle-fill"></i>
                 <p>Bynet Protocol concept consultation with Cardano’s creators</p>
               </li>
             </ul>
           </div>
         </div>
         <div
-          class="timeline-row done current"
+          class="timeline-row done"
         >
           <div class="timeline-time">Q2 2022</div>
           <div class="timeline-content">
@@ -57,6 +53,30 @@
                    <a href="https://bynet.io/">Bynet Protocol website launch</a>
                 </p>
               </li>
+              <li>
+                <i class="bi bi-check-circle-fill"></i>
+                <p>DEX marketing strategy</p>
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill"></i>
+                <p>Prime Liquidity analysis and architecture</p>
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill"></i>
+                <p>
+                  Token price aggregator in Bynet Wallet
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="timeline-row done current"
+        >
+          <div class="timeline-time">Q3 2022</div>
+          <div class="timeline-content">
+            <ul class="list-group">
               <li>
                 <i class="bi bi-circle"></i>
                 <p>
@@ -70,26 +90,8 @@
               </li>
               <li>
                 <i class="bi bi-circle"></i>
-                <p>
-                  BynetDEX testnet launch
-                </p>
+                <p>BynetDEX testnet launch</p>
               </li>
-              <li>
-                <i class="bi bi-circle"></i>
-                <p>
-                  Prime Liquidity analysis and architecture
-                </p>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div
-          class="timeline-row"
-        >
-          <div class="timeline-time">Q3 2022</div>
-          <div class="timeline-content">
-            <ul class="list-group">
               <li>
                 <i class="bi bi-circle"></i>
                 <p>BynetDEX mainnet launch</p>
@@ -101,7 +103,7 @@
               </li>
               <li>
                 <i class="bi bi-circle"></i>
-                <p>Matching Engineanalysis and architecture</p>
+                <p>Matching Engine analysis and architecture</p>
               </li>
               <li>
                 <i class="bi bi-circle"></i>
@@ -115,10 +117,6 @@
                 <i class="bi bi-circle"></i>
                 <p>GUI design + GUI implementation</p>
               </li>
-              <li>
-                <i class="bi bi-circle"></i>
-                <p>Bynet protocol development</p>
-              </li>
             </ul>
           </div>
         </div>
@@ -128,6 +126,10 @@
           <div class="timeline-time">Q4 2022</div>
           <div class="timeline-content">
             <ul class="list-group">
+              <li>
+                <i class="bi bi-circle"></i>
+                <p>Bynet protocol development</p>
+              </li>
               <li>
                 <i class="bi bi-circle"></i>
                 <p>Bynet Protocol launch to the public </p>
