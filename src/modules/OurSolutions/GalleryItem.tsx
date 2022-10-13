@@ -38,7 +38,7 @@ const GalleryItem = ({
           </div>
         </a>
         <a
-          href={url}
+          href={urlOptional}
           target="blank"
           className={`flex text-left w-full md:w-auto h-12 bg-gradient-to-l from-[#089CFC] to-[#2B2DFD] rounded-lg p-[1px] mb-4 ${
             urlOptional ? 'block' : 'hidden'
