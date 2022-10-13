@@ -20,7 +20,7 @@ const OurSolutions = () => {
       <h6 className="text-xs font-bold font-['Mulish'] tracking-[0.3em] bg-clip-text text-transparent bg-gradient-to-b from-[#2B2DFD] to-[#089CFC] mb-9">
         OUR SOLUTIONS
       </h6>
-      <p className="font-['Mulish'] text-[#717C90] text-base text-center md:text-lg mb-12 md:mb-20 max-w-xl ">
+      <p className="font-['Mulish'] font-medium text-[#717C90] text-base text-center md:text-lg mb-12 md:mb-20 max-w-xl ">
         With its Bynet ecosystem, Byron Network will serve as a vital hub that diminishes DeFi
         obstacles for all, be it a project or a trader. It is designed to minimize entry barriers
         for all market participants We strive to be the driver for cross-chain innovation.
@@ -33,7 +33,9 @@ const OurSolutions = () => {
           {marqueeTextArray.map((text, index) => (
             <div className="flex justify-center items-center md:w-full mr-7 md:mr-0" key={index}>
               <Point className="mr-7" />
-              <p>{text}</p>
+              <p className="font-['Mulish'] text-lg md:text-xl font-semibold text-[#626E84]">
+                {text}
+              </p>
             </div>
           ))}
         </Marquee>

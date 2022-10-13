@@ -9,7 +9,9 @@ export const CustomDot = ({ index, onClick, active }: DotProps) => (
       onClick?.();
       e.preventDefault();
     }}
-    className={`flex-none px-3 pb-6 ${active ? 'text-slate-900 font-semibold' : 'text-[#707D95]'}`}>
+    className={`font-['Mulish'] flex-none px-3 pb-6 ${
+      active ? 'text-slate-900 font-semibold' : 'text-[#707D95]'
+    }`}>
     {displayData[index || 0]}
   </button>
 );

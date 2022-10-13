@@ -5,8 +5,8 @@ import './footer.scss';
 
 const Footer = () => {
   return (
-    <footer>
-      <div className=" text-[14px] lg:hidden mx-6 m-10">
+    <footer className="font-['Mulish']">
+      <div className="text-[14px] lg:hidden mx-6 m-10">
         <div className="flex justify-between">
           <ul className="w-1/2">
             <li className="py-2">
@@ -76,12 +76,15 @@ const Footer = () => {
               <span className="mr-4 text-grey">|</span>
             </li>
             <li>
-              <a href="https://binarapps.com/" className="mr-4 text-[#1566E1]" target="blank">
+              <a
+                href="https://binarapps.com/"
+                className="mr-4 text-[#1566E1] font-bold"
+                target="blank">
                 BinarApps
               </a>
             </li>
             <li>
-              <a href="https://iog.io/" className="mr-4 text-[#1566E1]" target="blank">
+              <a href="https://iog.io/" className="mr-4 text-[#1566E1] font-bold" target="blank">
                 IOG
               </a>
             </li>
