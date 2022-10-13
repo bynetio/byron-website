@@ -6,22 +6,25 @@ type Props = {
   imageComponent?: any;
   imageSrc?: string;
   description: string;
+  url: string;
 };
 
-const GalleryItem = ({ title, description, imageSrc, imageComponent: Image }: Props) => {
+const GalleryItem = ({ title, description, url, imageSrc, imageComponent: Image }: Props) => {
   return (
     <div className="flex w-full h-auto flex-wrap md:flex-nowrap lg:px-32 gap-x-8">
       <div className="flex-1">
         <h3 className="text-[22px] font-semibold mb-6">{title}</h3>
         <p className="text-base text-[#717C91] mb-8 font-['Mulish']">{description}</p>
-        <button
+        <a
+          href={url}
+          target="blank"
           className="flex text-left w-full md:w-auto h-12 bg-gradient-to-l from-[#089CFC] to-[#2B2DFD] rounded-lg p-[1px] mb-4"
           onClick={() => alert('klik')}>
           <div className="flex justify-center items-center w-full h-full px-6 rounded-lg bg-[#EFF6FF]">
             <p className="pr-2">Read more</p>
             <ArrowRight />
           </div>
-        </button>
+        </a>
       </div>
       <div className="flex-1">
         {imageSrc && (

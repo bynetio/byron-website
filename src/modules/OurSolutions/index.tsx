@@ -11,6 +11,7 @@ type GalleryItemtype = {
   title: string;
   description: string;
   image: any;
+  url: string;
 };
 
 const OurSolutions = () => {
@@ -72,8 +73,14 @@ const OurSolutions = () => {
           showDots={true}
           slidesToSlide={1}
           swipeable>
-          {galleryItems.map(({ title, image, description }, index) => (
-            <GalleryItem key={index} title={title} imageSrc={image} description={description} />
+          {galleryItems.map(({ title, image, description, url }, index) => (
+            <GalleryItem
+              key={index}
+              title={title}
+              imageSrc={image}
+              description={description}
+              url={url}
+            />
           ))}
         </Carousel>
       </div>
@@ -86,26 +93,30 @@ const galleryItems: GalleryItemtype[] = [
     title: 'Bynet Protocol',
     image: ProtocolImg,
     description:
-      'Bynet Protocol is a set of Cardano-focused DApps and tools. It is a DeFi scalability solution that aims to empower innovation by lifting technological barriers and bridging liquidity source to other projects.'
+      'Bynet Protocol is a set of Cardano-focused DApps and tools. It is a DeFi scalability solution that aims to empower innovation by lifting technological barriers and bridging liquidity source to other projects.',
+    url: 'https://bynet.io/'
   },
   {
     title: 'Bynet DEX',
     image: DexImg,
     description:
-      'BynetDEX is an order book DEX that brings a CEX-similar experience to the decentralized world. Advanced order types, such as limit or stop loss orders, create more flexible trading with greater risk control.'
+      'BynetDEX is an order book DEX that brings a CEX-similar experience to the decentralized world. Advanced order types, such as limit or stop loss orders, create more flexible trading with greater risk control.',
+    url: '/'
   },
   {
     title: 'Bynet Wallet',
     image: WalletImg,
     description:
       // eslint-disable-next-line quotes
-      "Bynet Wallet is an HD native wallet for the Cardano ecosystem. It incorporates all the functionalities both for novices and advanced Cardano enthusiasts, all within a hand's reach. All that with minimalistic design and intuitive interface."
+      "Bynet Wallet is an HD native wallet for the Cardano ecosystem. It incorporates all the functionalities both for novices and advanced Cardano enthusiasts, all within a hand's reach. All that with minimalistic design and intuitive interface.",
+    url: 'https://apps.apple.com/us/app/bynet-wallet/id1610555591'
   },
   {
     title: 'Cardano Market',
     image: CardanoMarketImg,
     description:
-      'Cardano Market is a Cardano DeFi hub that facilitates easy navigation through a DeFi ecosystem for newbies. Our platform provides an intuitive introduction to Cardano DeFi with projects details, education, news, events, and much more.'
+      'Cardano Market is a Cardano DeFi hub that facilitates easy navigation through a DeFi ecosystem for newbies. Our platform provides an intuitive introduction to Cardano DeFi with projects details, education, news, events, and much more.',
+    url: 'https://cardanomarket.io/'
   }
 ];
 
