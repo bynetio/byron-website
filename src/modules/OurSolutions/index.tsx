@@ -12,6 +12,9 @@ type GalleryItemtype = {
   description: string;
   image: any;
   url: string;
+  urlOptional: string;
+  buttonCopy: string;
+  buttonCopyOptional: string;
 };
 
 const OurSolutions = () => {
@@ -73,15 +76,23 @@ const OurSolutions = () => {
           showDots={true}
           slidesToSlide={1}
           swipeable>
-          {galleryItems.map(({ title, image, description, url }, index) => (
-            <GalleryItem
-              key={index}
-              title={title}
-              imageSrc={image}
-              description={description}
-              url={url}
-            />
-          ))}
+          {galleryItems.map(
+            (
+              { title, image, description, url, urlOptional, buttonCopy, buttonCopyOptional },
+              index
+            ) => (
+              <GalleryItem
+                key={index}
+                title={title}
+                imageSrc={image}
+                description={description}
+                url={url}
+                urlOptional={urlOptional}
+                buttonCopy={buttonCopy}
+                buttonCopyOptional={buttonCopyOptional}
+              />
+            )
+          )}
         </Carousel>
       </div>
     </section>
@@ -94,14 +105,20 @@ const galleryItems: GalleryItemtype[] = [
     image: ProtocolImg,
     description:
       'Bynet Protocol is a set of Cardano-focused DApps and tools. It is a DeFi scalability solution that aims to empower innovation by lifting technological barriers and bridging liquidity source to other projects.',
-    url: 'https://bynet.io/'
+    url: 'https://bynet.io/',
+    urlOptional: '',
+    buttonCopy: 'Discover',
+    buttonCopyOptional: ''
   },
   {
     title: 'Bynet DEX',
     image: DexImg,
     description:
       'BynetDEX is an order book DEX that brings a CEX-similar experience to the decentralized world. Advanced order types, such as limit or stop loss orders, create more flexible trading with greater risk control.',
-    url: '/'
+    url: '/',
+    urlOptional: '',
+    buttonCopy: 'Join soon',
+    buttonCopyOptional: ''
   },
   {
     title: 'Bynet Wallet',
@@ -109,14 +126,20 @@ const galleryItems: GalleryItemtype[] = [
     description:
       // eslint-disable-next-line quotes
       "Bynet Wallet is an HD native wallet for the Cardano ecosystem. It incorporates all the functionalities both for novices and advanced Cardano enthusiasts, all within a hand's reach. All that with minimalistic design and intuitive interface.",
-    url: 'https://apps.apple.com/us/app/bynet-wallet/id1610555591'
+    url: 'https://apps.apple.com/us/app/bynet-wallet/id1610555591',
+    urlOptional: 'https://play.google.com/store/apps/details?id=network.byron.wallet',
+    buttonCopy: 'Download from AppStore',
+    buttonCopyOptional: 'Download from Google Play'
   },
   {
     title: 'Cardano Market',
     image: CardanoMarketImg,
     description:
       'Cardano Market is a Cardano DeFi hub that facilitates easy navigation through a DeFi ecosystem for newbies. Our platform provides an intuitive introduction to Cardano DeFi with projects details, education, news, events, and much more.',
-    url: 'https://cardanomarket.io/'
+    url: 'https://cardanomarket.io/',
+    urlOptional: '',
+    buttonCopy: 'Discover',
+    buttonCopyOptional: ''
   }
 ];
 

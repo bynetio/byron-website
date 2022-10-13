@@ -7,9 +7,21 @@ type Props = {
   imageSrc?: string;
   description: string;
   url: string;
+  urlOptional: string;
+  buttonCopy: string;
+  buttonCopyOptional: string;
 };
 
-const GalleryItem = ({ title, description, url, imageSrc, imageComponent: Image }: Props) => {
+const GalleryItem = ({
+  title,
+  description,
+  url,
+  urlOptional,
+  imageSrc,
+  imageComponent: Image,
+  buttonCopy,
+  buttonCopyOptional
+}: Props) => {
   return (
     <div className="flex w-full h-auto flex-wrap md:flex-nowrap lg:px-32 gap-x-8">
       <div className="flex-1">
@@ -18,11 +30,22 @@ const GalleryItem = ({ title, description, url, imageSrc, imageComponent: Image 
         <a
           href={url}
           target="blank"
-          className="flex text-left w-full md:w-auto h-12 bg-gradient-to-l from-[#089CFC] to-[#2B2DFD] rounded-lg p-[1px] mb-4"
-          onClick={() => alert('klik')}>
+          className="flex text-left w-full md:w-auto h-12 bg-gradient-to-l from-[#089CFC] to-[#2B2DFD] rounded-lg p-[1px] mb-4">
           <div className="flex justify-center items-center w-full h-full px-6 rounded-lg bg-[#EFF6FF] hover:bg-gradient-to-r hover:from-[#2B2DFD] hover:to-[#089CFC]">
             <p className="pr-2 hover:opacity-50">
-              Read more <ArrowRight className="inline" />
+              {buttonCopy} <ArrowRight className="inline" />
+            </p>
+          </div>
+        </a>
+        <a
+          href={url}
+          target="blank"
+          className={`flex text-left w-full md:w-auto h-12 bg-gradient-to-l from-[#089CFC] to-[#2B2DFD] rounded-lg p-[1px] mb-4 ${
+            urlOptional ? 'block' : 'hidden'
+          }`}>
+          <div className="flex justify-center items-center w-full h-full px-6 rounded-lg bg-[#EFF6FF] hover:bg-gradient-to-r hover:from-[#2B2DFD] hover:to-[#089CFC]">
+            <p className="pr-2 hover:opacity-50">
+              {buttonCopyOptional} <ArrowRight className="inline" />
             </p>
           </div>
         </a>
