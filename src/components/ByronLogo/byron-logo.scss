@@ -1,0 +1,25 @@
+.byron-logo {
+  align-items: center;
+  display: flex;
+  height: 64px;
+
+  & > svg {
+    height: 64px;
+  }
+}
+
+.bl-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin-left: 16px;
+}
+
+.bl-byron {
+  font-weight: 300;
+  margin-right: 4px;
+}
+
+.bl-network {
+  font-weight: 700;
+}

@@ -1,0 +1,36 @@
+.react-multi-carousel-dot-list {
+  justify-content: left;
+  margin-bottom: 24px;
+  overflow-x: auto;
+  position: relative;
+  width: 100%;
+}
+
+.react-multiple-carousel__arrow {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .react-multi-carousel-dot-list {
+    justify-content: center;
+  }
+
+  .react-multiple-carousel__arrow {
+    display: block;
+  }
+}
+
+.react-multiple-carousel__arrow, .react-multiple-carousel__arrow:hover  {
+  background: none;
+}
+
+.react-multiple-carousel__arrow:before {
+  color: #000;
+}
+
+
+  @media screen and (max-width: 768px) {
+    .marquee {
+      min-width: min-content !important;
+    }
+  }
