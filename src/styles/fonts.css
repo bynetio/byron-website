@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("./poppins-v20-latin-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url("./Mulish.ttf") format("truetype");
+}
+
+body {
+  font-family: 'Poppins', serif;
+}

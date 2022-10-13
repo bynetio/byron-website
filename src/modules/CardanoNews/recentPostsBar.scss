@@ -1,0 +1,48 @@
+.bar-loading {
+  height: 268px;
+  width: 100%;
+
+  @media (max-width: 1024px) {
+    & {
+      height: 288px;
+    }
+  }
+}
+
+.postTile {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 268px;
+  padding: 8px;
+  user-select: none;
+  -webkit-user-drag: none;
+
+  @media (max-width: 1024px) {
+    & {
+      height: 288px;
+    }
+  }
+
+  .postTile-image {
+    border-radius: 12px;
+    margin-bottom: 6px;
+    max-height: 198px;
+    max-width: 100%;
+
+    @media (max-width: 1024px) {
+      & {
+        max-height: 218px;
+      }
+    }
+  }
+
+  .postTile-author {
+    color: #666;
+  }
+
+  .postTile-title {
+    font-weight: bold !important;
+    max-width: 100%;
+  }
+}
