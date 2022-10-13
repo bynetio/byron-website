@@ -117,7 +117,7 @@ const galleryItems: GalleryItemtype[] = [
       'BynetDEX is an order book DEX that brings a CEX-similar experience to the decentralized world. Advanced order types, such as limit or stop loss orders, create more flexible trading with greater risk control.',
     url: 'https://dex-ui.testnet.byron.network/',
     urlOptional: '',
-    buttonCopy: 'Join soon',
+    buttonCopy: 'Try on Testnet',
     buttonCopyOptional: ''
   },
   {
