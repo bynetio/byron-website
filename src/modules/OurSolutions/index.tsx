@@ -86,7 +86,7 @@ const OurSolutions = () => {
                 title={title}
                 imageSrc={image}
                 description={description}
-                url={url}
+                url={url}git checkout 
                 urlOptional={urlOptional}
                 buttonCopy={buttonCopy}
                 buttonCopyOptional={buttonCopyOptional}
@@ -115,7 +115,7 @@ const galleryItems: GalleryItemtype[] = [
     image: DexImg,
     description:
       'BynetDEX is an order book DEX that brings a CEX-similar experience to the decentralized world. Advanced order types, such as limit or stop loss orders, create more flexible trading with greater risk control.',
-    url: '/',
+    url: 'https://dex-ui.dev.byron.network/#/',
     urlOptional: '',
     buttonCopy: 'Join soon',
     buttonCopyOptional: ''
