@@ -173,7 +173,7 @@ const Tokenomics = () => {
         <div className="w-full text-center pt-24 pb-24 lg:pb-64 mx-0">
           <a
             href="https://docsend.com/view/zzwh7tfis2595mtv"
-            className=" text-white border border-indigo-600 rounded-lg py-3 px-7 mx-auto"
+            className=" text-white border border-indigo-600 rounded-lg py-3 px-7 mx-auto hover:bg-gradient-to-r hover:from-[#2B2DFD] hover:to-[#089CFC]"
             rel="noopener noreferrer"
             target="blank">
             See full tokenomics
