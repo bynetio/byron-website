@@ -6,9 +6,22 @@ type Props = {
   imageComponent?: any;
   imageSrc?: string;
   description: string;
+  url: string;
+  urlOptional: string;
+  buttonCopy: string;
+  buttonCopyOptional: string;
 };
 
-const GalleryItem = ({ title, description, imageSrc, imageComponent: Image }: Props) => {
+const GalleryItem = ({
+  title,
+  description,
+  url,
+  urlOptional,
+  imageSrc,
+  imageComponent: Image,
+  buttonCopy,
+  buttonCopyOptional
+}: Props) => {
   return (
     <div className="flex w-full h-auto flex-wrap md:flex-nowrap lg:px-32 gap-x-8">
       <div className="flex-1">
@@ -16,14 +29,28 @@ const GalleryItem = ({ title, description, imageSrc, imageComponent: Image }: Pr
         <p className="font-['Mulish'] font-medium text-base leading-[30px] text-[#717C91] mb-8">
           {description}
         </p>
-        <button
-          className="flex text-left w-full md:w-auto h-12 bg-gradient-to-l from-[#089CFC] to-[#2B2DFD] rounded-lg p-[1px] mb-4"
-          onClick={() => alert('klik')}>
-          <div className="flex justify-center items-center w-full h-full px-6 rounded-lg bg-[#EFF6FF]">
-            <p className="font-['Mulish'] font-bold pr-2">Read more</p>
-            <ArrowRight />
+        <a
+          href={url}
+          target="blank"
+          className="flex text-left w-full md:w-auto h-12 bg-gradient-to-l from-[#089CFC] to-[#2B2DFD] rounded-lg p-[1px] mb-4">
+          <div className="flex justify-center items-center w-full h-full px-6 rounded-lg bg-[#EFF6FF] hover:bg-gradient-to-r hover:from-[#2B2DFD] hover:to-[#089CFC]">
+            <p className="font-['Mulish'] font-bold pr-2 hover:opacity-50">
+              {buttonCopy} <ArrowRight className="inline" />
+            </p>
           </div>
-        </button>
+        </a>
+        <a
+          href={urlOptional}
+          target="blank"
+          className={`flex text-left w-full md:w-auto h-12 bg-gradient-to-l from-[#089CFC] to-[#2B2DFD] rounded-lg p-[1px] mb-4 ${
+            urlOptional ? 'block' : 'hidden'
+          }`}>
+          <div className="flex justify-center items-center w-full h-full px-6 rounded-lg bg-[#EFF6FF] hover:bg-gradient-to-r hover:from-[#2B2DFD] hover:to-[#089CFC]">
+            <p className="font-['Mulish'] font-bold pr-2 hover:opacity-50">
+              {buttonCopyOptional} <ArrowRight className="inline" />
+            </p>
+          </div>
+        </a>
       </div>
       <div className="flex-1">
         {imageSrc && (
