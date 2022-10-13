@@ -86,7 +86,7 @@ const OurSolutions = () => {
                 title={title}
                 imageSrc={image}
                 description={description}
-                url={url}git checkout 
+                url={url}
                 urlOptional={urlOptional}
                 buttonCopy={buttonCopy}
                 buttonCopyOptional={buttonCopyOptional}
