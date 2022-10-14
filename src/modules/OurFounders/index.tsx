@@ -43,7 +43,7 @@ const OurFounders = () => (
         Partners
       </h6>
       <h3 className="font-['Mulish'] text-center text-2xl font-bold mb-11 md:mb-16">
-        We’re working with top global partners
+        A growing network of partners
       </h3>
       <div className="lg:px-48">
         <Carousel

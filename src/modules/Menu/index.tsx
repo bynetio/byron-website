@@ -59,7 +59,7 @@ const Menu = () => {
               <div className="bg-gradient-to-r from-[#0C1427] to-[#0E192F] px-6 w-full">
                 <a
                   href="mailto:contact@byron.network"
-                  className="text-white text-center block text-3xl bg-gradient-to-r from-[#2C2EFE] to-[#0A97FD] hover:bg-gradient-to-r hover:from-[#0A97FD] hover:to-[#2C2EFE] px-auto py-3 rounded-lg mx-3 mb-8"
+                  className="text-white text-center block text-3xl bg-gradient-to-r from-[#2C2EFE] to-[#0A97FD] hover:bg-gradient-to-r hover:from-[#0A97FD] hover:to-[#2C2EFE] px-auto py-3 rounded-lg mx-3 mb-24"
                   rel="noopener noreferrer"
                   target="blank">
                   Contact
