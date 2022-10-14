@@ -1,7 +1,7 @@
 import React from 'react';
 import { DotProps } from 'react-multi-carousel';
 
-const displayData = ['Bynet Protocool', 'Bynet DEX', 'Bynet Wallet', 'Cardano Market'];
+const displayData = ['Bynet Protocool', 'BynetDEX', 'Bynet Wallet', 'Cardano Market'];
 
 export const CustomDot = ({ index, onClick, active }: DotProps) => (
   <button
