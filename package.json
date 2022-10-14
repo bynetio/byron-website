@@ -2,6 +2,9 @@
   "name": "byron-network",
   "version": "1.0.0",
   "description": "byron.network page",
+  "staticFiles": {
+    "staticPath": "public"
+  },
   "scripts": {
     "prebuild": "run-s clean lint",
     "build": "parcel build src/index.html --no-source-maps",
@@ -53,6 +56,7 @@
     "lint-staged": "^13.0.3",
     "npm-run-all": "^4.1.5",
     "parcel": "^2.7.0",
+    "parcel-reporter-static-files-copy": "^1.4.0",
     "parcel-resolver-tspaths": "^0.0.9",
     "postcss": "^8.4.17",
     "prettier": "^2.7.1",

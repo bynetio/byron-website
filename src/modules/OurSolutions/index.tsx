@@ -27,7 +27,7 @@ const OurSolutions = () => {
       <p className="font-['Mulish'] font-medium text-[#717C90] text-base text-center md:text-lg mb-12 md:mb-20 max-w-xl ">
         With its Bynet ecosystem, Byron Network will serve as a vital hub that diminishes DeFi
         obstacles for all, be it a project or a trader. It is designed to minimize entry barriers
-        for all market participants We strive to be the driver for cross-chain innovation.
+        for all market participants. We strive to be the driver for cross-chain innovation.
       </p>
       <h5 className="font-['Mulish'] font-semibold text-xl text-center mb-8">
         Let us help the DeFi world with solutions that benefit from:
@@ -113,7 +113,7 @@ const galleryItems: GalleryItemtype[] = [
     buttonCopyOptional: ''
   },
   {
-    title: 'Bynet DEX',
+    title: 'BynetDEX',
     image: DexImg,
     description:
       'BynetDEX is an order book DEX that brings a CEX-similar experience to the decentralized world. Advanced order types, such as limit or stop loss orders, create more flexible trading with greater risk control.',
