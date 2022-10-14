@@ -48,7 +48,7 @@ const Footer = () => {
             </a>
           </p>
           <p>
-            <a href="https://discord.gg/Vp3w43Wt" target="blank">
+            <a href="https://discord.com/invite/rRFyDS3q" target="blank">
               <DiscordIcon className="mr-4 max-h-8" />
             </a>
             <a href="https://t.me/byron_network" target="blank">
@@ -100,7 +100,7 @@ const Footer = () => {
           <a href="https://github.com/byron-network/" target="blank">
             <GithubIcon className="mr-4" />
           </a>
-          <a href="https://discord.gg/Vp3w43Wt" target="blank">
+          <a href="https://discord.com/invite/rRFyDS3q" target="blank">
             <DiscordIcon className="mr-4" />
           </a>
           <a href="https://t.me/byron_network" target="blank">
