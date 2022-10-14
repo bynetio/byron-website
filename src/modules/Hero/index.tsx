@@ -18,7 +18,7 @@ const Hero = () => (
             3000,
             ' protocols',
             3000,
-            ' crypto enthusiast',
+            ' crypto enthusiasts',
             3000,
             ' builders',
             3000
