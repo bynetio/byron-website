@@ -46,7 +46,7 @@ const PostTile = ({ imageUrl, title, link }: Props) => {
       onMouseOut={eventControl}
       onMouseUp={eventControl}>
       <img className="postTile-image" src={imageUrl} draggable={false} />
-      <h5 className="text-lg font-bold">{title}</h5>
+      <h5 className="text-lg font-medium">{title}</h5>
     </div>
   );
 };

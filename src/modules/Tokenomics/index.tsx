@@ -13,7 +13,7 @@ const Tokenomics = () => {
     <section
       id="development"
       className="bg-gradient-to-r from-[#0C1427] to-[#0E192F] pt-24 lg:pt-48">
-      <h1 className="text-[#C9D6ED] text-center pb-12 lg:pb-20 text-2xl lg:text-5xl font-['Mulish']">
+      <h1 className="text-[#C9D6ED] text-center pb-12 lg:pb-20 text-2xl lg:text-5xl font-['Mulish'] lg:font-bold">
         Bynet Protocol&apos;s development
       </h1>
 
@@ -127,7 +127,7 @@ const Tokenomics = () => {
         </div>
       </div>
       <div id="tokenomics" className="w-full">
-        <h1 className="text-[#C9D6ED] text-center pt-20 lg:pt-48 pb-16 lg:pb-20 text-2xl lg:text-5xl font-['Mulish']">
+        <h1 className="text-[#C9D6ED] text-center pt-20 lg:pt-48 pb-16 lg:pb-20 text-2xl lg:text-5xl font-['Mulish'] lg:font-bold">
           Tokenomics
         </h1>
         <div className="tokenomics flex justify-center flex-wrap">

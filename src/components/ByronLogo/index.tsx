@@ -12,7 +12,7 @@ const ByronLogo = ({ color, className = '' }: Props) => {
   return (
     <div className={classnames('byron-logo', className)}>
       <ByronIcon />
-      <div className="bl-text" style={{ color: color }}>
+      <div className="font-['Mulish'] bl-text" style={{ color: color }}>
         <div className="bl-byron">Byron</div>
         <div className="bl-network">Network</div>
       </div>
