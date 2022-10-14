@@ -10,12 +10,12 @@ const Footer = () => {
         <div className="flex justify-between">
           <ul className="w-1/2">
             <li className="py-2">
-              <a href="/" className="font-bold mr-4">
+              <a href="/" className="font-bold mr-4 pointer-events-none cursor-default">
                 Privacy Policy
               </a>
             </li>
             <li className="py-2">
-              <a href="/" className="font-bold mr-4">
+              <a href="/" className="font-bold mr-4 pointer-events-none cursor-default">
                 Terms &amp; Conditions
               </a>
             </li>
@@ -63,12 +63,12 @@ const Footer = () => {
         <div className="pr-96">
           <ul className="flex">
             <li>
-              <a href="/" className="font-bold mr-4">
+              <a href="/" className="font-bold mr-4 pointer-events-none cursor-default">
                 Privacy Policy
               </a>
             </li>
             <li>
-              <a href="/" className="font-bold mr-4">
+              <a href="/" className="font-bold mr-4 pointer-events-none cursor-default">
                 Terms &amp; Conditions
               </a>
             </li>
