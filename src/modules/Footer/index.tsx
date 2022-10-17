@@ -40,18 +40,30 @@ const Footer = () => {
             Copyright@ 2022 Byron Network OU. All rights reserved.
           </div>
           <p>
-            <a href="https://twitter.com/ByronNetworkOU" target="blank">
+            <a
+              href="https://twitter.com/ByronNetworkOU"
+              aria-label="Visit our Twitter page"
+              target="blank">
               <TwitterIcon className="mr-4 max-h-8" />
             </a>
-            <a href="https://github.com/byron-network/" target="blank">
+            <a
+              href="https://github.com/byron-network/"
+              aria-label="Visit our Github"
+              target="blank">
               <GithubIcon className="mr-4 max-h-8" />
             </a>
           </p>
           <p>
-            <a href="https://discord.com/invite/rRFyDS3q" target="blank">
+            <a
+              href="https://discord.com/invite/rRFyDS3q"
+              aria-label="Join our Discord group"
+              target="blank">
               <DiscordIcon className="mr-4 max-h-8" />
             </a>
-            <a href="https://t.me/byron_network" target="blank">
+            <a
+              href="https://t.me/byron_network"
+              aria-label="Join our Telegram group"
+              target="blank">
               <TelegramIcon className="mr-4 max-h-8" />
             </a>
           </p>
