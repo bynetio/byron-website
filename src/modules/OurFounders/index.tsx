@@ -27,7 +27,7 @@ const OurFounders = () => (
           { name: 'Bartłomiej Rusiniak', position: 'Co-Founder / CTO / CPO', imageSrc: bartekSrc }
         ].map(({ name, position, imageSrc }, index) => (
           <div key={index} className="flex flex-col items-center w-full md:w-auto">
-            <img className="mb-8 w-full md:w-auto" src={imageSrc} />
+            <img className="mb-8 w-full md:w-auto" src={imageSrc} alt={name} />
             <h3 className="font-['Mulish'] text-2xl font-bold mb-2">{name}</h3>
             <p className="font-['Mulish'] text-xl">{position}</p>
           </div>

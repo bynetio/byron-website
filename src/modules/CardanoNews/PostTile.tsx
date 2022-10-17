@@ -45,7 +45,7 @@ const PostTile = ({ imageUrl, title, link }: Props) => {
       onMouseMove={eventControl}
       onMouseOut={eventControl}
       onMouseUp={eventControl}>
-      <img className="postTile-image" src={imageUrl} draggable={false} />
+      <img className="postTile-image" alt="Cardano News Slide" src={imageUrl} draggable={false} />
       <h5 className="text-lg font-medium">{title}</h5>
     </div>
   );
