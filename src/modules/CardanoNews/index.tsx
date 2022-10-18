@@ -1,5 +1,6 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
+import KeenCarousel from '../../components/KeenCarousel';
 import ARTICLES from './articlesMock';
 import PostTile from './PostTile';
 
@@ -33,7 +34,7 @@ const CardanoNews = () => {
       <div className="flex justify-center pb-24 md:pt-8">
         <br></br>
         <div className="w-full max-w-[1440px]">
-          <Carousel
+          {/* <Carousel
             arrows={false}
             autoPlay
             autoPlaySpeed={5000}
@@ -49,7 +50,8 @@ const CardanoNews = () => {
             {ARTICLES.map(({ title, img, link }, index) => {
               return <PostTile key={index} title={title} imageUrl={img} link={link} />;
             })}
-          </Carousel>
+          </Carousel> */}
+          <KeenCarousel />
         </div>
       </div>
     </section>
