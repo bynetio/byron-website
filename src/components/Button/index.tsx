@@ -4,7 +4,7 @@ import './button.scss';
 
 type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   children: React.ReactNode;
-  className: string;
+  className?: string;
   outline?: boolean;
 };
 
@@ -25,7 +25,5 @@ const Button = ({ children, className, outline, ...rest }: ButtonProps) => (
     </button>
   </div>
 );
-
-export const ButtonOutline = () => <button>hi</button>;
 
 export default Button;
