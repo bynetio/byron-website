@@ -1,10 +1,6 @@
 .byron-button {
   background: linear-gradient(90deg, #2c2efe 0%, #0a97fd 134.71%);
 
-  &-outline {
-    background: white;
-  }
-
   &:disabled {
     opacity: 0.4;
   }
