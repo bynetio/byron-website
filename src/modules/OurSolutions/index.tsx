@@ -6,6 +6,7 @@ import GalleryItem from './GalleryItem';
 import { CustomDot } from './CustomDot';
 import 'react-multi-carousel/lib/styles.css';
 import './oursolutions.css';
+import { Button, ButtonOutline } from 'components';
 
 type GalleryItemtype = {
   title: string;
@@ -21,6 +22,8 @@ const OurSolutions = () => {
   return (
     <section id="solutions" className="flex flex-col items-center px-6 bg-[#EFF6FF]">
       <div className="h-6 md:h-12 w-full rounded-b-3xl bg-gradient-to-l from-[#DDE8FF] to-transparent mb-12 md:mb-24" />
+      <Button className="mb-8">Default</Button>
+      <ButtonOutline className="mb-8">Outlined</ButtonOutline>
       <h6 className="text-xs font-bold font-['Mulish'] tracking-[0.3em] bg-clip-text text-transparent bg-gradient-to-b from-[#2B2DFD] to-[#089CFC] mb-9">
         OUR SOLUTIONS
       </h6>
