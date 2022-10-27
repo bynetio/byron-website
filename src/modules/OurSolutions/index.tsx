@@ -19,20 +19,15 @@ type GalleryItemtype = {
 };
 
 const OurSolutions = () => {
-  console.log('render');
-  const { ref: sectionRef, inView: sectionInView } = useInView({
-    delay: 500
-  });
-  const { ref: carouselRef, inView: carouselInView } = useInView({
-    delay: 500
-  });
+  const { ref: sectionRef, inView: sectionInView } = useInView({ delay: 500, triggerOnce: true });
+  const { ref: carouselRef, inView: carouselInView } = useInView({ delay: 500, triggerOnce: true });
 
   return (
     <section id="solutions" className="flex flex-col items-center px-6 bg-[#EFF6FF]">
       <div className="h-6 md:h-12 w-full rounded-b-3xl bg-gradient-to-l from-[#DDE8FF] to-transparent mb-12 md:mb-24" />
       <div
         ref={sectionRef}
-        className={`flex flex-col items-center fade-in-section ${
+        className={`w-full flex flex-col items-center fade-in-section ${
           sectionInView ? 'is-visible' : ''
         }`}>
         <h6 className="text-xs font-bold font-['Mulish'] tracking-[0.3em] bg-clip-text text-transparent bg-gradient-to-b from-[#2B2DFD] to-[#089CFC] mb-9">
