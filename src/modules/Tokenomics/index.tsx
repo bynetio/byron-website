@@ -19,6 +19,10 @@ const Tokenomics = () => {
   const { ref: q3Ref, inView: q3InView } = useInView({
     delay: 500
   });
+  const { ref: tokenomicsRef, inView: tokenomicsInView } = useInView({
+    delay: 500,
+    triggerOnce: true
+  });
 
   return (
     <section
@@ -137,7 +141,10 @@ const Tokenomics = () => {
           </div>
         </div>
       </div>
-      <div id="tokenomics" className="w-full">
+      <div
+        ref={tokenomicsRef}
+        id="tokenomics"
+        className={`w-full fade-in-section ${tokenomicsInView ? 'is-visible' : ''}`}>
         <h1 className="text-[#C9D6ED] text-center pt-20 lg:pt-48 pb-16 lg:pb-20 text-2xl lg:text-5xl font-['Mulish'] lg:font-bold">
           Tokenomics
         </h1>
