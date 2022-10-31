@@ -7,8 +7,23 @@ import Q1 from './Q1';
 import Q2 from './Q2';
 import Q3 from './Q3';
 import { CustomDot } from './CustomDot';
+import { useInView } from 'react-intersection-observer';
 
 const Tokenomics = () => {
+  const { ref: q1Ref, inView: q1InView } = useInView({
+    delay: 500
+  });
+  const { ref: q2Ref, inView: q2InView } = useInView({
+    delay: 500
+  });
+  const { ref: q3Ref, inView: q3InView } = useInView({
+    delay: 500
+  });
+  const { ref: tokenomicsRef, inView: tokenomicsInView } = useInView({
+    delay: 500,
+    triggerOnce: true
+  });
+
   return (
     <section
       id="development"
@@ -59,7 +74,7 @@ const Tokenomics = () => {
 
       <div className="hidden lg:block">
         <div className="flex justify-center items-center">
-          <div className="card">
+          <div ref={q1Ref} className={`card fade-in-left ${q1InView ? 'is-visible' : ''}`}>
             <ul className="text-white">
               <li className="py-3">
                 <CheckIcon className="inline h-[24px] mr-6" />
@@ -90,7 +105,7 @@ const Tokenomics = () => {
             <DividerIcon className="h-[44px] mx-auto" />
             <div className="divider"></div>
           </div>
-          <div className="card">
+          <div ref={q2Ref} className={`card fade-in-right ${q2InView ? 'is-visible' : ''}`}>
             <ul className="text-white">
               <li className="py-3">
                 <CheckIcon className="inline h-[24px] mr-6" />
@@ -105,7 +120,7 @@ const Tokenomics = () => {
         </div>
 
         <div className="flex justify-center items-center">
-          <div className="card">
+          <div ref={q3Ref} className={`card fade-in-left ${q3InView ? 'is-visible' : ''}`}>
             <ul className="text-white">
               <li className="py-3">
                 <CheckIcon className="inline h-[24px] mr-6" />
@@ -126,7 +141,10 @@ const Tokenomics = () => {
           </div>
         </div>
       </div>
-      <div id="tokenomics" className="w-full">
+      <div
+        ref={tokenomicsRef}
+        id="tokenomics"
+        className={`w-full fade-in-section ${tokenomicsInView ? 'is-visible' : ''}`}>
         <h1 className="text-[#C9D6ED] text-center pt-20 lg:pt-48 pb-16 lg:pb-20 text-2xl lg:text-5xl font-['Mulish'] lg:font-bold">
           Tokenomics
         </h1>

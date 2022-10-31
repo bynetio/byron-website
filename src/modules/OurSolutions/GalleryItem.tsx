@@ -54,7 +54,9 @@ const GalleryItem = ({
       </div>
       <div className="flex-1">
         {imageSrc && (
-          <figure className="min-w-[300px] max-w-[600px] w-full h-[400px]">
+          <figure
+            className="min-w-[300px] max-w-[600px] w-full h-[400px] pointer-events-none"
+            draggable={false}>
             <img className="object-contain w-full h-full" src={imageSrc} alt={imageSrc} />
           </figure>
         )}
